@@ -9,6 +9,7 @@ namespace VirtualPantryUnitTest.UnitTest
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }
