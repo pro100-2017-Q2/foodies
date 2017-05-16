@@ -12,9 +12,15 @@
                 HorizontalAlignment="Left"
                 Height="25"
                 Width="150"
-                Margin="16"
+                Margin="6,10,0,21.8"
                 Text="Name of item"
                 FontSize="20"/>
+            <TextBox
+                HorizontalAlignment="Left"
+                Height="25"
+                Width="150" 
+                Margin="6,61,0,-29.2"
+                />
 
 
         </Grid> 
