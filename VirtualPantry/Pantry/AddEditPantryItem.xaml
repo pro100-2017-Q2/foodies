@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Pantry"
         mc:Ignorable="d"
-        Title="AddEditPantryItem" Height="300" Width="300">
+        Title="AddEditPantryItem" Height="500" Width="500">
+    <StackPanel>
     <Grid>
-        
-    </Grid>
+            <TextBox 
+                HorizontalAlignment="Left"
+                Height="25"
+                Width="150"
+                Margin="6,10,0,21.8"
+                Text="Name of item"
+                FontSize="20"/>
+            <TextBox
+                HorizontalAlignment="Left"
+                Height="25"
+                Width="150" 
+                Margin="6,61,0,-29.2"
+                />
+
+
+        </Grid> 
+    
+    </StackPanel>
 </Window>
