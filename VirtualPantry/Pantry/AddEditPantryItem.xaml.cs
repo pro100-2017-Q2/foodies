@@ -23,5 +23,10 @@ namespace VirtualPantry.Pantry
         {
             InitializeComponent();
         }
+
+        private void Image_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
