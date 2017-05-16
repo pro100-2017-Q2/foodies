@@ -6,7 +6,66 @@
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
         Title="IndividualRecipe" Height="300" Width="300">
-    <Grid>
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="120"/>
+            </Grid.ColumnDefinitions>
+            <Button
+                Height="20"
+                Width="40"
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                Margin="10,5"
+                Content="Edit"/>
+            <Button
+                Height="20"
+                Width="40"
+                Grid.Column="1"
+                HorizontalAlignment="Right"
+                Margin="10,5"
+                Content="Delete"/>
+        </Grid>
+        <Grid Height="100"
+              Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"
+                       Text="Calorie Count: "
+                       VerticalAlignment="Center"/>
+            <Image Grid.Column="1"/>
+        </Grid>
+        <Grid Height="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBox Text="Ingredients"
+                     Grid.Column="0"
+                     HorizontalAlignment="Center"/>
+            <TextBox Text="Instructions"
+                     Grid.Column="1"
+                     HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid Height="90"
+              Margin="0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <ListBox Grid.Column="0">
+                <ListBoxItem Content="1 egg"/>
+                <ListBoxItem Content="2 egg"/>
+                <ListBoxItem Content="3 egg"/>
+                <ListBoxItem Content="4 egg"/>
+            </ListBox>
+            <ListBox Grid.Column="1">
+                <ListBoxItem Content="Step 1"/>
+            </ListBox>
+        </Grid>
         
-    </Grid>
+    </StackPanel>
 </Window>
