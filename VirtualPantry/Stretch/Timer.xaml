@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="Timer" Height="300" Width="300">
     <Grid>
-        
+        <Label Content="Set Time:" HorizontalAlignment="Left" Margin="37,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.098,0.434"/>
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="84,212,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
+        <Label Content="Time Left:" HorizontalAlignment="Left" Margin="84,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="9:99:99" HorizontalAlignment="Left" Margin="164,163,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="26,101,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="197,101,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="112,101,0,0" VerticalAlignment="Top" Width="75"/>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBox x:Name="txtNum" x:FieldModifier="private" Margin="5,246,0,5" Width="34" Text="0" TextChanged="txtNum_TextChanged" />
+            <Button x:Name="cmdUp" x:FieldModifier="private" Margin="5,246,0,5" Content="˄" Width="15" Click="cmdUp_Click" />
+            <Button x:Name="cmdDown" x:FieldModifier="private" Margin="0,246,0,5"  Content="˅" Width="13" Click="cmdDown_Click" />
+        </StackPanel>
+
+
+
     </Grid>
 </Window>

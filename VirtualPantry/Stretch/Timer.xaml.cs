@@ -23,5 +23,6 @@ namespace VirtualPantry.Stretch
         {
             InitializeComponent();
         }
-    }
+
+	}
 }
