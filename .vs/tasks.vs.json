@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-MainWindow",
+      "appliesTo": "VirtualPantry/MainWindow.xaml",
+      "type": "command"
+    }
+  ]
+}
