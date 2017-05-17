@@ -7,23 +7,104 @@
         mc:Ignorable="d"
         Title="AddEditPantryItem" Height="500" Width="500">
     <StackPanel>
-    <Grid>
+        <Grid>
             <TextBox 
                 HorizontalAlignment="Left"
-                Height="25"
-                Width="150"
+                Height="30"
+                Width="200"
                 Margin="6,10,0,21.8"
                 Text="Name of item"
                 FontSize="20"/>
             <TextBox
                 HorizontalAlignment="Left"
-                Height="25"
-                Width="150" 
+                Height="30"
+                Width="200" 
                 Margin="6,61,0,-29.2"
+                Text="Category"
+                FontSize="20"/>
+            <TextBox
+                HorizontalAlignment="Right"
+                Height="30"
+                Width="90" 
+                Margin="0,243,26.6,-211.2"
+                Text="Units"
+                FontSize="20"
+                />
+            <TextBox
+                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                ScrollViewer.VerticalScrollBarVisibility="Visible"
+                HorizontalAlignment="Left"
+                Height="30"
+                Width="170" 
+                Margin="6,225,0,-193.4"
+                Text="Whole Number"
+                FontSize="20"
+                />
+            <TextBox
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                ScrollViewer.VerticalScrollBarVisibility="Visible"
+                HorizontalAlignment="Center"
+                Height="30"
+                Width="170" 
+                Margin="175,177,148.6,-145.4"
+                Text="Numerator"
+                FontSize="20"
+                />
+            <Line
+                Stroke="Black"
+                StrokeThickness="10"
+                X1="200"
+                Y1="0"
+                HorizontalAlignment="Center" 
+                Margin="94,272,305.6,-215.6" 
+                RenderTransformOrigin="0.5,0.5" Width="94"
+                >
+                <Line.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-179.827"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Line.RenderTransform>
+            </Line>
+            <TextBox
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                ScrollViewer.VerticalScrollBarVisibility="Visible"
+                HorizontalAlignment="Center"
+                Height="30"
+                Width="170" 
+                Margin="175,250,148.6,-218.4"
+                Text="Denominator"
+                FontSize="20"
+                />
+            <Button
+                HorizontalAlignment="Right"
+                Height="45"
+                Width="100" 
+                Margin="0,416,205.6,-310.6"
+                Content="Add"
+                FontSize="20"
+                />
+            <Button
+                HorizontalAlignment="Right"
+                Height="45"
+                Width="150" 
+                Margin="0,416,11.6,-310.6"
+                Content="Cancel"
+                FontSize="20"
+                />
+            <Image
+                HorizontalAlignment="Right"
+                Height="150"
+                Width="200" 
+                Margin="0,24,26.6,-23.6"
+                
+                
                 />
 
 
-        </Grid> 
-    
+        </Grid>
+
     </StackPanel>
 </Window>

@@ -49,3 +49,6 @@ VirtualPantry/obj
 *.suo
 .vs/VirtualPantry/.suo
 VirtualPantry/VirtualPantry
+obj
+bin
+.vs
