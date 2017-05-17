@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using VirtualPantry.Pantry;
+using VirtualPantry.Recipes;
+using VirtualPantry.Stretch;
 
 namespace VirtualPantry
 {
@@ -20,19 +23,22 @@ namespace VirtualPantry
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Stretch.Timer timer = new Stretch.Timer();
+        public PantryWindow pantry;
+        public Timer timer;
+        public Recipe recipe;
         public MainWindow()
         {
             InitializeComponent();
+            timer = new Timer(this);
         }
 
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
-            mainNavigationFrame.Navigate(timer);
+            //mainNavigationFrame.Navigate(timer);           
         }
         private void Navigation(Window window)
         {
-           
+            
         }
     }
 }

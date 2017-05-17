@@ -18,7 +18,7 @@ namespace VirtualPantry.Pantry
     /// <summary>
     /// Interaction logic for AddEditPantryItem.xaml
     /// </summary>
-    public partial class AddEditPantryItem : Page
+    public partial class AddEditPantryItem : Window
     {
         public AddEditPantryItem()
         {

@@ -19,9 +19,15 @@ namespace VirtualPantry.Stretch
     /// </summary>
     public partial class Timer : Page
     {
+        public MainWindow main;
         public Timer()
         {
+
+        }
+        public Timer(MainWindow main)
+        {
             InitializeComponent();
+            main = this.main;
         }
 
 	}
