@@ -29,7 +29,6 @@ namespace VirtualPantry
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
             mainNavigationFrame.Navigate(timer);
-            this.Show();
         }
         private void Navigation(Window window)
         {
