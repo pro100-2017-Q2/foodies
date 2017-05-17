@@ -20,14 +20,19 @@ namespace VirtualPantry
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Stretch.Timer timer = new Stretch.Timer();
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
-
+            mainNavigationFrame.Navigate(timer);
+        }
+        private void Navigation(Window window)
+        {
+           
         }
     }
 }
