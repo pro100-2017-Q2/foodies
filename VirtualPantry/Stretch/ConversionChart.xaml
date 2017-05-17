@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:VirtualPantry.Stretch"
         mc:Ignorable="d"
         Title="ConversionChart" Height="300" Width="300">
-    <Grid>
+    <!--<Grid>
         <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="37" Height="17" Click="Button_Click"/>
 
         <Grid x:Name="OriginalAmount">
@@ -37,5 +37,5 @@
             <ListBoxItem>tablespoons</ListBoxItem>
         </ListBox>
 
-    </Grid>
+    </Grid>-->
 </Window>

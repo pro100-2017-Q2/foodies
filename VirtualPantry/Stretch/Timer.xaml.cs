@@ -17,7 +17,7 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
-    public partial class Timer : Window
+    public partial class Timer : Page
     {
         public Timer()
         {
