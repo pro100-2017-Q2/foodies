@@ -26,15 +26,17 @@ namespace VirtualPantry
         public PantryWindow pantry;
         public Timer timer;
         public Recipe recipe;
+        public ConversionChart conversionChart;
+        public MainWindow main;
         public MainWindow()
         {
             InitializeComponent();
             timer = new Timer(this);
         }
-
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
-            //mainNavigationFrame.Navigate(timer);           
+            timer.Show();
+            this.Hide();
         }
         private void Navigation(Window window)
         {

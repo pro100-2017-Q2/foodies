@@ -76,3 +76,4 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\ProVirtualPan
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
