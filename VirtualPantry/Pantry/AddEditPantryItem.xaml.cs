@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace VirtualPantry.Pantry
@@ -17,7 +18,7 @@ namespace VirtualPantry.Pantry
     /// <summary>
     /// Interaction logic for AddEditPantryItem.xaml
     /// </summary>
-    public partial class AddEditPantryItem : Window
+    public partial class AddEditPantryItem : Page
     {
         public AddEditPantryItem()
         {

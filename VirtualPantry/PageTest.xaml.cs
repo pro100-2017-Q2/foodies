@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace VirtualPantry.Stretch
+namespace VirtualPantry
 {
     /// <summary>
-    /// Interaction logic for ConversionChart.xaml
+    /// Interaction logic for PageTest.xaml
     /// </summary>
-    public partial class ConversionChart : Window
+    public partial class PageTest : Page
     {
-        public ConversionChart()
+        public PageTest()
         {
             InitializeComponent();
         }

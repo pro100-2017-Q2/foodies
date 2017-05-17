@@ -1,4 +1,4 @@
-﻿<Window x:Class="VirtualPantry.Stretch.Timer"
+﻿<Page x:Class="VirtualPantry.Stretch.Timer"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Timer" Height="300" Width="300">
     <Grid>
-        
+        <Frame x:Name="timerNavigationFrame" NavigationUIVisibility="Hidden" />
         
         
         <Label Content="Set Time:" HorizontalAlignment="Left" Margin="37,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.098,0.434"/>
@@ -34,4 +34,4 @@
         <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="34" Height="17"/>
 
     </Grid>
-</Window>
+</Page>

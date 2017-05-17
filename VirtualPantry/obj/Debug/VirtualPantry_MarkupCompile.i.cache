@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\App.xaml
-9-336209168
+10153564684
 
-171797579105
+18-1137112357
 131726951844
-MainWindow.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
+MainWindow.xaml;PageTest.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 
-True
+False
 

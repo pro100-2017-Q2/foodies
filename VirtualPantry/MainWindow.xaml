@@ -6,13 +6,15 @@
         xmlns:local="clr-namespace:VirtualPantry"
         mc:Ignorable="d"
         Title="MainWindow" Height="463.961" Width="642.407">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="17*"/>
-            <ColumnDefinition Width="22*"/>
-            <ColumnDefinition Width="480*"/>
-        </Grid.ColumnDefinitions>
-        <Button 
+    <DockPanel>
+        <Frame x:Name="mainNavigationFrame" NavigationUIVisibility="Hidden" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="17*"/>
+                <ColumnDefinition Width="22*"/>
+                <ColumnDefinition Width="480*"/>
+            </Grid.ColumnDefinitions>
+            <Button 
             x:Name="TimerButton"
             Content="Timer" 
             HorizontalAlignment="Left" 
@@ -21,35 +23,35 @@
             Width="75" 
             RenderTransformOrigin="0.497,1.244" 
             Grid.Column="2" Click="TimerButton_Click"/>
-        <Button
+            <Button
             Content="Button" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="220,263,0,0" 
             VerticalAlignment="Top" 
             Width="75"/>
-        <Button 
+            <Button 
             Content="Button" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="220,307,0,0" 
             VerticalAlignment="Top" 
             Width="75"/>
-        <Button 
+            <Button 
             Content="Button" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="220,342,0,0" 
             VerticalAlignment="Top" 
             Width="75"/>
-        <Button 
+            <Button 
             Content="Button" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="220,385,0,0" 
             VerticalAlignment="Top" 
             Width="75"/>
-        <Label 
+            <Label 
             Content="Label" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
@@ -57,7 +59,7 @@
             VerticalAlignment="Top" 
             Height="149" 
             Width="262"/>
-        <Button 
+            <Button 
             Content="Button" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
@@ -65,7 +67,7 @@
             VerticalAlignment="Top" 
             Width="30" 
             Height="31"/>
-        <Label 
+            <Label 
             Content="Label" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
@@ -73,5 +75,6 @@
             VerticalAlignment="Top"
             Width="119"/>
 
-    </Grid>
+        </Grid>
+    </DockPanel>
 </Window>
