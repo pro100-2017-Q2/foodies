@@ -23,5 +23,10 @@ namespace VirtualPantry.Stretch
         {
             InitializeComponent();
         }
+
+        private void Calendar_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
