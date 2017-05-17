@@ -13,13 +13,14 @@
             <ColumnDefinition Width="480*"/>
         </Grid.ColumnDefinitions>
         <Button 
-            Content="Button" 
+            x:Name="TimerButton"
+            Content="Timer" 
             HorizontalAlignment="Left" 
             Margin="220,223,0,0" 
             VerticalAlignment="Top" 
             Width="75" 
             RenderTransformOrigin="0.497,1.244" 
-            Grid.Column="2"/>
+            Grid.Column="2" Click="TimerButton_Click"/>
         <Button
             Content="Button" 
             Grid.Column="2" 
