@@ -8,5 +8,30 @@
         Title="Timer" Height="300" Width="300">
     <Grid>
         
+        
+        
+        <Label Content="Set Time:" HorizontalAlignment="Left" Margin="37,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.098,0.434"/>
+
+        <Grid x:Name="Hours">
+            <TextBox x:Name="HourLabel" x:FieldModifier="private" Margin="100,48,158,203" Width="34" Text="0" TextChanged="txtNum_TextChanged" />
+            <Button x:Name="HourUpButton" x:FieldModifier="private" Margin="139,48,138,203" Content="˄" Width="15" Click="cmdUp_Click" />
+            <Button x:Name="HourDownButton" x:FieldModifier="private" Margin="154,48,125,203"  Content="˅" Width="13" Click="cmdDown_Click" />
+        </Grid>
+        <Grid x:Name="Seconds">
+            <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="182,48,76,203" Width="34" Text="0" TextChanged="txtNum_TextChanged" />
+            <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="221,48,56,203" Content="˄" Width="15" Click="cmdUp_Click" />
+            <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="236,48,43,203"  Content="˅" Width="13" Click="cmdDown_Click" />
+            <Label Content="Hours" HorizontalAlignment="Left" Margin="96,17,0,0" VerticalAlignment="Top"/>
+            <Label Content="Minutes" HorizontalAlignment="Left" Margin="182,17,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Left" Height="10" Margin="84,212,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
+        <Label Content="Time Left:" HorizontalAlignment="Left" Margin="84,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TimeLeftLabel" Content="9:99:99" HorizontalAlignment="Left" Margin="164,163,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="31,115,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="PauseButton" Content="Pause" HorizontalAlignment="Left" Margin="111,115,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="191,115,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="34" Height="17"/>
+
     </Grid>
 </Window>
