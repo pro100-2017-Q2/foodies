@@ -6,57 +6,7 @@
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
         Title="Recipe" Height="300" Width="300">
-    <StackPanel>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="230"/>
-            </Grid.RowDefinitions>
-                <ListBox ScrollViewer.VerticalScrollBarVisibility="Visible"
-                         Grid.Row="1"
-                         Margin="10"/>
-            <Grid Grid.Column="1"
-                  Grid.Row="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height=".3*"/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid Margin="5">
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBox Text="Max Calories:"
-                             BorderThickness="0"
-                             FontSize="11"/>
-                    <TextBox Text="Star Rating:"
-                             Grid.Row="1"
-                             BorderThickness="0"
-                             FontSize="11"/>
-                </Grid>
-                <Grid Grid.Column="1"
-                      Grid.Row="1"
-                      Margin="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2.5*"/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Image Source="C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\Images\cat.jpg"
-                           Stretch="Fill"/>
-                    <Button Grid.Row="1"
-                            Margin="10,5"
-                            Content="Upload Image"/>
-                </Grid> 
-            </Grid>
-
-        </Grid>
-    </StackPanel>
+    <Grid>
+        
+    </Grid>
 </Window>
