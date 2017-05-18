@@ -10,25 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace VirtualPantry.Stretch
+namespace VirtualPantry
 {
     /// <summary>
-    /// Interaction logic for Calendar.xaml
+    /// Interaction logic for NavigationBar.xaml
     /// </summary>
-    public partial class Calendar : Window
+    public partial class NavigationBar : UserControl
     {
-        public MainWindow main;
-        public Calendar(MainWindow mainWindow)
+        private CollectionViewSource cvs;
+        //private int totalRowCount;
+        public NavigationBar()
         {
             InitializeComponent();
-            main = mainWindow;
-        }
-
-        private void Calendar_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-
         }
     }
 }

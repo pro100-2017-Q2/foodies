@@ -19,9 +19,17 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class PantryWindow : Window
     {
-        public PantryWindow()
+        private MainWindow main;
+        private AddEditPantryItem itemPage;
+        public PantryWindow(MainWindow mainWindow)
         {
-            //InitializeComponent();
+            InitializeComponent();
+            main = mainWindow;
+            itemPage = new AddEditPantryItem(this);
+        }
+        private void addAnIngredientButton_Clicked(object sender, RoutedEventArgs e)
+        {
+            itemPage.Show();
         }
     }
 }
