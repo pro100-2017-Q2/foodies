@@ -11,8 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using VirtualPantry;
+using VirtualPantry.Pantry;
 
-namespace VirtualPantry.Pantry
+namespace ProVirtualPantry.Pantry
 {
     /// <summary>
     /// Interaction logic for PantryWindow.xaml
@@ -20,10 +22,15 @@ namespace VirtualPantry.Pantry
     public partial class PantryWindow : Window
     {
         private MainWindow main;
+        private AddEditPantryItem itemPage;
         public PantryWindow(MainWindow mainWindow)
         {
-            //InitializeComponent();
+            InitializeComponent();
             main = mainWindow;
+        }
+        private void addAnIngredientButton_Clicked(object sender, RoutedEventArgs e)
+        {
+            itemPage.Show();
         }
     }
 }

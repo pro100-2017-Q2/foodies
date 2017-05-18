@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="459.091" Width="525">
 
     <StackPanel>
         <Grid Height="325">
@@ -102,6 +102,11 @@
               VerticalAlignment="Top"
               TextBlock.TextAlignment="Center">Pantry</Page>-->
         </Grid>
+        <Button 
+            x:Name="addAnIngredientButton"
+            Content="Add an Ingredient" 
+            Height="27" 
+            Margin="406,20,10.4,0"
+            Click="addAnIngredientButton_Clicked"/>
     </StackPanel>
 </Window>
-

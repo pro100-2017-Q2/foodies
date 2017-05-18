@@ -74,6 +74,10 @@
       <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pantry\Ingredients.cs" />
+    <Compile Include="Pantry\Pantry.cs" />
+    <Compile Include="Pantry\PantryWindow.xaml.cs">
+      <DependentUpon>PantryWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Recipes\AddEditRecipe.xaml.cs">
       <DependentUpon>AddEditRecipe.xaml</DependentUpon>
     </Compile>
@@ -138,9 +142,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pantry\PantryWindow.xaml.cs">
-      <DependentUpon>PantryWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
