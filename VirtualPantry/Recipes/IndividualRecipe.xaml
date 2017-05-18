@@ -10,7 +10,7 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="160"/>
             </Grid.ColumnDefinitions>
             <Button
                 Height="20"
@@ -26,6 +26,13 @@
                 HorizontalAlignment="Right"
                 Margin="10,5"
                 Content="Delete"/>
+            <Button 
+                Height="20"
+                Width="40"
+                Margin="10,5"
+                Grid.Column="1"
+                Content="Add"
+                />
         </Grid>
         <Grid Height="100"
               Margin="10">
