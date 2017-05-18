@@ -73,6 +73,7 @@
     <Compile Include="Pantry\AddEditPantryItem.xaml.cs">
       <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pantry\Ingrediant.cs" />
     <Compile Include="Recipes\AddEditRecipe.xaml.cs">
       <DependentUpon>AddEditRecipe.xaml</DependentUpon>
     </Compile>
@@ -88,9 +89,9 @@
     <Compile Include="Stretch\ConversionChart.xaml.cs">
       <DependentUpon>ConversionChart.xaml</DependentUpon>
     </Compile>
-    <None Include="Stretch\Timer.xaml.cs">
+    <Compile Include="Stretch\Timer.xaml.cs">
       <DependentUpon>Timer.xaml</DependentUpon>
-    </None>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

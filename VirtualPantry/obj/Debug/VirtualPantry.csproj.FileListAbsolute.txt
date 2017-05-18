@@ -49,7 +49,6 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
@@ -62,7 +61,6 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\App.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml

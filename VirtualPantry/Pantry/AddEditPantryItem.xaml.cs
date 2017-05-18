@@ -20,6 +20,7 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class AddEditPantryItem : Window
     {
+        List<Ingrediant> PantryItems = new List<Ingrediant>();
         public AddEditPantryItem()
         {
             InitializeComponent();
@@ -28,6 +29,11 @@ namespace VirtualPantry.Pantry
         private void Image_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

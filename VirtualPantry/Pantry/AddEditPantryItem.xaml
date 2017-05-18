@@ -85,6 +85,7 @@
                 Margin="0,416,205.6,-310.6"
                 Content="Add"
                 FontSize="20"
+                Click="AddPantryItemButton_Click"
                 />
             <Button
                 HorizontalAlignment="Right"
