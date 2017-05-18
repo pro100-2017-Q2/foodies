@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProVirtualPantry.Properties {
+namespace VirtualPantry.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
