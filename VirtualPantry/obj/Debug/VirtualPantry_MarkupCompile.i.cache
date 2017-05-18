@@ -4,26 +4,15 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\
-=======
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
->>>>>>> origin/development
 VirtualPantry
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\App.xaml
-9-336209168
-
-17-1632772677
-=======
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\App.xaml
 10153564684
 
-18-1137112357
->>>>>>> origin/development
+18-272496843
 131726951844
 MainWindow.xaml;PageTest.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 

@@ -1,55 +1,58 @@
-﻿<Window x:Class="FoodiesPantryUIWpf.MainWindow"
+﻿<Window x:Class="VirtualPantry.Pantry.PantryWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FoodiesPantryUIWpf"
+        xmlns:local="clr-namespace:VirtualPantry.Pantry"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-
+        Title="PantryWindow" Height="300" Width="300">
     <StackPanel>
         <Grid Height="325">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="61*"/>
+                <ColumnDefinition Width="12*"/>
+            </Grid.ColumnDefinitions>
             <TextBox Name="WholeNumBox" 
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  ScrollViewer.VerticalScrollBarVisibility="Auto" 
                  Width="110"
                  Height="20"
-                 Text="Whole Number" Margin="262,92,145,208"/>
+                 Text="Whole Number" Margin="18,94,-80,211" Grid.Column="1"/>
 
             <TextBox Name="NumeratorBox" 
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  ScrollViewer.VerticalScrollBarVisibility="Auto"
                  Width="86"
                  Height="20"
-                 Text="Numerator" Margin="398,68,33,232"/>
+                 Text="Numerator" Margin="154,70,-192,235" Grid.Column="1"/>
 
             <TextBox Name="DenominatorBox" 
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  ScrollViewer.VerticalScrollBarVisibility="Auto"
                  Width="96"
                  Height="20"
-                 Text="Denominator" Margin="388,117,33,183"/>
+                 Text="Denominator" Margin="144,120,-192,185" Grid.Column="1"/>
 
             <Line Name="FractionSeperator" 
                  Stroke="Black"
                  X1="100"
                  Y1="0"
                  HorizontalAlignment="Center"
-                 StrokeThickness="6" Margin="388,102,29,-102">
+                 StrokeThickness="6" Margin="32,102,-84,-102" Grid.Column="1">
             </Line>
 
             <TextBox Name="Unitsbox"
                  Width="50"
                  Height="30"
                  Text="Units"
-                 TextAlignment="Center" Margin="312,136,155,154"/>
+                 TextAlignment="Center" Margin="68,138,-70,157" Grid.Column="1"/>
 
             <TextBox Text="Search Bar"
                  Width=" 150"
-                 Height="30" Margin="27,117,340,173"></TextBox>
+                 Height="30" Margin="27,120,67,175"></TextBox>
 
 
-            <StackPanel VerticalAlignment="Bottom">
+            <StackPanel VerticalAlignment="Bottom" Grid.ColumnSpan="2">
                 <ScrollViewer>
                     <Grid Background="Blue"
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled"
@@ -104,5 +107,4 @@
         </Grid>
     </StackPanel>
 </Window>
-
 
