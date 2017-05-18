@@ -20,7 +20,8 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class AddEditPantryItem : Window
     {
-        List<Ingrediant> PantryItems = new List<Ingrediant>();
+        private Ingrediant tempIdent;
+        List<String> PantryItems = new List<String>();
         public AddEditPantryItem()
         {
             InitializeComponent();
@@ -33,7 +34,17 @@ namespace VirtualPantry.Pantry
 
         private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            tempIdent.Name = Title.Text;
+            tempIdent.WholeNumber = int.Parse(WholeNumber.Text);
+            tempIdent.Numerator = int.Parse(Numerator.Text);
+            tempIdent.Denominator = int.Parse(Denominator.Text);
+            tempIdent.Category = Category.Text;
+            tempIdent.Units = Units.Text;
+
+            PantryItems.Add(tempIdent.ToString());
+
+            String[] I = PantryItems.ToArray();
+            System.IO.File.WriteAllLines("PantryItems", I);
         }
     }
 }

@@ -1,28 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace VirtualPantry.Pantry
 {
     enum FoodCategories {Fruits, Vegetables, Protein, Dairy, Grains, Oils};
-    class Ingrediant
+    class Ingrediant : INotifyPropertyChanged
     {
         private string name;
 
         public string Name
         {
             get { return name; }
-            set { name = value; }
+            set { name = value; FieldChanged(); }
         }
 
-        private int wholeNumberQuantity;
+        private int wholeNumber;
 
-        public int WholeNumberQuantity 
+        public int WholeNumber
         {
-            get { return wholeNumberQuantity; }
-            set { wholeNumberQuantity = value; }
+            get { return wholeNumber; }
+            set { wholeNumber = value; FieldChanged(); }
         }
 
         private int numerator;
@@ -30,7 +32,7 @@ namespace VirtualPantry.Pantry
         public int Numerator
         {
             get { return numerator; }
-            set { numerator = value; }
+            set { numerator = value; FieldChanged(); }
         }
 
         private int denominator;
@@ -38,7 +40,7 @@ namespace VirtualPantry.Pantry
         public int Denominator
         {
             get { return denominator; }
-            set { denominator = value; }
+            set { denominator = value; FieldChanged(); }
         }
 
 
@@ -47,21 +49,31 @@ namespace VirtualPantry.Pantry
         public string Category
         {
             get { return category; }
-            set { category = value; }
+            set { category = value; FieldChanged(); }
         }
 
         private string units;
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public string Units
         {
             get { return units; }
-            set { units = value; }
+            set { units = value; FieldChanged(); }
         }
 
 
+        protected void FieldChanged([CallerMemberName] string field = null)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(field));
+            }
+        }
+
         public override string ToString()
         {
-            return Name + " " + Category + " " + WholeNumberQuantity + " " + Numerator + " " + Denominator + " " + Units;
+            return Name + " " + Category + " " + WholeNumber + " " + Numerator + " " + Denominator + " " + Units;
         }
 
 
