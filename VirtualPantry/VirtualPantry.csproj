@@ -73,7 +73,7 @@
     <Compile Include="Pantry\AddEditPantryItem.xaml.cs">
       <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pantry\Ingrediant.cs" />
+    <Compile Include="Pantry\Ingredients.cs" />
     <Compile Include="Recipes\AddEditRecipe.xaml.cs">
       <DependentUpon>AddEditRecipe.xaml</DependentUpon>
     </Compile>

@@ -19,9 +19,11 @@ namespace VirtualPantry.Stretch
     /// </summary>
     public partial class Calendar : Window
     {
-        public Calendar()
+        public MainWindow main;
+        public Calendar(MainWindow mainWindow)
         {
             InitializeComponent();
+            main = mainWindow;
         }
 
         private void Calendar_MouseDoubleClick(object sender, MouseButtonEventArgs e)

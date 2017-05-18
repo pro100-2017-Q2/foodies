@@ -19,9 +19,11 @@ namespace VirtualPantry.Recipes
     /// </summary>
     public partial class Recipe : Window
     {
-        public Recipe()
+        public MainWindow main;
+        public Recipe(MainWindow mainWindow)
         {
             InitializeComponent();
+            main = mainWindow;
         }
     }
 }

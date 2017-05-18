@@ -19,9 +19,11 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class PantryWindow : Window
     {
-        public PantryWindow()
+        private MainWindow main;
+        public PantryWindow(MainWindow mainWindow)
         {
             //InitializeComponent();
+            main = mainWindow;
         }
     }
 }
