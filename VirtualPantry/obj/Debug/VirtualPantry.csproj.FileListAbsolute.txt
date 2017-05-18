@@ -77,3 +77,7 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
