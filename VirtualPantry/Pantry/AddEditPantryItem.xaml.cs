@@ -18,8 +18,10 @@ namespace VirtualPantry.Pantry
     /// <summary>
     /// Interaction logic for AddEditPantryItem.xaml
     /// </summary>
-    public partial class AddEditPantryItem : Page
+    public partial class AddEditPantryItem : Window
     {
+        private Ingrediant tempIdent;
+        List<String> PantryItems = new List<String>();
         public AddEditPantryItem()
         {
             InitializeComponent();
@@ -28,6 +30,21 @@ namespace VirtualPantry.Pantry
         private void Image_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
+        {
+            tempIdent.Name = Title.Text;
+            tempIdent.WholeNumber = int.Parse(WholeNumber.Text);
+            tempIdent.Numerator = int.Parse(Numerator.Text);
+            tempIdent.Denominator = int.Parse(Denominator.Text);
+            tempIdent.Category = Category.Text;
+            tempIdent.Units = Units.Text;
+
+            PantryItems.Add(tempIdent.ToString());
+
+            String[] I = PantryItems.ToArray();
+            System.IO.File.WriteAllLines("PantryItems", I);
         }
     }
 }

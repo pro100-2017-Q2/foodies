@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VirtualPantry.Pantry
+{
+    enum FoodCategories {Fruits, Vegetables, Protein, Dairy, Grains, Oils};
+    class Ingrediant : INotifyPropertyChanged
+    {
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; FieldChanged(); }
+        }
+
+        private int wholeNumber;
+
+        public int WholeNumber
+        {
+            get { return wholeNumber; }
+            set { wholeNumber = value; FieldChanged(); }
+        }
+
+        private int numerator;
+
+        public int Numerator
+        {
+            get { return numerator; }
+            set { numerator = value; FieldChanged(); }
+        }
+
+        private int denominator;
+
+        public int Denominator
+        {
+            get { return denominator; }
+            set { denominator = value; FieldChanged(); }
+        }
+
+
+        private string category;
+
+        public string Category
+        {
+            get { return category; }
+            set { category = value; FieldChanged(); }
+        }
+
+        private string units;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public string Units
+        {
+            get { return units; }
+            set { units = value; FieldChanged(); }
+        }
+
+
+        protected void FieldChanged([CallerMemberName] string field = null)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(field));
+            }
+        }
+
+        public override string ToString()
+        {
+            return Name + " " + Category + " " + WholeNumber + " " + Numerator + " " + Denominator + " " + Units;
+        }
+
+
+    }
+}
