@@ -4,12 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
+=======
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\
+>>>>>>> origin/development
+>>>>>>> origin/development
 ProVirtualPantry
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\App.xaml
+=======
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\App.xaml
+>>>>>>> origin/development
+>>>>>>> origin/development
 9-336209168
 
 14-118761219
