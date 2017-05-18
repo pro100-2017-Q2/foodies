@@ -20,11 +20,13 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class AddEditPantryItem : Window
     {
-        private Ingrediant tempIdent;
+        private Ingredients tempIdent;
+        private PantryWindow pantry;
         List<String> PantryItems = new List<String>();
-        public AddEditPantryItem()
+        public AddEditPantryItem(PantryWindow pantryWindow)
         {
             InitializeComponent();
+            pantry = pantryWindow;
         }
 
         private void Image_Loaded(object sender, RoutedEventArgs e)
