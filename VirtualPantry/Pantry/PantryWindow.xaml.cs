@@ -21,7 +21,7 @@ namespace VirtualPantry.Pantry
     {
         public PantryWindow()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CBDBB6FD-2490-49AF-BE9A-419FD9CCAF6C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>VirtualPantry</RootNamespace>
+    <RootNamespace>ProVirtualPantry</RootNamespace>
     <AssemblyName>VirtualPantry</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -70,9 +70,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="PageTest.xaml.cs">
-      <DependentUpon>PageTest.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pantry\AddEditPantryItem.xaml.cs">
       <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
     </Compile>
@@ -107,10 +104,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PageTest.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pantry\AddEditPantryItem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

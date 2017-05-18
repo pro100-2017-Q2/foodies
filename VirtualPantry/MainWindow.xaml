@@ -15,44 +15,24 @@
                 <ColumnDefinition Width="480*"/>
             </Grid.ColumnDefinitions>
             <Button 
-            x:Name="TimerButton"
-            Content="Timer" 
-            HorizontalAlignment="Left" 
-            Margin="220,223,0,0" 
-            VerticalAlignment="Top" 
-            Width="75" 
-            RenderTransformOrigin="0.497,1.244" 
-            Grid.Column="2" Click="TimerButton_Click"/>
-            <Button
-            Content="Button" 
+                x:Name="CalendarButton"
             Grid.Column="2" 
             HorizontalAlignment="Left" 
-            Margin="220,263,0,0" 
+            Margin="420,33,0,0" 
             VerticalAlignment="Top" 
-            Width="75"/>
-            <Button 
-            Content="Button" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="220,307,0,0" 
-            VerticalAlignment="Top" 
-            Width="75"/>
-            <Button 
-            Content="Button" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="220,342,0,0" 
-            VerticalAlignment="Top" 
-            Width="75"/>
-            <Button 
-            Content="Button" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="220,385,0,0" 
-            VerticalAlignment="Top" 
-            Width="75"/>
+            Width="30" 
+            Height="31">
+                <Image/>
+            </Button>
             <Label 
-            Content="Label" 
+            Content="Project Name (SOON)" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="202,22,0,0" 
+            VerticalAlignment="Top"
+            Width="138"/>
+            <Label 
+            Content="Random Recipe Display" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="131,48,0,0" 
@@ -60,21 +40,39 @@
             Height="149" 
             Width="262"/>
             <Button 
-            Content="Button" 
-            Grid.Column="2" 
+                 x:Name="TimerButton"
+            Content="Timer" 
             HorizontalAlignment="Left" 
-            Margin="420,33,0,0" 
+            Margin="220,223,0,0" 
             VerticalAlignment="Top" 
-            Width="30" 
-            Height="31"/>
-            <Label 
-            Content="Label" 
+            Width="75" 
+            RenderTransformOrigin="0.497,1.244" 
+            Grid.Column="2" 
+            Click="TimerButton_Click"/>
+            <Button 
+                  x:Name="Recipes"
+            Content="Recipes" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
-            Margin="202,22,0,0" 
-            VerticalAlignment="Top"
+            Margin="220,263,0,0" 
+            VerticalAlignment="Top" 
+            Width="75"/>
+            <Button 
+                   x:Name="ConversionChart"
+            Content="Conversion Chart" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="202,305,0,0" 
+            VerticalAlignment="Top" 
             Width="119"/>
-
+            <Button 
+                   x:Name="Timer"
+            Content="Timer" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="220,342,0,0" 
+            VerticalAlignment="Top" 
+            Width="75"/>
         </Grid>
     </DockPanel>
 </Window>

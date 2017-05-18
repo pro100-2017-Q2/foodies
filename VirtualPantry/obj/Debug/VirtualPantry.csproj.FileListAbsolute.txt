@@ -45,6 +45,9 @@ C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.Propertie
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
@@ -57,10 +60,6 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Timer
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\App.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
@@ -71,9 +70,12 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Calen
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\ProVirtualPantry.Properties.Resources.resources
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\PageTest.baml
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
