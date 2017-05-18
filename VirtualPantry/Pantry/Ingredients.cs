@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OverloadingOperators;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -83,7 +84,9 @@ namespace VirtualPantry.Pantry
 
         public override string ToString()
         {
-            return Name + " " + Category + " " + WholeNumber + " " + Numerator + " " + Denominator + " " + Units;
+			Fraction f = new Fraction();
+			f.MakeImProper();
+			return $"{Name} {Category} {f} {Units}";
         }
 
 

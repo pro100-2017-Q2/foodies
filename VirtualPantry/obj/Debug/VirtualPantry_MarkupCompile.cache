@@ -4,7 +4,11 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
+=======
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
+>>>>>>> origin/development
 VirtualPantry
 none
 false
