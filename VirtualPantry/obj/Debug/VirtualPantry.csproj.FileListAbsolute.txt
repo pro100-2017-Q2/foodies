@@ -104,7 +104,6 @@ C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantr
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\ProVirtualPantry.Properties.Resources.resources
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
@@ -142,3 +141,6 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Virt
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
