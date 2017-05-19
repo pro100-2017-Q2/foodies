@@ -7,6 +7,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <StackPanel>
-        
+        <ToolBar x:Name="navToolBar">
+            <Button/>
+            <Menu>
+                <MenuItem 
+                    Header="Menu" Height="25" Width="50">
+                </MenuItem>
+            </Menu>
+        </ToolBar>
     </StackPanel>
 </UserControl>

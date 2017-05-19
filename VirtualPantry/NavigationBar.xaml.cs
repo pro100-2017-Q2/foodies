@@ -20,7 +20,6 @@ namespace VirtualPantry
     /// </summary>
     public partial class NavigationBar : UserControl
     {
-        private CollectionViewSource cvs;
         //private int totalRowCount;
         public NavigationBar()
         {

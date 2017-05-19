@@ -85,7 +85,12 @@
                 FontSize="20"
                 
                 />
+<<<<<<< HEAD
+            <Button
+                x:Name="addButton"
+=======
             <Button x:Name="addButton"
+>>>>>>> origin/development
                 HorizontalAlignment="Right"
                 Height="45"
                 Width="100" 
@@ -95,12 +100,14 @@
                 Click="AddPantryItemButton_Click"
                 />
             <Button
+                x:Name="cancelButton"
                 HorizontalAlignment="Right"
                 Height="45"
                 Width="150" 
                 Margin="0,416,11.6,-310.6"
                 Content="Cancel"
-                FontSize="20"
+                FontSize="20" 
+                Click="cancelButton_Click"
                 />
             <Image
                 HorizontalAlignment="Right"
