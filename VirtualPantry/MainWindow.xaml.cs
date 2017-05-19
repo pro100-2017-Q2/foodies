@@ -22,8 +22,7 @@ namespace VirtualPantry
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
-                
+    {                
         public Timer timer;
         public PantryWindow pantry;
         public Recipe recipe;

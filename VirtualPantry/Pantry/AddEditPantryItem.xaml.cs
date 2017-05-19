@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,8 +21,17 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class AddEditPantryItem : Window
     {
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/development
         private Ingredients tempIdent;
+
         private PantryWindow pantry;
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/development
         List<String> PantryItems = new List<String>();
         public AddEditPantryItem(PantryWindow pantryWindow)
         {
@@ -36,22 +46,43 @@ namespace VirtualPantry.Pantry
 
         private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            
+            ReadFromFile();
+
+            tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
+=======
             tempIdent.Name = Title.Text;
             tempIdent.WholeNumber = int.Parse(WholeNumber.Text);
             tempIdent.Numerator = int.Parse(Numerator.Text);
             tempIdent.Denominator = int.Parse(Denominator.Text);
             tempIdent.Category = Category.Text;
             tempIdent.Units = Units.Text;
+>>>>>>> origin/development
 
             PantryItems.Add(tempIdent.ToString());
 
             String[] I = PantryItems.ToArray();
-            System.IO.File.WriteAllLines("PantryItems", I);
+            string pathToDocuments = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            using (StreamWriter outputFile = new StreamWriter(pathToDocuments + @"\PantryItems.txt"))
+                foreach (string item in I)
+                    outputFile.WriteLine(item);
         }
+<<<<<<< HEAD
+
+        private void ReadFromFile()
+        {
+            
+        }
+<<<<<<< HEAD
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             
         }
+=======
+=======
+>>>>>>> origin/development
+>>>>>>> origin/development
     }
 }

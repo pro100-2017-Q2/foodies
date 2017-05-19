@@ -14,7 +14,7 @@
                 Height="30"
                 Width="200"
                 Margin="6,10,0,21.8"
-                Text="{Binding Path=Name}"
+                Text="Name"
                 FontSize="20"/>
             <TextBox
                 x:Name="Category"
@@ -22,7 +22,7 @@
                 Height="30"
                 Width="200" 
                 Margin="6,61,0,-29.2"
-                Text="{Binding Path=Category}"
+                Text="Category"
                 FontSize="20"/>
             <TextBox
                 x:Name="Units"
@@ -30,7 +30,7 @@
                 Height="30"
                 Width="90" 
                 Margin="0,243,26.6,-211.2"
-                Text="{Binding Path=Units}"
+                Text="Units"
                 FontSize="20"
                 />
             <TextBox
@@ -41,7 +41,7 @@
                 Height="30"
                 Width="170" 
                 Margin="6,225,0,-193.4"
-                Text="{Binding Path=WholeNumber}"
+                Text="WholeNumber"
                 FontSize="20"
                 />
             <TextBox
@@ -52,7 +52,7 @@
                 Height="30"
                 Width="170" 
                 Margin="175,177,148.6,-145.4"
-                Text="{Binding Path=Numerator}"
+                Text="Numerator"
                 FontSize="20"
                 />
             <Line
@@ -81,12 +81,16 @@
                 Height="30"
                 Width="170" 
                 Margin="175,250,148.6,-218.4"
-                Text="{Binding Path=Denominator}" 
+                Text="Denominator" 
                 FontSize="20"
                 
                 />
+<<<<<<< HEAD
             <Button
                 x:Name="addButton"
+=======
+            <Button x:Name="addButton"
+>>>>>>> origin/development
                 HorizontalAlignment="Right"
                 Height="45"
                 Width="100" 

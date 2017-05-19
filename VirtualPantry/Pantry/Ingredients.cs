@@ -54,6 +54,16 @@ namespace VirtualPantry.Pantry
         }
 
         private string units;
+        
+        public Ingredients(string n, int whole, string category, string units, int num = 0, int den = 0)
+        {
+            Name = n;
+            WholeNumber = whole;
+            Category = category;
+            Numerator = num;
+            Denominator = den;
+            Units = units;
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -74,7 +84,7 @@ namespace VirtualPantry.Pantry
 
         public override string ToString()
         {
-			Fraction f = new Fraction();
+			Fraction f = new Fraction(WholeNumber, Numerator, Denominator);
 			f.MakeImProper();
 			return $"{Name} {Category} {f} {Units}";
         }
