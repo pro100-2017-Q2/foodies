@@ -144,3 +144,4 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll

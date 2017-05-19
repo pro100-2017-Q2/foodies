@@ -21,17 +21,12 @@ namespace VirtualPantry.Pantry
     /// </summary>
     public partial class AddEditPantryItem : Window
     {
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/development
+
         private Ingredients tempIdent;
 
         private PantryWindow pantry;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/development
         List<String> PantryItems = new List<String>();
         public AddEditPantryItem(PantryWindow pantryWindow)
         {
@@ -46,19 +41,13 @@ namespace VirtualPantry.Pantry
 
         private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
+
             
             ReadFromFile();
 
             tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
-=======
-            tempIdent.Name = Title.Text;
-            tempIdent.WholeNumber = int.Parse(WholeNumber.Text);
-            tempIdent.Numerator = int.Parse(Numerator.Text);
-            tempIdent.Denominator = int.Parse(Denominator.Text);
-            tempIdent.Category = Category.Text;
-            tempIdent.Units = Units.Text;
->>>>>>> origin/development
+
+  
 
             PantryItems.Add(tempIdent.ToString());
 
@@ -68,13 +57,10 @@ namespace VirtualPantry.Pantry
                 foreach (string item in I)
                     outputFile.WriteLine(item);
         }
-<<<<<<< HEAD
-
         private void ReadFromFile()
         {
             
         }
-=======
->>>>>>> origin/development
+
     }
 }
