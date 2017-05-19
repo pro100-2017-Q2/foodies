@@ -6,6 +6,7 @@ C#
 .cs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\
 VirtualPantry
 none
@@ -18,6 +19,9 @@ C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantr
 >>>>>>> origin/development
 =======
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
+>>>>>>> origin/development
+=======
+C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
 >>>>>>> origin/development
 VirtualPantry
 none
@@ -35,7 +39,7 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\App.xaml
 >>>>>>> origin/development
 
 16-586401779
-131726951844
+14-1693809526
 MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 
 False
