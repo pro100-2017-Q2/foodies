@@ -48,5 +48,10 @@ namespace VirtualPantry.Pantry
             String[] I = PantryItems.ToArray();
             System.IO.File.WriteAllLines("PantryItems", I);
         }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
