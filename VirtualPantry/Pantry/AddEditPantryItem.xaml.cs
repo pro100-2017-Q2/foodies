@@ -61,19 +61,10 @@ namespace VirtualPantry.Pantry
         {
             
         }
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             
         }
-=======
-=======
->>>>>>> origin/development
->>>>>>> origin/development
->>>>>>> origin/development
     }
 }

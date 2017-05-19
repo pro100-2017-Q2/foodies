@@ -9,7 +9,6 @@
         Title="PantryWindow" Height="474.076" Width="584.113">
     <StackPanel>
         <Grid Height="325">
-            <kc: />
             <TextBox Name="WholeNumBox" 
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  ScrollViewer.VerticalScrollBarVisibility="Auto" 

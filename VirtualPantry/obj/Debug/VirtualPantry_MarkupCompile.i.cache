@@ -4,51 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
-=======
-<<<<<<< HEAD
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
-=======
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\
->>>>>>> origin/development
->>>>>>> origin/development
->>>>>>> origin/development
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\
 VirtualPantry
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\App.xaml
-10-20785330
-
-20-1330886789
-14-381119155
-=======
-<<<<<<< HEAD
->>>>>>> origin/development
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\App.xaml
-10-20785330
-
-20-585383715
-<<<<<<< HEAD
-14-1693809526
-=======
-131726951844
-=======
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\App.xaml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\App.xaml
 10-20785330
 
 202121167483
-14-4949591
->>>>>>> origin/development
->>>>>>> origin/development
->>>>>>> origin/development
+14-1152907714
 MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 
 True

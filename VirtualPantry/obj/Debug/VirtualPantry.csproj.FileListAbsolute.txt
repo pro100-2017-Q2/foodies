@@ -145,3 +145,36 @@ C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantr
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\App.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\MainWindow.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
