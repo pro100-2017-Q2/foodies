@@ -19,9 +19,11 @@ namespace VirtualPantry.Stretch
     /// </summary>
     public partial class ConversionChart : Window
     {
-        public ConversionChart()
+        public MainWindow main;
+        public ConversionChart(MainWindow mainWindow)
         {
             InitializeComponent();
+            main = mainWindow;
         }
-	}
+    }
 }

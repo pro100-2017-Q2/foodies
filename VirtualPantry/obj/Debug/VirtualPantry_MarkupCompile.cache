@@ -17,23 +17,26 @@ C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\App.xaml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
 >>>>>>> origin/development
 =======
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
 >>>>>>> origin/development
-ProVirtualPantry
+VirtualPantry
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\App.xaml
+<<<<<<< HEAD
 =======
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\App.xaml
 >>>>>>> origin/development
 9-336209168
 >>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
+=======
+10-20785330
+>>>>>>> origin/development
 
-14234768372
+16-586401779
 131726951844
-MainWindow.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
+MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 
 False
 
