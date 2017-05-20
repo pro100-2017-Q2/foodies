@@ -25,9 +25,12 @@
     <StackPanel>
         <Grid Height="325">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
 =======
             <kc: />
+>>>>>>> origin/development
+=======
 >>>>>>> origin/development
             <TextBox Name="WholeNumBox" 
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"

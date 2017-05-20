@@ -52,3 +52,6 @@ VirtualPantry/VirtualPantry
 obj
 bin
 .vs
+VirtualPantry/obj/Debug/CoreCompileInputs.cache
+VirtualPantry/obj/Debug/VirtualPantry.csproj.FileListAbsolute.txt
+VirtualPantry/obj/Debug/VirtualPantry_MarkupCompile.lref
