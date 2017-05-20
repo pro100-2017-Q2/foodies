@@ -31,7 +31,7 @@
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="31,115,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="PauseButton" Content="Pause" HorizontalAlignment="Left" Margin="111,115,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="191,115,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="34" Height="17"/>
+        <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="34" Height="17" Click="Home_Button_Click"/>
 
     </Grid>
 </Window>
