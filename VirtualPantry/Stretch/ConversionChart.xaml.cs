@@ -25,5 +25,11 @@ namespace VirtualPantry.Stretch
             InitializeComponent();
             main = mainWindow;
         }
-    }
+
+		private void Home_Button_Click(object sender, RoutedEventArgs e)
+		{
+			main.Show();
+			this.Hide();
+		}
+	}
 }
