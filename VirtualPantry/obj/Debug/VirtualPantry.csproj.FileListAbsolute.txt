@@ -213,3 +213,7 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\De
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
