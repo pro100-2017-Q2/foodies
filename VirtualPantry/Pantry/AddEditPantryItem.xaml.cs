@@ -53,22 +53,17 @@ namespace VirtualPantry.Pantry
                 foreach (string item in I)
                     outputFile.WriteLine(item);
         }
-<<<<<<< HEAD
+
         private void ReadFromFile()
         {
             
         }
 
-=======
->>>>>>> origin/development
+
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/development
     }
 }
