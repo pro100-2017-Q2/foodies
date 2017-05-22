@@ -5,112 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Pantry"
         mc:Ignorable="d"
-<<<<<<< HEAD
-        Title="PantryWindow" Height="474.076" Width="584.113">
-    <StackPanel>
-        <Grid Height="325">
-            
-            <TextBox Name="WholeNumBox" 
-                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                 ScrollViewer.VerticalScrollBarVisibility="Auto" 
-                 Width="110"
-                 Height="20"
-                 Text="Whole Number" Margin="262,92,145,208"/>
-
-            <TextBox Name="NumeratorBox" 
-                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                 ScrollViewer.VerticalScrollBarVisibility="Auto"
-                 Width="86"
-                 Height="20"
-                 Text="Numerator" Margin="398,68,33,232"/>
-
-            <TextBox Name="DenominatorBox" 
-                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                 ScrollViewer.VerticalScrollBarVisibility="Auto"
-                 Width="96"
-                 Height="20"
-                 Text="Denominator" Margin="388,117,33,183"/>
-
-            <Line Name="FractionSeperator" 
-                 Stroke="Black"
-                 X1="100"
-                 Y1="0"
-                 HorizontalAlignment="Center"
-                 StrokeThickness="6" Margin="388,102,29,-102">
-            </Line>
-
-            <TextBox Name="Unitsbox"
-                 Width="50"
-                 Height="30"
-                 Text="Units"
-                 TextAlignment="Center" Margin="312,136,155,154"/>
-
-            <TextBox Text="Search Bar"
-                 Width=" 150"
-                 Height="30" Margin="27,117,340,173"></TextBox>
-
-
-            <StackPanel VerticalAlignment="Bottom">
-                <ScrollViewer>
-                    <Grid Background="Blue"
-                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                  ScrollViewer.VerticalScrollBarVisibility="Visible"
-                  VerticalAlignment="Bottom"
-                  Width="309" RenderTransformOrigin="0.653,0.229"
-                  Height="149">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                            <RowDefinition/>
-                            <RowDefinition/>
-                        </Grid.RowDefinitions>
-
-                        <Button Width="50" Height="50" Grid.Row="0">B1</Button>
-                        <Button Width="50" Height="50" Grid.Row="0" Grid.Column="1">B2</Button>
-                        <Button Width="50" Height="50" Grid.Row="0" Grid.Column="2">B3</Button>
-                        <Button Width="50" Height="50" Grid.Row="0" Grid.Column="3">B4</Button>
-                        <Button Width="50" Height="50" Grid.Row="0" Grid.Column="4">B5</Button>
-                        <Button Width="50" Height="50" Grid.Row="0" Grid.Column="5">B6</Button>
-
-                        <Button Width="50" Height="50" Grid.Row="1">B1</Button>
-                        <Button Width="50" Height="50" Grid.Row="1" Grid.Column="1">B2</Button>
-                        <Button Width="50" Height="50" Grid.Row="1" Grid.Column="2">B3</Button>
-                        <Button Width="50" Height="50" Grid.Row="1" Grid.Column="3">B4</Button>
-                        <Button Width="50" Height="50" Grid.Row="1" Grid.Column="4">B5</Button>
-                        <Button Width="50" Height="50" Grid.Row="1" Grid.Column="5">B6</Button>
-
-                        <Button Width="50" Height="50" Grid.Row="3">B1</Button>
-                        <Button Width="50" Height="50" Grid.Row="3" Grid.Column="1">B2</Button>
-                        <Button Width="50" Height="50" Grid.Row="3" Grid.Column="2">B3</Button>
-                        <Button Width="50" Height="50" Grid.Row="3" Grid.Column="3">B4</Button>
-                        <Button Width="50" Height="50" Grid.Row="3" Grid.Column="4">B5</Button>
-                        <Button Width="50" Height="50" Grid.Row="3" Grid.Column="5">B6</Button>
-                    </Grid>
-                </ScrollViewer>
-            </StackPanel>
-
-            <!--<Page Name="PantryTitle"
-              Width="100"
-              Height="20"
-              VerticalAlignment="Top"
-              TextBlock.TextAlignment="Center">Pantry</Page>-->
-        </Grid>
-        <Button 
-            x:Name="addAnIngredientButton"
-            Content="Add an Ingredient" 
-            Height="27" 
-            Margin="438,20,10.6,0"
-            Click="addAnIngredientButton_Clicked"/>
-    </StackPanel>
-=======
         Title="PantryWindow" Height="463.961" Width="642.407">
     <Grid>
         <Grid.RowDefinitions>
@@ -130,6 +24,7 @@
                 Click="addIngredientButton_Clicked"/>
         </StackPanel>
         <Label 
+            x:Name="unitLabels"
             Content="Units" 
             HorizontalAlignment="Left"
             Margin="346,135,0,0" 
@@ -172,16 +67,15 @@
         <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="142,32.2,102,23.4" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
-            <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.--> 
+            <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.-->
         </Border>
         <Grid 
             x:Name="itemDisplayGrid"
             Margin="142,32.2,102,23.4"
             Grid.Row="1">
-                <ScrollBar Margin="365,10,10,10" Width="Auto">
-                </ScrollBar>
-            </Grid>
-        
+            <ScrollBar Margin="365,10,10,10" Width="Auto">
+            </ScrollBar>
+        </Grid>
+
     </Grid>
->>>>>>> origin/development
 </Window>
