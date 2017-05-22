@@ -85,10 +85,15 @@
                 FontSize="20"
                 
                 />
+<<<<<<< HEAD
 
 
             <Button x:Name="addButton"
 
+=======
+            <Button
+                x:Name="addButton"
+>>>>>>> origin/development
                 HorizontalAlignment="Right"
                 Height="45"
                 Width="100" 

@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
-        Title="Recipe" Height="300" Width="300">
+        Title="Recipe" Height="463.961" Width="642.407">
     <Grid>
-        
+        <StackPanel>
+            <Button
+                x:Name="homeButton"
+                Content="Home"
+                Height="27"
+                Click="homeButton_Clicked" Margin="0,0,558,0"/>
+
+        </StackPanel>
+        <Border
+            BorderBrush="Black"
+            BorderThickness="2" Margin="64,38,374,26.4">
+        </Border>
+        <Grid Margin="74,54,374,26.4">
+            <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar>
+        </Grid>
+        <Border
+            BorderBrush="Black"
+            BorderThickness="2" 
+            Margin="367,103,53,134.4">            
+        </Border>
+        <Image Margin="367,103,53,134.4"/>
+        <StackPanel Margin="367,305,53,10.4">
+            <Button
+                x:Name="newRecipeButton"
+            Content="Add New Recipe" Margin="63,10,49,10"/>
+            <Button
+                x:Name="editRecipeButton"
+                Content="Edit Recipe" Margin="63,10,49,10"/>
+            <Button
+                x:Name="removeRecipeButton"
+                Content="Remove Recipe" Margin="63,10,49,0"/>
+        </StackPanel>
     </Grid>
 </Window>

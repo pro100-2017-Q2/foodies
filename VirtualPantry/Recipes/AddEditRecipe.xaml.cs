@@ -23,5 +23,10 @@ namespace VirtualPantry.Recipes
         {
             InitializeComponent();
         }
+
+        private void cancelButon_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

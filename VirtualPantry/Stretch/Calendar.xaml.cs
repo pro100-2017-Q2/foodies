@@ -26,9 +26,10 @@ namespace VirtualPantry.Stretch
             main = mainWindow;
         }
 
-        private void Calendar_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
-
+            main.Show();
+            this.Hide();
         }
     }
 }
