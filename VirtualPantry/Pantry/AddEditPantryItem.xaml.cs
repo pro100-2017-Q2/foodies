@@ -41,10 +41,6 @@ namespace VirtualPantry.Pantry
 
         private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
         {
-
-            
-            ReadFromFile();
-
             tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
 
   
@@ -57,14 +53,10 @@ namespace VirtualPantry.Pantry
                 foreach (string item in I)
                     outputFile.WriteLine(item);
         }
-        private void ReadFromFile()
-        {
-            
-        }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            this.Hide();
         }
     }
 }

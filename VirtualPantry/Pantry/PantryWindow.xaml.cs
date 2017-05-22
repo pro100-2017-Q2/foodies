@@ -27,9 +27,9 @@ namespace VirtualPantry.Pantry
             main = mainWindow;
             itemPage = new AddEditPantryItem(this);
         }
-        private void addAnIngredientButton_Clicked(object sender, RoutedEventArgs e)
+        private void addIngredientButton_Clicked(object sender, RoutedEventArgs e)
         {
-            itemPage.Show();
+            itemPage.Show();            
         }
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
