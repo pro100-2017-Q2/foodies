@@ -79,21 +79,11 @@
     <Compile Include="Pantry\AddEditPantryItem.xaml.cs">
       <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <Compile Include="Pantry\PantryWindow.xaml.cs">
-      <DependentUpon>PantryWindow.xaml</DependentUpon>
-    </Compile>
-=======
-    <Compile Include="Pantry\Ingrediant.cs" />
->>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
-=======
     <Compile Include="Pantry\Ingredients.cs" />
     <Compile Include="Pantry\Pantry.cs" />
     <Compile Include="Pantry\PantryWindow.xaml.cs">
       <DependentUpon>PantryWindow.xaml</DependentUpon>
     </Compile>
->>>>>>> origin/development
     <Compile Include="Recipes\AddEditRecipe.xaml.cs">
       <DependentUpon>AddEditRecipe.xaml</DependentUpon>
     </Compile>

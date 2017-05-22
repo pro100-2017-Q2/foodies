@@ -4,57 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\
-VirtualPantry
-none
-false
-DEBUG;TRACE
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\App.xaml
-10153564684
-
-18-272496843
-=======
-=======
-=======
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
-=======
-<<<<<<< HEAD
->>>>>>> origin/development
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\
-=======
-<<<<<<< HEAD
->>>>>>> origin/development
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
->>>>>>> origin/development
-=======
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\
->>>>>>> origin/development
->>>>>>> origin/development
->>>>>>> origin/development
-=======
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\
->>>>>>> origin/development
 VirtualPantry
 none
 false
 DEBUG;TRACE
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\App.xaml
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\App.xaml
 10-20785330
 
-<<<<<<< HEAD
-18-1352629662
-<<<<<<< HEAD
->>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
-=======
->>>>>>> origin/development
-=======
-202121167483
-14-1152907714
+20-1330886789
+14-381119155
 MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
 
 True

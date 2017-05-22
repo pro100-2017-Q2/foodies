@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="Recipe" Height="300" Width="300">
     <Grid>
-        
+        <StackPanel>
+            <Button
+                x:Name="homeButton"
+                Content="Home"
+                Height="27"
+                Click="homeButton_Clicked" Margin="0,0,231.6,0"/>
+        </StackPanel>
     </Grid>
 </Window>

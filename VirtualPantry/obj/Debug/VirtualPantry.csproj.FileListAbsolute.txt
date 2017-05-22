@@ -140,7 +140,6 @@ C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantr
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-=======
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
@@ -171,26 +170,15 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\ProV
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
-=======
 >>>>>>> origin/development
->>>>>>> origin/development
-=======
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-<<<<<<< HEAD
->>>>>>> origin/development
-=======
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
-<<<<<<< HEAD
->>>>>>> origin/development
-=======
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
@@ -224,4 +212,4 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\De
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
->>>>>>> origin/development
+C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
