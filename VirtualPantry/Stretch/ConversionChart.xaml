@@ -5,19 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Stretch"
         mc:Ignorable="d"
-        Title="ConversionChart" Height="300" Width="300">
+        Title="ConversionChart" Height="463.961" Width="642.407">
     <Grid>
-        <Button Content="Home" FontSize="8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="37" Height="17"/>
-
+        <Button
+                x:Name="homeButton"
+                Content="Home"
+                Click="homeButton_Click" 
+            Margin="10,10,574,404"
+            Width="50"
+            Height="20"/>
         <Grid x:Name="OriginalAmount">
-            <TextBox x:Name="OriginalAmountLabel" x:FieldModifier="private" Margin="74,62,184,189" Width="34" Text="0"/>
-            <Button x:Name="OriginalAmountUpButton" x:FieldModifier="private" Margin="113,62,164,189" Content="^" Width="15"/>
-            <Button x:Name="OriginalAmountDownButton" x:FieldModifier="private" Margin="128,62,151,189"  Content="?" Width="13"/>
-            <Label Content="Amount" HorizontalAlignment="Left" Margin="75,25,0,0" VerticalAlignment="Top"/>
-            <Label Content="Units" HorizontalAlignment="Left" Margin="181,25,0,0" VerticalAlignment="Top"/>
-            <Label Content="=" HorizontalAlignment="Left" Margin="123,121,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="OriginalAmountLabel" x:FieldModifier="private" Margin="183,152,417,260" Width="34" Text="0"/>
+            <Button x:Name="OriginalAmountUpButton" x:FieldModifier="private" Margin="222,152,397,260" Content="^" Width="15"/>
+            <Button x:Name="OriginalAmountDownButton" x:FieldModifier="private" Margin="242,152,379,260"  Content="v" Width="13"/>
+            <Label Content="Amount" HorizontalAlignment="Left" Margin="183,80,0,0" VerticalAlignment="Top"/>
+            <Label Content="Units" HorizontalAlignment="Left" Margin="413,80,0,0" VerticalAlignment="Top"/>
+            <Label Content="=" HorizontalAlignment="Left" Margin="310,200,0,0" VerticalAlignment="Top"/>
         </Grid>
-        <ListBox x:Name="OriginalUnitsBox" FontSize="8" HorizontalAlignment="Left" Height="94" Margin="167,54,0,0" VerticalAlignment="Top" Width="71">
+        <ListBox x:Name="OriginalUnitsBox" FontSize="8" HorizontalAlignment="Left" Height="94" Margin="399,126,0,0" VerticalAlignment="Top" Width="71">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Label Content="{Binding Path=Units, Mode=TwoWay}"/>
@@ -25,9 +30,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
 
-        <Label x:Name="ConvertedAmount" FontSize="20" Content="###" Margin="71,163,154,65"/>
+        <Label x:Name="ConvertedAmount" FontSize="20" Content="###" Margin="184,259,396,137"/>
 
-        <ListBox x:Name="ConvertedUnitsBox" FontSize="8" HorizontalAlignment="Left" Height="94" Margin="167,153,0,0" VerticalAlignment="Top" Width="71">
+        <ListBox x:Name="ConvertedUnitsBox" FontSize="8" HorizontalAlignment="Left" Height="94" Margin="399,233,0,0" VerticalAlignment="Top" Width="71">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Label Content="{Binding Path=Units, Mode=TwoWay}"/>

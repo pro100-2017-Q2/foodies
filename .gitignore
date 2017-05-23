@@ -52,3 +52,10 @@ VirtualPantry/VirtualPantry
 obj
 bin
 .vs
+VirtualPantry/obj/Debug/CoreCompileInputs.cache
+VirtualPantry/obj/Debug/VirtualPantry.csproj.FileListAbsolute.txt
+VirtualPantry/obj/Debug/VirtualPantry_MarkupCompile.lref
+VirtualPantry/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+VirtualPantry/obj
+VirtualPantry/bin
+VirtualPantry/bin/Debug/VirtualPantry.exe
