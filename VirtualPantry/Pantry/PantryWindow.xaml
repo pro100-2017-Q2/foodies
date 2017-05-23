@@ -25,6 +25,7 @@
                 Click="addIngredientButton_Clicked"/>
         </StackPanel>
         <Label 
+            x:Name="unitLabels"
             Content="Units" 
             HorizontalAlignment="Left"
             Margin="346,135,0,0" 
@@ -67,7 +68,7 @@
         <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="142,32.2,102,23.4" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
-            <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.--> 
+            <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.-->
         </Border>
         <Grid 
             x:Name="itemDisplayGrid"
@@ -76,5 +77,9 @@
             <ScrollBar Margin="365,10,10,10" Width="Auto">
             </ScrollBar>
         </Grid>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
     </Grid>
 </Window>

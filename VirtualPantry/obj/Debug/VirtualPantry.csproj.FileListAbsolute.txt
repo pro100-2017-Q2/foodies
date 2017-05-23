@@ -1,188 +1,7 @@
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Anjelika\documents\visual studio 2017\Projects\VirtualPantry\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-=======
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\App.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\MainWindow.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.g.resources
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\ProVirtualPantry.Properties.Resources.resources
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
->>>>>>> 38659e3853b8ee4e9a80ac7ec48e25e6af9ca69d
->>>>>>> origin/development
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
-C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
-C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\MainWindow.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
@@ -191,8 +10,6 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\De
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\App.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry_MarkupCompile.lref
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.g.cs
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.g.cs
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe.config
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
@@ -201,7 +18,6 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\De
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\AddEditPantryItem.baml
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Pantry\PantryWindow.baml
-C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\AddEditRecipe.baml
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\IndividualRecipe.baml
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Recipes\Recipe.baml
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
@@ -212,4 +28,11 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\De
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.csproj.GenerateResource.Cache
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
+<<<<<<< HEAD
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\VirtualPantry.pdb
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\bin\Debug\MakuratM_OverloadingOperators.dll
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+=======
+>>>>>>> c810df302fe6dbb7d7781da8407c3a692e99f99a

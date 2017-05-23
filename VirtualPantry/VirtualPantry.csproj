@@ -84,6 +84,9 @@
     <Compile Include="Pantry\PantryWindow.xaml.cs">
       <DependentUpon>PantryWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Recipes\AddEditRecipe.xaml.cs">
+      <DependentUpon>AddEditRecipe.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Recipes\IndividualRecipe.xaml.cs">
       <DependentUpon>IndividualRecipe.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pantry\PantryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Recipes\AddEditRecipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

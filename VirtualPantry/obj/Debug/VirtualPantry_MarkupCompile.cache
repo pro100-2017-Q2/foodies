@@ -4,17 +4,43 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\obj\Debug\
+=======
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\obj\Debug\
+>>>>>>> c810df302fe6dbb7d7781da8407c3a692e99f99a
+>>>>>>> origin/development
 VirtualPantry
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Dallas Lewis\Documents\Visual Studio 2017\Projects\foodies\VirtualPantry\App.xaml
 9229104761
 
 15-1976092543
 14-1693809526
 MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
+=======
+<<<<<<< HEAD
+C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\App.xaml
+10-20785330
+
+16-586401779
+141703330438
+MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\AddEditRecipe.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
+=======
+C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\foodies\VirtualPantry\App.xaml
+9229104761
+
+15-1976092543
+14-1152907714
+MainWindow.xaml;NavigationBar.xaml;Pantry\AddEditPantryItem.xaml;Pantry\PantryWindow.xaml;Recipes\IndividualRecipe.xaml;Recipes\Recipe.xaml;Stretch\Calendar.xaml;Stretch\ConversionChart.xaml;Stretch\Timer.xaml;
+>>>>>>> c810df302fe6dbb7d7781da8407c3a692e99f99a
+>>>>>>> origin/development
 
 False
 
