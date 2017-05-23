@@ -74,7 +74,6 @@ C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.exe
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.pdb
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.csprojResolveAssemblyReference.cache
-C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\PageTest.g.cs
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.g.cs
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.g.cs
 C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.g.cs
@@ -142,3 +141,8 @@ C:\Users\Mitch\Documents\School\Pro100\Repo\foodies\VirtualPantry\obj\Debug\Virt
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\VirtualPantry.Properties.Resources.resources
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
 C:\Users\Anjelika\Documents\GitHub\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.g.cs
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\NavigationBar.baml
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Calendar.baml
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\ConversionChart.baml
+C:\Users\Malacji\Desktop\foodies\VirtualPantry\obj\Debug\Stretch\Timer.baml
