@@ -18,14 +18,14 @@
                 Grid.Column="1"
                 HorizontalAlignment="Left"
                 Margin="55.4,6,0,4.4"
-                Content="Edit"/>
+                Content="Ok"/>
             <Button
                 Height="20"
                 Width="40"
                 Grid.Column="1"
                 HorizontalAlignment="Right"
                 Margin="10,5"
-                Content="Delete" Click="Button_Click"/>
+                Content="Cancel"/>
         </Grid>
         <Grid Height="100"
               Margin="10">

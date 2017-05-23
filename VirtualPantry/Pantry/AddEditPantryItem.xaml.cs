@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -41,17 +42,24 @@ namespace VirtualPantry.Pantry
 
         private void AddPantryItemButton_Click(object sender, RoutedEventArgs e)
         {
-            tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
+            try
+            {
+                tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
+                PantryItems.Add(tempIdent.ToString());
 
+                String[] I = PantryItems.ToArray();
+                string pathToDocuments = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                using (StreamWriter outputFile = new StreamWriter(pathToDocuments + @"\PantryItems.txt"))
+                    foreach (string item in I)
+                        outputFile.WriteLine(item);
+            }
+            catch
+            {
+                Console.WriteLine("Sorry. Your values are incorrect.");
+                
+            }
   
 
-            PantryItems.Add(tempIdent.ToString());
-
-            String[] I = PantryItems.ToArray();
-            string pathToDocuments = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            using (StreamWriter outputFile = new StreamWriter(pathToDocuments + @"\PantryItems.txt"))
-                foreach (string item in I)
-                    outputFile.WriteLine(item);
         }
 
         private void ReadFromFile()
