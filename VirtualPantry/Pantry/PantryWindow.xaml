@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Pantry"
         mc:Ignorable="d"
-<<<<<<< HEAD
-        Title="PantryWindow" Height="474.076" Width="584.113">
+        >
     
         <Grid Height="325">
             <TextBox Name="WholeNumBox" 
@@ -15,28 +14,26 @@
                  Width="110"
                  Height="20"
                  Text="Whole Number" Margin="262,92,145,208"/>
-=======
-        Title="PantryWindow" Height="463.961" Width="642.407">
->>>>>>> origin/development
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="149*"/>
-            <RowDefinition Height="286*"/>
-        </Grid.RowDefinitions>
-        <StackPanel Margin="0,0,0,0.4" Grid.RowSpan="2">
-            <Button
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="149*"/>
+                <RowDefinition Height="286*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Margin="0,0,0,0.4" Grid.RowSpan="2">
+                <Button
                 x:Name="homeButton"
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,549,0"/>
-            <Button
+                <Button
                 x:Name="addIngredientButton"
                 Content="Add Ingredient"
                 Margin="0,10,549,15" Height="28"
                 Click="addIngredientButton_Clicked"/>
-        </StackPanel>
-        <Label 
+            </StackPanel>
+            <Label 
             x:Name="unitLabels"
             Content="Units" 
             HorizontalAlignment="Left"
@@ -46,52 +43,49 @@
             Width="75"
             BorderBrush="Black"
             BorderThickness="1.5" Grid.RowSpan="2"/>
-        <Border           
+            <Border           
             BorderBrush="Black"
             BorderThickness="3" Margin="94,58,400,275.4" Grid.RowSpan="2">
-            <!--Just put this border here for a reminder of where the image will show up.
+                <!--Just put this border here for a reminder of where the image will show up.
             (Personal preference for when testing while running.)-->
-            <Image 
+                <Image 
             x:Name="iconOfItemSelected"
             HorizontalAlignment="Left" 
             Height="81" 
             Margin="6.8,6.8,0,0" 
             VerticalAlignment="Top"
             Width="122"/>
-        </Border>
-        <TextBox 
+            </Border>
+            <TextBox 
             x:Name="wholeNumTextBox"
             Height="23" 
             TextWrapping="Wrap" 
             Text="Whole Number"
             Margin="299,93,247,32.8"/>
-        <TextBox 
+            <TextBox 
             x:Name="denominatorTextBox"
             Height="23" 
             TextWrapping="Wrap" 
             Text="Denominator" 
             Margin="415,107,136,18.8"/>
-        <TextBox 
+            <TextBox 
             x:Name="numeratorTextBox"
             Height="23" 
             TextWrapping="Wrap" 
             Text="Numerator" 
             Margin="415,79,136,46.8"/>
-        <Border
+            <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="142,32.2,102,23.4" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
-            <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.-->
-        </Border>
-        <Grid 
+                <!--Another border to show the grid area. Planning adding buttons manually with code everytime item is added.-->
+            </Border>
+            <Grid 
             x:Name="itemDisplayGrid"
             Margin="142,32.2,102,23.4"
             Grid.Row="1">
-            <ScrollBar Margin="365,10,10,10" Width="Auto">
-            </ScrollBar>
+                <ScrollBar Margin="365,10,10,10" Width="Auto">
+                </ScrollBar>
+            </Grid>
         </Grid>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/development
     </Grid>
 </Window>
