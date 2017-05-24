@@ -14,6 +14,7 @@
                 <ColumnDefinition Width="22*"/>
                 <ColumnDefinition Width="480*"/>
             </Grid.ColumnDefinitions>
+            
             <Button 
                 x:Name="CalendarButton"
             Grid.Column="2" 
