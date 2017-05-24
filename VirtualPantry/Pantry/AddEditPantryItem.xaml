@@ -55,25 +55,8 @@
                 Text="Numerator"
                 FontSize="20"
                 />
-            <Line
-                Stroke="Black"
-                StrokeThickness="10"
-                X1="200"
-                Y1="0"
-                HorizontalAlignment="Center" 
-                Margin="94,272,305.6,-215.6" 
-                RenderTransformOrigin="0.5,0.5" Width="94"
-                >
-                <Line.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-179.827"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Line.RenderTransform>
-            </Line>
-            <TextBox
+
+                <TextBox
                 x:Name="Denominator"
                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                 ScrollViewer.VerticalScrollBarVisibility="Visible"
@@ -84,6 +67,7 @@
                 Text="Denominator" 
                 FontSize="20"/>
 
+            
             <Button
                 x:Name="addButton"
                 HorizontalAlignment="Right"
