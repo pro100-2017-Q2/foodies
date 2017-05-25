@@ -30,5 +30,10 @@ namespace VirtualPantry.Recipes
             main.Show();
             this.Hide();
         }
+
+        private void NavigationBar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

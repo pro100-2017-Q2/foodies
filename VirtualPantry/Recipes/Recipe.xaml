@@ -15,6 +15,24 @@
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
 
         </StackPanel>
+        <Button x:Name="NavigationBar"
+                Content="Navigation"
+                Height="27"
+                Width="100"
+                Click="NavigationBar_Click" 
+                Margin="526,0,10,407.4">
+            <Button.ContextMenu>
+                <ContextMenu Name="NavigationMenu">
+                    <MenuItem>
+                        <MenuItem Header="Timer"/>
+                        <MenuItem Header="Pantry"/>
+                        <MenuItem Header="Conversion Chart"/>
+                        <MenuItem Header="Calendar"/>
+                    </MenuItem>
+                </ContextMenu>
+            </Button.ContextMenu>
+            
+        </Button>
         <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="64,38,374,26.4">
