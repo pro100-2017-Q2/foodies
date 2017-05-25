@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace VirtualPantry.Pantry
 {
     enum FoodCategories {Fruits, Vegetables, Protein, Dairy, Grains, Oils};
-    class Ingredients : INotifyPropertyChanged
+    public class Ingredients : INotifyPropertyChanged
     {
         private string name;
 

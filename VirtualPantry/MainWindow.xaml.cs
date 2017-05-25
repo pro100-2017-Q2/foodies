@@ -25,7 +25,7 @@ namespace VirtualPantry
     {                
         public Timer timer;
         public PantryWindow pantry;
-        public Recipe recipe;
+        public RecipeWindow recipe;
         public ConversionChart conversionChart;
         public Stretch.Calendar calendar;
         public MainWindow()
@@ -33,7 +33,7 @@ namespace VirtualPantry
             InitializeComponent();
             timer = new Timer(this);
             pantry = new PantryWindow(this);
-            recipe = new Recipe(this);
+            recipe = new RecipeWindow(this);
             conversionChart = new ConversionChart(this);
             calendar = new Stretch.Calendar(this);
 
