@@ -38,14 +38,20 @@
             BorderThickness="2" Margin="64,38,374,26.4">
         </Border>
         <Grid Margin="74,54,374,26.4">
-            <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar>
+           <!-- <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar> -->
+
+            <ListBox x:Name="RecipeBox">
+                <Label Content="{Binding RecipeListing}"/>
+            </ListBox>
+            
         </Grid>
         <Border
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">            
         </Border>
-        <Image Margin="367,103,53,134.4"/>
+        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"/>
+        
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"
