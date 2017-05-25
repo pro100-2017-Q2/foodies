@@ -9,8 +9,11 @@ using System.Threading.Tasks;
 
 namespace VirtualPantry.Pantry
 {
-    enum FoodCategories {Fruits, Vegetables, Protein, Dairy, Grains, Oils};
-    public class Ingredients : INotifyPropertyChanged
+    enum Categories
+    {
+       Fruits, Vegetables, Protein, Dairy, Grains, Oils
+    };
+    class Ingredients : INotifyPropertyChanged
     {
         private string name;
 
@@ -19,7 +22,6 @@ namespace VirtualPantry.Pantry
             get { return name; }
             set { name = value; FieldChanged(); }
         }
-
         private int wholeNumber;
 
         public int WholeNumber
@@ -27,24 +29,6 @@ namespace VirtualPantry.Pantry
             get { return wholeNumber; }
             set { wholeNumber = value; FieldChanged(); }
         }
-
-        private int numerator;
-
-        public int Numerator
-        {
-            get { return numerator; }
-            set { numerator = value; FieldChanged(); }
-        }
-
-        private int denominator;
-
-        public int Denominator
-        {
-            get { return denominator; }
-            set { denominator = value; FieldChanged(); }
-        }
-
-
         private string category;
 
         public string Category
@@ -52,19 +36,15 @@ namespace VirtualPantry.Pantry
             get { return category; }
             set { category = value; FieldChanged(); }
         }
-
         private string units;
         
-        public Ingredients(string n, int whole, string category, string units, int num = 0, int den = 0)
+        public Ingredients(string name, int fraction, string category, string units)
         {
-            Name = n;
-            WholeNumber = whole;
-            Category = category;
-            Numerator = num;
-            Denominator = den;
-            Units = units;
+            this.Name = name;
+            this.WholeNumber = fraction;
+            this.Category = category;
+            this.Units = units;
         }
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         public string Units
@@ -72,8 +52,6 @@ namespace VirtualPantry.Pantry
             get { return units; }
             set { units = value; FieldChanged(); }
         }
-
-
         protected void FieldChanged([CallerMemberName] string field = null)
         {
             if (PropertyChanged != null)
@@ -81,14 +59,5 @@ namespace VirtualPantry.Pantry
                 PropertyChanged(this, new PropertyChangedEventArgs(field));
             }
         }
-
-        public override string ToString()
-        {
-			Fraction f = new Fraction(WholeNumber, Numerator, Denominator);
-			f.MakeImProper();
-			return $"{Name} {Category} {f} {Units}";
-        }
-
-
     }
 }

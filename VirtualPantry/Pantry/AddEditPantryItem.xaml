@@ -8,6 +8,8 @@
         Title="AddEditPantryItem" Height="500" Width="500">
     <StackPanel>
         <Grid>
+            
+            
             <TextBox
                 x:Name="Title"
                 HorizontalAlignment="Left"

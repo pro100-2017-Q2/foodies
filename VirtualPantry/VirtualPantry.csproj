@@ -87,11 +87,9 @@
     <Compile Include="Recipes\IndividualRecipe.xaml.cs">
       <DependentUpon>IndividualRecipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Recipes\Recipe.cs" />
-    <Compile Include="Recipes\RecipeWindow.xaml.cs">
-      <DependentUpon>RecipeWindow.xaml</DependentUpon>
+    <Compile Include="Recipes\Recipe.xaml.cs">
+      <DependentUpon>Recipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Recipes\StarRating.cs" />
     <Compile Include="Stretch\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
@@ -129,9 +127,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Recipes\RecipeWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Recipes\Recipe.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Stretch\Calendar.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -186,6 +184,35 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
