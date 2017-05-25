@@ -87,9 +87,11 @@
     <Compile Include="Recipes\IndividualRecipe.xaml.cs">
       <DependentUpon>IndividualRecipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Recipes\Recipe.xaml.cs">
-      <DependentUpon>Recipe.xaml</DependentUpon>
+    <Compile Include="Recipes\Recipe.cs" />
+    <Compile Include="Recipes\RecipeWindow.xaml.cs">
+      <DependentUpon>RecipeWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Recipes\StarRating.cs" />
     <Compile Include="Stretch\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
@@ -127,9 +129,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Recipes\Recipe.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Recipes\RecipeWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Stretch\Calendar.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -213,6 +215,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

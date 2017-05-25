@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
-        Title="RecipeWindow" Height="463.961" Width="642.407">
+        Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
         <StackPanel>
             <Button
@@ -13,7 +13,7 @@
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
-            
+
             <Button x:Name="NavigationBar"
                 Content="Navigation"
                 Height="27"
@@ -21,7 +21,7 @@
                 Click="NavigationBar_Click" 
                 Margin="526,0,10,407.4">
                 <Button.ContextMenu>
-                    <ContextMenu x:Name="NavigationMenu">
+                    <ContextMenu Name="NavigationMenu">
                         <MenuItem>
                             <MenuItem Header="Timer"/>
                             <MenuItem Header="Pantry"/>
@@ -34,19 +34,26 @@
             </Button>
 
         </StackPanel>
+
         <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="64,38,374,26.4">
         </Border>
         <Grid Margin="74,54,374,26.4">
-            <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar>
+            <!-- <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar> -->
+
+            <ListBox x:Name="RecipeBox">
+                <Label Content="{Binding RecipeListing}"/>
+            </ListBox>
+
         </Grid>
         <Border
             BorderBrush="Black"
             BorderThickness="2" 
-            Margin="367,103,53,134.4">            
+            Margin="367,103,53,134.4">
         </Border>
-        <Image Margin="367,103,53,134.4"/>
+        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"/>
+
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"

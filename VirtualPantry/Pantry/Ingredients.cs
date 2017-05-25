@@ -13,7 +13,7 @@ namespace VirtualPantry.Pantry
     {
        Fruits, Vegetables, Protein, Dairy, Grains, Oils
     };
-    class Ingredients : INotifyPropertyChanged
+    public class Ingredients : INotifyPropertyChanged
     {
         private string name;
 
