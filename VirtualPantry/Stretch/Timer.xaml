@@ -27,8 +27,8 @@
 
         <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Left" Height="13" Margin="236,339,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
         <Label Content="Time Left:" HorizontalAlignment="Left" Margin="236,272,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="TimeLeftLabel" Content="9:99:99" HorizontalAlignment="Left" Margin="316,272,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="172,183,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="TimeLeftLabel" Content="" HorizontalAlignment="Left" Margin="316,272,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="172,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
         <Button x:Name="PauseButton" Content="Pause" HorizontalAlignment="Left" Margin="263,183,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75"/>
         <Button
