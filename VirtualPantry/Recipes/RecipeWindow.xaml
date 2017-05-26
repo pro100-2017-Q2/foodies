@@ -47,6 +47,11 @@
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
+            <StackPanel>
+                <Image Stretch="Fill"
+                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\TestImage\Mario.png">
+                </Image>
+            </StackPanel>
         </Border>
        
         <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
