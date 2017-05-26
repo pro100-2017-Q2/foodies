@@ -1,22 +1,19 @@
-<<<<<<< HEAD
 ﻿using System;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-=======
 ﻿using System.Threading;
 using System.Windows;
 using VirtualPantry.Pantry;
 using VirtualPantry.Stretch;
->>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
-	/// <summary>
-	/// Interaction logic for Recipe.xaml
-	/// </summary>
-	public partial class RecipeWindow : Window
-	{
+    /// <summary>
+    /// Interaction logic for Recipe.xaml
+    /// </summary>
+    public partial class RecipeWindow : Window
+    {
         public Stretch.Timer timer;
         public PantryWindow pantry;
         public RecipeWindow recipe;
@@ -26,40 +23,40 @@ namespace VirtualPantry.Recipes
         private RecipeWindow recipeWindow;
 
         public string FileText
-		{
-			get
-			{
-				return FileText;
-			}
-			set
-			{
-				FileText = value;
-				return;
-			}
-		}
+        {
+            get
+            {
+                return FileText;
+            }
+            set
+            {
+                FileText = value;
+                return;
+            }
+        }
 
-		public object RecipeListing
-		{
-			get
-			{
-				return RecipeListing;
-			}
-			set
-			{
-				RecipeListing = value;
-				return;
-			}
-		}
+        public object RecipeListing
+        {
+            get
+            {
+                return RecipeListing;
+            }
+            set
+            {
+                RecipeListing = value;
+                return;
+            }
+        }
 
-		public void ReadFile(string path)
-		{
-			RecipeListing = path;
-		}
+        public void ReadFile(string path)
+        {
+            RecipeListing = path;
+        }
 
-		public RecipeWindow(MainWindow mainWindow)
-		{
-			InitializeComponent();
-			main = mainWindow;
+        public RecipeWindow(MainWindow mainWindow)
+        {
+            InitializeComponent();
+            main = mainWindow;
             timer = new Stretch.Timer(this);
             pantry = new PantryWindow(this);
             recipe = new RecipeWindow(this);
@@ -73,21 +70,13 @@ namespace VirtualPantry.Recipes
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
-		{
-			main.Show();
-			this.Hide();
-		}
-
-		
-
-<<<<<<< HEAD
-		}
+        {
+            main.Show();
+            this.Hide();
+        }
 
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
-	}
-=======
-        
         private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
         {
             timer.Show();
@@ -109,5 +98,4 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
     }
->>>>>>> origin/development
 }

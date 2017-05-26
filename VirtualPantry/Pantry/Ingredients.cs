@@ -6,50 +6,26 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualPantry.Enums;
 
 namespace VirtualPantry.Pantry
 {
-    enum Categories
+    public class Ingredients
     {
-       Fruits, Vegetables, Protein, Dairy, Grains, Oils
-    };
-    public class Ingredients : INotifyPropertyChanged
-    {
-        private string name;
+        public Ingredients(Categories categories, string name, List<string> fractions, int wholeNumber, Units units)
+        {
+            Categories = categories;
+            Name = name;
+            Fractions = fractions;
+            WholeNumber = wholeNumber;
+            Units = units;
+        }
+        public Ingredients(){ }
+        public Categories Categories { get; set; }
+        public string Name { get; set; }
+        public List<string> Fractions { get; set; }
+        public int WholeNumber { get; set; }
+        public Units Units { get; set; }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; FieldChanged(); }
-        }
-        private int wholeNumber;
-
-        public int WholeNumber
-        {
-            get { return wholeNumber; }
-            set { wholeNumber = value; FieldChanged(); }
-        }
-        private string category;
-
-        public string Category
-        {
-            get { return category; }
-            set { category = value; FieldChanged(); }
-        }
-        private string units;
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public string Units
-        {
-            get { return units; }
-            set { units = value; FieldChanged(); }
-        }
-        protected void FieldChanged([CallerMemberName] string field = null)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(field));
-            }
-        }
     }
 }
