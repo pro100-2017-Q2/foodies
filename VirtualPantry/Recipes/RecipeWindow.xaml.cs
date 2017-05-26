@@ -3,8 +3,9 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
-using VirtualPantry.Pantry;
+using System.Windows;
 using VirtualPantry.Stretch;
+using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Recipes
 {
@@ -57,8 +58,8 @@ namespace VirtualPantry.Recipes
             InitializeComponent();
             main = mainWindow;
             timer = new Stretch.Timer(this);
-            pantry = new PantryWindow(this);
-            recipe = new RecipeWindow(this);
+			//pantry = new PantryWindow(this);
+			recipe = new RecipeWindow(this);
             conversionChart = new ConversionChart(this);
             calendar = new Stretch.Calendar(this);
         }

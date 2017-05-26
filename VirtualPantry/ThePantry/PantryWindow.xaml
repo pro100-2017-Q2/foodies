@@ -1,0 +1,31 @@
+﻿<Window x:Class="VirtualPantry.ThePantry.PantryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VirtualPantry.ThePantry"
+        mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
+    <StackPanel>
+        <Button x:Name="homeButton"
+                Content="Home"
+                Height="27"
+                Click="homeButton_Clicked" Margin="0,0,558,0"/>
+        <DataGrid x:Name="PantryGrid"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name"
+                                    Binding="{Binding Name}"/>
+                <DataGridComboBoxColumn Header="Category"
+                                        x:Name="CategoryComboBox"
+                                        SelectedValueBinding="{Binding Category}"/>
+                <DataGridTextColumn Header="Amount"
+                                    Binding="{Binding WholeNumber}"/>
+                <DataGridComboBoxColumn Header="Units"
+                                        x:Name="UnitsComboBox"
+                                        SelectedValueBinding="{Binding Units}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </StackPanel>
+
+</Window>
