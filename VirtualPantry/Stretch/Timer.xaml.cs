@@ -31,7 +31,8 @@ namespace VirtualPantry.Stretch
 
         public Timer(RecipeWindow recipeWindow)
         {
-            this.recipeWindow = recipeWindow;
+            InitializeComponent();
+            this.recipeWindow = recipeWindow;            
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
