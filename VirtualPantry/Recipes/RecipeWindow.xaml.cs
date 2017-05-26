@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace VirtualPantry.Recipes
 {
@@ -56,5 +59,8 @@ namespace VirtualPantry.Recipes
 		{
 
 		}
+
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
 	}
 }

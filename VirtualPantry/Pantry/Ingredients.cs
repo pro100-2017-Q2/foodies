@@ -37,14 +37,6 @@ namespace VirtualPantry.Pantry
             set { category = value; FieldChanged(); }
         }
         private string units;
-        
-        public Ingredients(string name, int fraction, string category, string units)
-        {
-            this.Name = name;
-            this.WholeNumber = fraction;
-            this.Category = category;
-            this.Units = units;
-        }
         public event PropertyChangedEventHandler PropertyChanged;
 
         public string Units

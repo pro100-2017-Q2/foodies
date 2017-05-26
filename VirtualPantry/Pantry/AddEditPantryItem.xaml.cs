@@ -44,7 +44,7 @@ namespace VirtualPantry.Pantry
         {
             try
             {
-                tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
+                //tempIdent = new Ingredients(Title.Text, int.Parse(WholeNumber.Text), Category.Text, Units.Text, int.Parse(Numerator.Text), int.Parse(Denominator.Text));
                 PantryItems.Add(tempIdent.ToString());
 
                 String[] I = PantryItems.ToArray();

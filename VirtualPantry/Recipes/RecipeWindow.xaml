@@ -52,8 +52,11 @@
             BorderThickness="2" 
             Margin="367,103,53,134.4">
         </Border>
-        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"/>
-
+       
+        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"
+               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>
+        
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"
