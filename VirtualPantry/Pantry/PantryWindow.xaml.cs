@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using VirtualPantry.Recipes;
 
 namespace VirtualPantry.Pantry
 {
@@ -21,12 +22,20 @@ namespace VirtualPantry.Pantry
     {
         private MainWindow main;
         private AddEditPantryItem itemPage;
+        private RecipeWindow recipeWindow;
+
         public PantryWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
             itemPage = new AddEditPantryItem(this);
         }
+
+        public PantryWindow(RecipeWindow recipeWindow)
+        {
+            this.recipeWindow = recipeWindow;
+        }
+
         private void addIngredientButton_Clicked(object sender, RoutedEventArgs e)
         {
             itemPage.Show();            

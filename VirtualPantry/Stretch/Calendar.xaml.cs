@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using VirtualPantry.Recipes;
 
 namespace VirtualPantry.Stretch
 {
@@ -20,10 +21,17 @@ namespace VirtualPantry.Stretch
     public partial class Calendar : Window
     {
         public MainWindow main;
+        private RecipeWindow recipeWindow;
+
         public Calendar(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
+        }
+
+        public Calendar(RecipeWindow recipeWindow)
+        {
+            this.recipeWindow = recipeWindow;
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)

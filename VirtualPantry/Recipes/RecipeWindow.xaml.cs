@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using System.Threading;
+using System.Windows;
+using VirtualPantry.Pantry;
+using VirtualPantry.Stretch;
 
 namespace VirtualPantry.Recipes
 {
@@ -7,9 +10,15 @@ namespace VirtualPantry.Recipes
 	/// </summary>
 	public partial class RecipeWindow : Window
 	{
-		public MainWindow main;
+        public Stretch.Timer timer;
+        public PantryWindow pantry;
+        public RecipeWindow recipe;
+        public ConversionChart conversionChart;
+        public Stretch.Calendar calendar;
+        public MainWindow main;
+        private RecipeWindow recipeWindow;
 
-		public string FileText
+        public string FileText
 		{
 			get
 			{
@@ -44,17 +53,46 @@ namespace VirtualPantry.Recipes
 		{
 			InitializeComponent();
 			main = mainWindow;
-		}
+            timer = new Stretch.Timer(this);
+            pantry = new PantryWindow(this);
+            recipe = new RecipeWindow(this);
+            conversionChart = new ConversionChart(this);
+            calendar = new Stretch.Calendar(this);
+        }
 
-		private void homeButton_Clicked(object sender, RoutedEventArgs e)
+        public RecipeWindow(RecipeWindow recipeWindow)
+        {
+            this.recipeWindow = recipeWindow;
+        }
+
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
 		{
 			main.Show();
 			this.Hide();
 		}
 
-		private void NavigationBar_Click(object sender, RoutedEventArgs e)
-		{
+		
 
-		}
-	}
+        
+        private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Show();
+            this.Hide();
+        }
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calendar.Show();
+            this.Hide();
+        }
+    }
 }

@@ -23,10 +23,10 @@
                 <Button.ContextMenu>
                     <ContextMenu Name="NavigationMenu">
                         <MenuItem>
-                            <MenuItem Header="Timer"/>
-                            <MenuItem Header="Pantry"/>
-                            <MenuItem Header="Conversion Chart"/>
-                            <MenuItem Header="Calendar"/>
+                            <MenuItem Header="Timer" Click="TimerMenuItem_Click"/>
+                            <MenuItem Header="Pantry" Click="PantryMenuItem_Click_1"/>
+                            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click_2"/>
+                            <MenuItem Header="Calendar" Click="CalendarMenuItem_Click_3"/>
                         </MenuItem>
                     </ContextMenu>
                 </Button.ContextMenu>
