@@ -14,7 +14,7 @@
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
 
-            <Button x:Name="NavigationBar"
+            <!--<Button x:Name="NavigationBar"
                 Content="Navigation"
                 Height="27"
                 Width="100"
@@ -24,14 +24,14 @@
                     <ContextMenu Name="NavigationMenu">
                         <MenuItem>
                             <MenuItem Header="Timer" Click="TimerMenuItem_Click"/>
-                            <MenuItem Header="Pantry" Click="PantryMenuItem_Click_1"/>
-                            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click_2"/>
-                            <MenuItem Header="Calendar" Click="CalendarMenuItem_Click_3"/>
+                            <MenuItem Header="Pantry" Click="PantryMenuItem_Click"/>
+                            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click"/>
+                            <MenuItem Header="Calendar" Click="CalendarMenuItem_Click"/>
                         </MenuItem>
                     </ContextMenu>
                 </Button.ContextMenu>
 
-            </Button>
+            </Button>-->
 
         </StackPanel>
 
@@ -54,8 +54,7 @@
         </Border>
        
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"
-               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>
+               Stretch="Fill"/>
         
         <StackPanel Margin="367,305,53,10.4">
             <Button
