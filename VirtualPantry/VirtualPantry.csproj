@@ -74,9 +74,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Enums\PantryEnums.cs" />
-    <Compile Include="ThePantry\AddEditPantryItem.xaml.cs">
-      <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ThePantry\Ingredients.cs" />
     <Compile Include="ThePantry\Pantry.cs" />
     <Compile Include="ThePantry\PantryWindow.xaml.cs">
@@ -111,10 +108,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ThePantry\AddEditPantryItem.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="ThePantry\PantryWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
