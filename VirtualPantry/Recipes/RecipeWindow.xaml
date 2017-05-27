@@ -51,16 +51,13 @@
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
-            <StackPanel>
-                <Image Stretch="Fill"
-                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\TestImage\Mario.png">
+            <StackPanel x:Name="ImageDisplay">
+                <Image x:Name="ShowRecipeImages" Stretch="Fill"
+                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\RecipeImages\OrangeJuice.png">
                 </Image>
             </StackPanel>
         </Border>
-       
-        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-        
+
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"

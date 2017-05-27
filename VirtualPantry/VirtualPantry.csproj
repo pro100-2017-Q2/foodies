@@ -210,11 +210,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
-    <Resource Include="Images\Mario.png" />
+    <Resource Include="Images\RecipeImages\OrangeJuice.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Enums\Pantry Icons\" />
+    <Folder Include="Images\ImageTest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
