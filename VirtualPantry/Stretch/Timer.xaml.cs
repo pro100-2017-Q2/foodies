@@ -23,16 +23,18 @@ namespace VirtualPantry.Stretch
     {
         public MainWindow main;
         private RecipeWindow recipeWindow;
-        private DispatcherTimer timer = new DispatcherTimer();
+        private DispatcherTimer _timer;
+        TimeSpan _time;
+        TimeSpan paused;
 
         public Timer(MainWindow mainWindow)
         {
             InitializeComponent();
+           
             main = mainWindow;
-            timer.Interval = new TimeSpan(59, 59, 59);
-            timer.Tick += Time;
 
         }
+
 
         public Timer(RecipeWindow recipeWindow)
         {
@@ -45,16 +47,35 @@ namespace VirtualPantry.Stretch
             this.Hide();
         }
 
-        private void Time(object sender, EventArgs e)
-        {
-            TimeLeftLabel.Content = DateTime.Now.ToLongTimeString();
-        }
+       
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            timer.Start();
-            
+
+            _time = new TimeSpan(int.Parse(HourLabel.Text),int.Parse(SecondsLabel.Text),0);
+
+            _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
+            {
+                TimeLeftLabel.Content = _time.ToString("c");
+                if (_time == TimeSpan.Zero) _timer.Stop();
+                _time = _time.Add(TimeSpan.FromSeconds(-1));
+            }, Application.Current.Dispatcher);
+
+            _timer.Start();
         }
+        private void PauseButton_Click(object sender, RoutedEventArgs e)
+        {
+            paused = _time;
+            _timer.Stop();
+        }
+
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            _timer.Stop();
+            TimeLeftLabel.Content = (_time - _time).ToString();
+            HourLabel.Text = "0";
+            SecondsLabel.Text = "0";
+        }
+
     }
 }

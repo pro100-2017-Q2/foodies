@@ -12,25 +12,25 @@
 
         <Label Content="Set Time:" HorizontalAlignment="Left" Margin="189,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.098,0.434"/>
 
-        <!--<Grid x:Name="Hours">
-            <TextBox x:Name="HourLabel" x:FieldModifier="private" Margin="100,48,158,203" Width="34" Text="0" TextChanged="txtNum_TextChanged" />
-            <Button x:Name="HourUpButton" x:FieldModifier="private" Margin="139,48,138,203" Content="˄" Width="15" Click="cmdUp_Click" />
-            <Button x:Name="HourDownButton" x:FieldModifier="private" Margin="154,48,125,203"  Content="˅" Width="13" Click="cmdDown_Click" />
+         <Grid x:Name="Hours">
+            <TextBox x:Name="HourLabel" x:FieldModifier="private" Margin="272,118,330,293.4" Width="34" Text="0" />
+            <Button x:Name="HourUpButton" x:FieldModifier="private" Margin="311,118,310,293.4" Content="˄" Width="15"  />
+            <Button x:Name="HourDownButton" x:FieldModifier="private" Margin="326,118,297,293.4"  Content="˅" Width="13" />
         </Grid>
         <Grid x:Name="Seconds">
-            <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="182,48,76,203" Width="34" Text="0" TextChanged="txtNum_TextChanged" />
-            <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="221,48,56,203" Content="˄" Width="15" Click="cmdUp_Click" />
-            <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="236,48,43,203"  Content="˅" Width="13" Click="cmdDown_Click" />
+            <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"  />
+            <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  />
+            <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13"  />
             <Label Content="Hours" HorizontalAlignment="Left" Margin="96,17,0,0" VerticalAlignment="Top"/>
             <Label Content="Minutes" HorizontalAlignment="Left" Margin="182,17,0,0" VerticalAlignment="Top"/>
-        </Grid>-->
+        </Grid>
 
         <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Left" Height="13" Margin="236,339,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
         <Label Content="Time Left:" HorizontalAlignment="Left" Margin="236,272,0,0" VerticalAlignment="Top"/>
         <Label x:Name="TimeLeftLabel" Content="" HorizontalAlignment="Left" Margin="316,272,0,0" VerticalAlignment="Top"/>
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="172,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
-        <Button x:Name="PauseButton" Content="Pause" HorizontalAlignment="Left" Margin="263,183,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="PauseButton" Content="Pause" HorizontalAlignment="Left" Margin="263,183,0,0" VerticalAlignment="Top" Width="75" Click="PauseButton_Click"/>
+        <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75" Click="StopButton_Click"/>
         <Button
                 x:Name="homeButton"
                 Content="Home"
