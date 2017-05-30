@@ -99,8 +99,15 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
+<<<<<<< HEAD
+        private void NavigationBar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+=======
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
+>>>>>>> origin/development
     }
 }
