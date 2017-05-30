@@ -3,13 +3,9 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
-using System.Windows;
 using VirtualPantry.Stretch;
-<<<<<<< HEAD
 using System.Windows.Controls;
-=======
 using VirtualPantry.ThePantry;
->>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -60,20 +56,7 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
-<<<<<<< HEAD
-       
-=======
-        public RecipeWindow(MainWindow mainWindow)
-        {
-            InitializeComponent();
-            main = mainWindow;
-            timer = new Stretch.Timer(this);
-			//pantry = new PantryWindow(this);
-			recipe = new RecipeWindow(this);
-            conversionChart = new ConversionChart(this);
-            calendar = new Stretch.Calendar(this);
-        }
->>>>>>> origin/development
+        
 
         
 
@@ -99,15 +82,12 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
-<<<<<<< HEAD
+
         private void NavigationBar_Click(object sender, RoutedEventArgs e)
         {
 
         }
-=======
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
-
->>>>>>> origin/development
     }
 }
