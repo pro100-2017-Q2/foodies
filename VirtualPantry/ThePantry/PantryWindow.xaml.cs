@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using VirtualPantry.Enums;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace VirtualPantry.ThePantry
 {
@@ -25,18 +26,14 @@ namespace VirtualPantry.ThePantry
 		private MainWindow main;
 		private Pantry p = new Pantry();
 
-		static Fraction f = new Fraction(0, 2, 5);
-
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
-			new Ingredients("Broccoli", 20, Categories.Vegetables, Units.lb),
+			
 		};
-
 		public PantryWindow(MainWindow mainWindow)
 		{
 			InitializeComponent();
 			main = mainWindow;
-
 			PantryGrid.ItemsSource = pantry;
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
@@ -46,5 +43,9 @@ namespace VirtualPantry.ThePantry
 			main.Show();
 			this.Hide();
 		}
-	}
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
 }
