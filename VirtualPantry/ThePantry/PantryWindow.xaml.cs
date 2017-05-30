@@ -25,8 +25,6 @@ namespace VirtualPantry.ThePantry
 		private MainWindow main;
 		private Pantry p = new Pantry();
 
-		static Fraction f = new Fraction(0, 2, 5);
-
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			new Ingredients("Broccoli", 20, Categories.Vegetables, Units.lb),

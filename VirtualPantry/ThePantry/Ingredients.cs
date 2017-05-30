@@ -50,6 +50,11 @@ namespace VirtualPantry.ThePantry
 
 		}
 
+		public override string ToString()
+		{
+			return $"{Name} {wholeNumber} {ingredientUnits}(s)";
+		}
+
 		public event PropertyChangedEventHandler PropertyChanged;
 		protected void FieldChanged([CallerMemberName] string field = null)
 		{

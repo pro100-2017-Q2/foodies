@@ -74,12 +74,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Enums\PantryEnums.cs" />
-    <Compile Include="Pantry\AddEditPantryItem.xaml.cs">
-      <DependentUpon>AddEditPantryItem.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pantry\Ingredients.cs" />
-    <Compile Include="Pantry\Pantry.cs" />
-    <Compile Include="Pantry\PantryWindow.xaml.cs">
+    <Compile Include="ThePantry\Ingredients.cs" />
+    <Compile Include="ThePantry\Pantry.cs" />
+    <Compile Include="ThePantry\PantryWindow.xaml.cs">
       <DependentUpon>PantryWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Recipes\IndividualRecipe.xaml.cs">
@@ -111,11 +108,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pantry\AddEditPantryItem.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pantry\PantryWindow.xaml">
+    <Page Include="ThePantry\PantryWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -210,12 +203,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
+<<<<<<< HEAD
     <Resource Include="Images\RecipeImages\OrangeJuice.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Enums\Pantry Icons\" />
     <Folder Include="Images\ImageTest\" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documents\Recipes\" />
+    <Folder Include="Images\Pantry Icons\" />
+>>>>>>> a989887a611ab37cdda30b67fed8f9cdc0743349
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
