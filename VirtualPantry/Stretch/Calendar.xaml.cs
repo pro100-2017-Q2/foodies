@@ -21,7 +21,7 @@ namespace VirtualPantry.Stretch
     public partial class Calendar : Window
     {
         public MainWindow main;
-        private RecipeWindow recipeWindow;
+        
 
         public Calendar(MainWindow mainWindow)
         {
@@ -29,11 +29,7 @@ namespace VirtualPantry.Stretch
             main = mainWindow;
         }
 
-        public Calendar(RecipeWindow recipeWindow)
-        {
-            this.recipeWindow = recipeWindow;
-        }
-
+      
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();

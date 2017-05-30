@@ -8,11 +8,25 @@
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
         <StackPanel>
+
             <Button
                 x:Name="homeButton"
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
+
+            
+            <MenuItem Header="Navigation Bar" 
+                          MouseEnter="MenuItem_MouseEnter" 
+                          MouseLeave="MenuItem_MouseLeave"
+                          HorizontalAlignment="Right"
+                          FontSize="15">
+                <MenuItem
+                    Header="Timer Page" Click="TimerMenuItem_Click">
+                    </MenuItem>
+                
+            </MenuItem>
+
 
             <!--<Button x:Name="NavigationBar"
                 Content="Navigation"
@@ -33,6 +47,7 @@
 
             </Button>-->
 
+
         </StackPanel>
 
         <Border
@@ -51,11 +66,21 @@
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
+            <StackPanel x:Name="ImageDisplay">
+                <Image x:Name="ShowRecipeImages" Stretch="Fill"
+                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\RecipeImages\OrangeJuice.png">
+                </Image>
+            </StackPanel>
         </Border>
+
        
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
         
+        <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"
+               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
+
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"

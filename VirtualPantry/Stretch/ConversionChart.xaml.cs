@@ -21,7 +21,7 @@ namespace VirtualPantry.Stretch
     public partial class ConversionChart : Window
     {
         public MainWindow main;
-        private RecipeWindow recipeWindow;
+       
 
         public ConversionChart(MainWindow mainWindow)
         {
@@ -29,10 +29,7 @@ namespace VirtualPantry.Stretch
             main = mainWindow;
         }
 
-        public ConversionChart(RecipeWindow recipeWindow)
-        {
-            this.recipeWindow = recipeWindow;
-        }
+      
 
         private void homeButton_Click(object sender, RoutedEventArgs e)
         {

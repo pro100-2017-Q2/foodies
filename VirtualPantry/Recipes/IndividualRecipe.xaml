@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
-        Title="IndividualRecipe" Height="300" Width="300">
-    <StackPanel>
+        Title="IndividualRecipe" Height="463.961" Width="642.407">
+    <StackPanel x:Name="ThePanel">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -31,40 +31,58 @@
               Margin="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0"
-                       Text="Calorie Count: "
-                       VerticalAlignment="Center"/>
-            <Image Grid.Column="1"/>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0"
+                   Grid.Row="0"
+                   VerticalAlignment="Center"
+                   Content="Name: "/>
+            <Label Grid.Column="1"
+                   Grid.Row="0"
+                   VerticalAlignment="Center"
+                   Content="{Binding Name}"/>
+
+            <Label Grid.Column="0"
+                   Grid.Row="1"
+                   Content="Calorie Count: "
+                   VerticalAlignment="Center"/>
+            <Label Grid.Column="1"
+                   Grid.Row="1"
+                   VerticalAlignment="Center"
+                   Content="{Binding Calories}"/>
+            <Image Grid.Column="2"
+                   Grid.Row="1"/>
         </Grid>
-        <Grid Height="20">
+        <Grid Height="30">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox Text="Ingredients"
+            <Label Content="Ingredients"
                      Grid.Column="0"
                      HorizontalAlignment="Center"/>
-            <TextBox Text="Instructions"
+            <Label Content="Instructions"
                      Grid.Column="1"
                      HorizontalAlignment="Center"/>
         </Grid>
-        <Grid Height="90"
+        <Grid Height="200"
               Margin="0,10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <ListBox Grid.Column="0">
-                <ListBoxItem Content="1 egg"/>
-                <ListBoxItem Content="2 egg"/>
-                <ListBoxItem Content="3 egg"/>
-                <ListBoxItem Content="4 egg"/>
-            </ListBox>
-            <ListBox Grid.Column="1">
-                <ListBoxItem Content="Step 1"/>
-            </ListBox>
+            <ListBox Grid.Column="0" x:Name="IngredientsListBox"/>
+            <TextBox Grid.Column="1"
+                     Text="{Binding Instructions}"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     IsReadOnly="True"/>
         </Grid>
         
     </StackPanel>
