@@ -203,7 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
-<<<<<<< HEAD
+
     <Resource Include="Images\RecipeImages\OrangeJuice.png" />
   </ItemGroup>
   <ItemGroup>
