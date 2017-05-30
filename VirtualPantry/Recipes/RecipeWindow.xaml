@@ -14,6 +14,7 @@
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
+<<<<<<< HEAD
             
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
@@ -25,6 +26,27 @@
                     </MenuItem>
                 
             </MenuItem>
+=======
+
+            <!--<Button x:Name="NavigationBar"
+                Content="Navigation"
+                Height="27"
+                Width="100"
+                Click="NavigationBar_Click" 
+                Margin="526,0,10,407.4">
+                <Button.ContextMenu>
+                    <ContextMenu Name="NavigationMenu">
+                        <MenuItem>
+                            <MenuItem Header="Timer" Click="TimerMenuItem_Click"/>
+                            <MenuItem Header="Pantry" Click="PantryMenuItem_Click"/>
+                            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click"/>
+                            <MenuItem Header="Calendar" Click="CalendarMenuItem_Click"/>
+                        </MenuItem>
+                    </ContextMenu>
+                </Button.ContextMenu>
+
+            </Button>-->
+>>>>>>> origin/development
 
         </StackPanel>
 
@@ -44,12 +66,20 @@
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
+            <StackPanel x:Name="ImageDisplay">
+                <Image x:Name="ShowRecipeImages" Stretch="Fill"
+                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\RecipeImages\OrangeJuice.png">
+                </Image>
+            </StackPanel>
         </Border>
 
+<<<<<<< HEAD
         <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"
                Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
 
+=======
+>>>>>>> origin/development
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"
