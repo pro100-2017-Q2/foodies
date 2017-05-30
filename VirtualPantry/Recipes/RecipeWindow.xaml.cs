@@ -4,8 +4,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
 using System.Windows;
-using VirtualPantry.Pantry;
 using VirtualPantry.Stretch;
+<<<<<<< HEAD
+using System.Windows.Controls;
+=======
+using VirtualPantry.ThePantry;
+>>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -14,13 +18,16 @@ namespace VirtualPantry.Recipes
     /// </summary>
     public partial class RecipeWindow : Window
     {
-        public Stretch.Timer timer;
-        public PantryWindow pantry;
-        public RecipeWindow recipe;
-        public ConversionChart conversionChart;
-        public Stretch.Calendar calendar;
+       
         public MainWindow main;
-        private RecipeWindow recipeWindow;
+        private Stretch.Timer timer;
+
+        public RecipeWindow(MainWindow mainWindow)
+        {
+            InitializeComponent();
+            main = mainWindow;
+            timer = new Stretch.Timer(this);
+        }
 
         public string FileText
         {
@@ -53,21 +60,22 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+<<<<<<< HEAD
+       
+=======
         public RecipeWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
             timer = new Stretch.Timer(this);
-            pantry = new PantryWindow(this);
-            recipe = new RecipeWindow(this);
+			//pantry = new PantryWindow(this);
+			recipe = new RecipeWindow(this);
             conversionChart = new ConversionChart(this);
             calendar = new Stretch.Calendar(this);
         }
+>>>>>>> origin/development
 
-        public RecipeWindow(RecipeWindow recipeWindow)
-        {
-            this.recipeWindow = recipeWindow;
-        }
+        
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
@@ -75,32 +83,31 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
-        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+        private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = false;
+        }
 
         private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
         {
             timer.Show();
             this.Hide();
         }
-        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            pantry.Show();
-            this.Hide();
-        }
-        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            conversionChart.Show();
-            this.Hide();
-        }
-        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            calendar.Show();
-            this.Hide();
-        }
 
+<<<<<<< HEAD
         private void NavigationBar_Click(object sender, RoutedEventArgs e)
         {
 
         }
+=======
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+
+>>>>>>> origin/development
     }
 }

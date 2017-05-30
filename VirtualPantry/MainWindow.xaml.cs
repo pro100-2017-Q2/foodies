@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using VirtualPantry.Pantry;
+using VirtualPantry.ThePantry;
 using VirtualPantry.Recipes;
 using VirtualPantry.Stretch;
 
@@ -22,7 +22,7 @@ namespace VirtualPantry
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {                
+     {                
         public Timer timer;
         public PantryWindow pantry;
         public RecipeWindow recipe;
