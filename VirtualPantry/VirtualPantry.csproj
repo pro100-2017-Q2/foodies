@@ -210,12 +210,10 @@
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Enums\Pantry Icons\" />
     <Folder Include="Images\ImageTest\" />
-=======
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Images\Pantry Icons\" />
->>>>>>> a989887a611ab37cdda30b67fed8f9cdc0743349
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
