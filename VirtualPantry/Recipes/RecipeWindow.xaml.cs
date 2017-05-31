@@ -3,10 +3,16 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
-using System.Windows;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/development
+>>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -23,7 +29,7 @@ namespace VirtualPantry.Recipes
         {
             InitializeComponent();
             main = mainWindow;
-            timer = new Stretch.Timer(this);
+            timer = new Stretch.Timer(mainWindow);
         }
 
         public string FileText
@@ -57,7 +63,18 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+=======
+        
+>>>>>>> origin/development
+
+      
+        
+
+>>>>>>> origin/development
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
@@ -80,12 +97,29 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
         private void NavigationBar_Click(object sender, RoutedEventArgs e)
         {
 
         }
+<<<<<<< HEAD
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
+=======
+<<<<<<< HEAD
+
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+
+
+=======
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+>>>>>>> origin/development
+>>>>>>> origin/development
     }
 }

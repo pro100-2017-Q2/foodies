@@ -20,11 +20,11 @@ namespace VirtualPantry.Recipes
 
 		public Recipe(List<Ingredients> theIngredients, string name, StarRating rating, int calories, string instructions)
 		{
-			this.theIngredients = theIngredients;
-			this.name = name;
-			this.rating = rating;
-			this.calories = calories;
-			this.instructions = instructions;
+			TheIngredients = theIngredients;
+			Name = name;
+			Rating = rating;
+			Calories = calories;
+			Instructions = instructions;
 		}
 
 		public List<Ingredients> TheIngredients

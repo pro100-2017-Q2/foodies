@@ -14,6 +14,10 @@
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
             
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
@@ -25,6 +29,10 @@
                     </MenuItem>
                 
             </MenuItem>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
 
             <!--<Button x:Name="NavigationBar"
                 Content="Navigation"
@@ -44,6 +52,10 @@
                 </Button.ContextMenu>
 
             </Button>-->
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
 
         </StackPanel>
 
@@ -69,10 +81,24 @@
                 </Image>
             </StackPanel>
         </Border>
+<<<<<<< HEAD
        
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
 
+=======
+
+       
+        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"/>
+        
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> origin/development
+>>>>>>> origin/development
         <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"
                Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
