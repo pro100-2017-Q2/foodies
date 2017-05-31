@@ -57,7 +57,7 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
-
+ 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
