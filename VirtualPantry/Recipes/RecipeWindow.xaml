@@ -8,14 +8,12 @@
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
         <StackPanel>
-
             <Button
                 x:Name="homeButton"
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
 
-            
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
@@ -23,31 +21,8 @@
                           FontSize="15">
                 <MenuItem
                     Header="Timer Page" Click="TimerMenuItem_Click">
-                    </MenuItem>
-                
+                </MenuItem>
             </MenuItem>
-
-
-            <!--<Button x:Name="NavigationBar"
-                Content="Navigation"
-                Height="27"
-                Width="100"
-                Click="NavigationBar_Click" 
-                Margin="526,0,10,407.4">
-                <Button.ContextMenu>
-                    <ContextMenu Name="NavigationMenu">
-                        <MenuItem>
-                            <MenuItem Header="Timer" Click="TimerMenuItem_Click"/>
-                            <MenuItem Header="Pantry" Click="PantryMenuItem_Click"/>
-                            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click"/>
-                            <MenuItem Header="Calendar" Click="CalendarMenuItem_Click"/>
-                        </MenuItem>
-                    </ContextMenu>
-                </Button.ContextMenu>
-
-            </Button>-->
-
-
         </StackPanel>
 
         <Border
@@ -72,21 +47,10 @@
                 </Image>
             </StackPanel>
         </Border>
-
-       
+  
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
-        
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> origin/development
-        <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"
-               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
-
+            
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"
