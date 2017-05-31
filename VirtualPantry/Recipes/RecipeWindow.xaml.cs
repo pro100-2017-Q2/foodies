@@ -6,7 +6,10 @@ using System.Windows.Media.Imaging;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -57,6 +60,10 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
@@ -83,5 +90,15 @@ namespace VirtualPantry.Recipes
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+
+
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+>>>>>>> origin/development
     }
 }

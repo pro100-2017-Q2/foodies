@@ -25,7 +25,7 @@ namespace VirtualPantry.Stretch
         private RecipeWindow recipeWindow;
         private DispatcherTimer _timer;
         TimeSpan _time;
-        TimeSpan paused;
+        TimeSpan _default = new TimeSpan(0,0,0);
 
         public Timer(MainWindow mainWindow)
         {
@@ -47,9 +47,7 @@ namespace VirtualPantry.Stretch
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-
-            _time = new TimeSpan(int.Parse(HourLabel.Text),int.Parse(SecondsLabel.Text),0);
-
+            _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
             _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
                 TimeLeftLabel.Content = _time.ToString("c");
@@ -61,7 +59,6 @@ namespace VirtualPantry.Stretch
         }
         private void PauseButton_Click(object sender, RoutedEventArgs e)
         {
-            paused = _time;
             _timer.Stop();
         }
 
