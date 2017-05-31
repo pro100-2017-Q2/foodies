@@ -77,9 +77,12 @@
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
         
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/development
         <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"
                Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->

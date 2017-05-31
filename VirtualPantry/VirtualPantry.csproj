@@ -35,7 +35,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -75,7 +75,9 @@
     </ApplicationDefinition>
     <Compile Include="Enums\PantryEnums.cs" />
     <Compile Include="ThePantry\Ingredients.cs" />
-    <Compile Include="ThePantry\Pantry.cs" />
+    <Compile Include="ThePantry\Pantry.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ThePantry\PantryWindow.xaml.cs">
       <DependentUpon>PantryWindow.xaml</DependentUpon>
     </Compile>
@@ -203,19 +205,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
-
     <Resource Include="Images\RecipeImages\OrangeJuice.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Enums\Pantry Icons\" />
     <Folder Include="Images\ImageTest\" />
-
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Documents\Recipes\" />
     <Folder Include="Images\Pantry Icons\" />
-
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

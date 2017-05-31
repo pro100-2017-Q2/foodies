@@ -14,6 +14,5 @@ namespace VirtualPantry.Recipes
 		three = 3,
 		four = 4,
 		five = 5
-
 	}
 }

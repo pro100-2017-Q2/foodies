@@ -3,11 +3,13 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
-using System.Windows;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -58,6 +60,10 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+<<<<<<< HEAD
+=======
+        
+>>>>>>> origin/development
 
       
         
@@ -89,10 +95,15 @@ namespace VirtualPantry.Recipes
         {
 
         }
+<<<<<<< HEAD
 
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
 
+=======
+        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
+
+>>>>>>> origin/development
     }
 }

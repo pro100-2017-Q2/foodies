@@ -11,8 +11,25 @@ using VirtualPantry.Enums;
 namespace VirtualPantry.ThePantry
 {
 
-	public class Ingredients : INotifyPropertyChanged
+	public class Ingredients 
 	{
+<<<<<<< HEAD
+        public Ingredients(string name, string wholeNumber, List<string> fractions, Categories categories, Units units)
+        {
+            Name = name;
+            WholeNumber = wholeNumber;
+            Fractions = fractions;
+            Categories = categories;
+            Units = units;
+        }
+        public Ingredients() { }
+        public string Name { get; set; }
+        public string WholeNumber { get; set; }
+        public List<string> Fractions { get; set; }
+        public Categories Categories { get; set; }
+        public Units Units { get; set; }
+    }
+=======
 		private string name;
 		private int wholeNumber;
 		private Categories category;
@@ -64,4 +81,5 @@ namespace VirtualPantry.ThePantry
 			}
 		}
 	}
+>>>>>>> origin/development
 }

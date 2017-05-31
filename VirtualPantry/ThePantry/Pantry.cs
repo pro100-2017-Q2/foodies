@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using VirtualPantry.ThePantry;
 using excel = Microsoft.Office.Interop.Excel;
 
 namespace VirtualPantry.ThePantry
 {
-	public class Pantry
+	public class Pantry : DataTable
 	{
-		List<Ingredients> theIngredients = new List<Ingredients>();
-		public static void CreateExcelFile()
-		{
-
-		}
 		public static void WriteToExcelFile()
 		{
-
+            
 		}
 		public static void ReadFromExcelFile()
 		{
