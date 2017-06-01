@@ -25,7 +25,6 @@ namespace VirtualPantry.ThePantry
 	{
 		private MainWindow main;
 		private Pantry p = new Pantry();
-
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			
