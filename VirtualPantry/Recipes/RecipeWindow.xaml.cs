@@ -62,6 +62,13 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+
         private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
             (sender as MenuItem).IsSubmenuOpen = true;
@@ -78,11 +85,11 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
-
         private void NavigationBar_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
 
         private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
         {
@@ -109,12 +116,6 @@ namespace VirtualPantry.Recipes
         }
 
 
-        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
-
-
-
-
-        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
     }

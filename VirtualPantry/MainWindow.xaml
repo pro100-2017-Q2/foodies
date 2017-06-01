@@ -7,73 +7,77 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="463.961" Width="642.407">
     <DockPanel>
-        <Frame x:Name="mainNavigationFrame" NavigationUIVisibility="Hidden" />
-        <Grid>
-            <Grid.ColumnDefinitions>
+
+        <Grid Background="Blue">
+            <!--<Grid.ColumnDefinitions>
                 <ColumnDefinition Width="17*"/>
                 <ColumnDefinition Width="22*"/>
                 <ColumnDefinition Width="480*"/>
-            </Grid.ColumnDefinitions>
-            
-            <Button 
-                x:Name="CalendarButton"
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="420,33,0,0" 
-            VerticalAlignment="Top" 
-            Width="30" 
-            Height="31" Click="CalendarButton_Click">
+            </Grid.ColumnDefinitions> -->
+
+            <Button x:Name="CalendarButton"  
+                    Background="Aqua"
+                    HorizontalAlignment="Left" 
+                    Margin="537,29,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="30" 
+                    Height="31" 
+                    Click="CalendarButton_Click">
+
                 <Image/>
+
             </Button>
-            <Label 
-            Content="Project Name (SOON)" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="202,22,0,0" 
-            VerticalAlignment="Top"
-            Width="138"/>
-            <Label 
+
+            <Label FontSize="50" 
+                   FontStyle="Italic" 
+                   FontFamily="Times New Roman" 
+                   FontWeight="Bold" 
+                   Content="Foodies" 
+                   HorizontalContentAlignment="Center" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top" 
+                   Width="202" 
+                   Margin="217,121,215,0"/>
+
+            <!--<Label 
             Content="Random Recipe Display" 
             Grid.Column="2" 
             HorizontalAlignment="Left" 
             Margin="131,48,0,0" 
             VerticalAlignment="Top" 
             Height="149" 
-            Width="262"/>
-            <Button 
-                 x:Name="PantryButton"
-            Content="Pantry" 
-            HorizontalAlignment="Left" 
-            Margin="220,223,0,0" 
-            VerticalAlignment="Top" 
-            Width="75" 
-            RenderTransformOrigin="0.497,1.244" 
-            Grid.Column="2" Click="PantryButton_Click"/>
-            <Button 
-                  x:Name="Recipes"
-            Content="Recipes" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="220,263,0,0" 
-            VerticalAlignment="Top" 
-            Width="75" Click="Recipes_Click"/>
-            <Button 
-                   x:Name="ConversionChart"
-            Content="Conversion Chart" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="202,305,0,0" 
-            VerticalAlignment="Top" 
-            Width="119" Click="ConversionChart_Click"/>
-            <Button 
-                   x:Name="Timer"
-            Content="Timer" 
-            Grid.Column="2" 
-            HorizontalAlignment="Left" 
-            Margin="220,342,0,0" 
-            VerticalAlignment="Top" 
-            Width="75"
-            Click="TimerButton_Click"/>
+            Width="262"/> -->
+            <Button x:Name="PantryButton" Background="Aqua" 
+                    Content="Pantry" 
+                    HorizontalAlignment="Left" 
+                    Margin="279,218,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="75" 
+                    RenderTransformOrigin="0.497,1.244" 
+                    Click="PantryButton_Click"/>
+            
+            <Button x:Name="Recipes" Background="Aqua" 
+                    Content="Recipes"
+                    HorizontalAlignment="Left" 
+                    Margin="279,258,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="75" 
+                    Click="Recipes_Click"/>
+            
+            <Button  x:Name="ConversionChart" Background="Aqua" 
+                     Content="Conversion Chart" 
+                     HorizontalAlignment="Left" 
+                     Margin="260,300,0,0" 
+                     VerticalAlignment="Top"
+                     Width="119" Click="ConversionChart_Click"/>
+
+            <Button x:Name="Timer" Background="Aqua" 
+                    Content="Timer" 
+                    HorizontalAlignment="Left" 
+                    Margin="279,341,0,0" 
+                    VerticalAlignment="Top" 
+                    Width="75" 
+                    Click="TimerButton_Click"/>
         </Grid>
     </DockPanel>
 </Window>

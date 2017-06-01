@@ -70,6 +70,5 @@ namespace VirtualPantry.Recipes
 				PropertyChanged(this, new PropertyChangedEventArgs(field));
 			}
 		}
-
 	}
 }

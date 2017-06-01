@@ -73,7 +73,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\RatingImageConverter.cs" />
     <Compile Include="Enums\PantryEnums.cs" />
+    <Compile Include="Enums\StarRating.cs" />
     <Compile Include="ThePantry\Ingredients.cs" />
     <Compile Include="ThePantry\Pantry.cs">
       <SubType>Component</SubType>
@@ -88,7 +90,6 @@
     <Compile Include="Recipes\RecipeWindow.xaml.cs">
       <DependentUpon>RecipeWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Recipes\StarRating.cs" />
     <Compile Include="Stretch\Calendar.xaml.cs">
       <DependentUpon>Calendar.xaml</DependentUpon>
     </Compile>
@@ -205,14 +206,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
-    <Resource Include="Images\RecipeImages\OrangeJuice.png" />
+    <Resource Include="Images\Ratings\five.PNG" />
+    <Resource Include="Images\Ratings\four.PNG" />
+    <Resource Include="Images\Ratings\one.PNG" />
+    <Resource Include="Images\Ratings\three.png" />
+    <Resource Include="Images\Ratings\two.png" />
+    <Resource Include="Images\Ratings\zero.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
-    <Folder Include="Enums\Pantry Icons\" />
-    <Folder Include="Images\ImageTest\" />
     <Folder Include="Images\Pantry Icons\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
