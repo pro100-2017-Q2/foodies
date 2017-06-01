@@ -68,10 +68,6 @@
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/development
         <StackPanel Margin="367,305,53,10.4">
             <Button
                 x:Name="newRecipeButton"
