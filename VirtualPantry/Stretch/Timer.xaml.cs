@@ -22,23 +22,30 @@ namespace VirtualPantry.Stretch
     public partial class Timer : Window
     {
         public MainWindow main;
-        private RecipeWindow recipeWindow;
         private DispatcherTimer _timer;
         TimeSpan _time;
-        TimeSpan paused;
+        TimeSpan _default = new TimeSpan(0, 0, 0);
+        private RecipeWindow recipeWindow;
 
         public Timer(MainWindow mainWindow)
         {
             InitializeComponent();
-           
             main = mainWindow;
 
         }
 
-
         public Timer(RecipeWindow recipeWindow)
         {
             this.recipeWindow = recipeWindow;
+        }
+
+        private void _timer_Tick(object sender, EventArgs e)
+        {
+            Duration duration = new Duration(TimeSpan.FromSeconds(20));
+
+            //progress bar animation
+            System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
+            ProgressBar.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
@@ -47,26 +54,42 @@ namespace VirtualPantry.Stretch
             this.Hide();
         }
 
-       
+
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
+            int hour = int.Parse(HourLabel.Text);
+            int sec = int.Parse(SecondsLabel.Text);
 
-            _time = new TimeSpan(int.Parse(HourLabel.Text),int.Parse(SecondsLabel.Text),0);
 
-            _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
+            if (hour < 0)
             {
-                TimeLeftLabel.Content = _time.ToString("c");
-                if (_time == TimeSpan.Zero) _timer.Stop();
-                _time = _time.Add(TimeSpan.FromSeconds(-1));
-            }, Application.Current.Dispatcher);
+                HourLabel.Text = "0";
+            }
+            if (sec < 0)
+            {
+                SecondsLabel.Text = "1";
+            }
+            try
+            {
+                _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
 
-            _timer.Start();
-        }
-        private void PauseButton_Click(object sender, RoutedEventArgs e)
-        {
-            paused = _time;
-            _timer.Stop();
+                _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
+                {
+                    TimeLeftLabel.Content = _time.ToString("c");
+                    if (_time == TimeSpan.Zero) _timer.Stop();
+                    _time = _time.Add(TimeSpan.FromSeconds(-1));
+                    _timer.Tick += _timer_Tick;
+                }, Application.Current.Dispatcher);
+
+
+                _timer.Start();
+            }
+            catch
+            {
+                HourLabel.Text = "0";
+                SecondsLabel.Text = "0";
+            }
         }
 
         private void StopButton_Click(object sender, RoutedEventArgs e)
@@ -77,5 +100,78 @@ namespace VirtualPantry.Stretch
             SecondsLabel.Text = "0";
         }
 
+        private void HourUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int currentHourTime = int.Parse(HourLabel.Text);
+                currentHourTime++;
+                HourLabel.Text = currentHourTime.ToString();
+
+            }
+            catch
+            {
+                HourLabel.Text = "0";
+            }
+        }
+
+        private void HourDownButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int currentHourTime = int.Parse(HourLabel.Text);
+                if (currentHourTime != 0)
+                {
+                    currentHourTime--;
+                }
+                HourLabel.Text = currentHourTime.ToString();
+
+            }
+            catch
+            {
+                HourLabel.Text = "0";
+            }
+        }
+
+        private void SecondsUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int currentSecond = int.Parse(SecondsLabel.Text);
+                currentSecond++;
+                if (currentSecond > 59)
+                {
+                    HourUpButton_Click(sender, e);
+                    currentSecond = 0;
+                }
+                SecondsLabel.Text = currentSecond.ToString();
+            }
+            catch
+            {
+                SecondsLabel.Text = "0";
+            }
+        }
+
+        private void SecondsDownButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int currentSecond = int.Parse(SecondsLabel.Text);
+                if (currentSecond > 0)
+                {
+                    currentSecond--;
+                    if (currentSecond == 0)
+                    {
+                        currentSecond = 59;
+                        HourDownButton_Click(sender, e);
+                    }
+                    SecondsLabel.Text = currentSecond.ToString();
+                }
+            }
+            catch
+            {
+                SecondsLabel.Text = "0";
+            }
+        }
     }
 }
