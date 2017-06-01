@@ -5,17 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.ThePantry"
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
-    <StackPanel>
+    <StackPanel Background="PowderBlue">
         <Button x:Name="homeButton"
+                Background="Aqua"
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
+        
         <Button x:Name="SaveButton"
+                Background="Aqua"
                 Content="Save"
                 Click="SaveButton_Click" 
                 Margin="0,0,558,0" Height="25"/>
+        
         <DataGrid x:Name="PantryGrid"
                   AutoGenerateColumns="False">
+
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name"
                                     Binding="{Binding Name}"/>
@@ -28,7 +33,6 @@
                                         x:Name="UnitsComboBox"
                                         SelectedValueBinding="{Binding Units}"/>
             </DataGrid.Columns>
-
         </DataGrid>
     </StackPanel>
 

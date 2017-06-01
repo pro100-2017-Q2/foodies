@@ -7,6 +7,7 @@ using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
 
+
 namespace VirtualPantry.Recipes
 {
     /// <summary>
@@ -62,6 +63,7 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
@@ -89,6 +91,7 @@ namespace VirtualPantry.Recipes
         {
 
         }
+
 
 
         private void PantryMenuItem_Click(object sender, RoutedEventArgs e)

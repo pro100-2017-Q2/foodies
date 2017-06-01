@@ -206,6 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
+    <Resource Include="Images\CalenderPic\CalendarPic.png" />
     <Resource Include="Images\Ratings\five.PNG" />
     <Resource Include="Images\Ratings\four.PNG" />
     <Resource Include="Images\Ratings\one.PNG" />
