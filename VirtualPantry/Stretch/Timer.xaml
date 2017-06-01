@@ -20,7 +20,7 @@
                 </MenuItem>
                 <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
                 </MenuItem>
-                <MenuItem Header="Calendar" Click="n">
+                <MenuItem Header="Calendar" Click="CalenderMenuItem_Click">
                 </MenuItem>
             </MenuItem>
         </StackPanel>
@@ -50,12 +50,6 @@
         <Label x:Name="TimeLeftLabel" Content="" HorizontalAlignment="Left" Margin="354,254,0,0" VerticalAlignment="Top"/>
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="251,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
         <Button x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75" Click="StopButton_Click"/>
-        <Button
-                x:Name="homeButton"
-                Content="Home"
-                Height="27"
-                Width="50"
-                Click="homeButton_Clicked" Margin="10,10,574,397"/>
     </Grid>
     
 </Window>

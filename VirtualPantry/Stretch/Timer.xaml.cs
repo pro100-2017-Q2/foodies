@@ -27,10 +27,9 @@ namespace VirtualPantry.Stretch
         TimeSpan _time;
         TimeSpan _default = new TimeSpan(0, 0, 0);
         private RecipeWindow recipeWindow;
-
-        TimeSpan paused;
         private PantryWindow pantry;
         private ConversionChart conversionChart;
+        private Calendar calender;
 
 
         public Timer(MainWindow mainWindow)
@@ -39,6 +38,7 @@ namespace VirtualPantry.Stretch
             main = mainWindow;
             pantry = new PantryWindow(mainWindow);
             conversionChart = new ConversionChart(mainWindow);
+            calender = new Calendar(mainWindow);
 
         }
 
@@ -98,10 +98,6 @@ namespace VirtualPantry.Stretch
                 SecondsLabel.Text = "0";
             }
             _timer.Start();
-        }
-        private void PauseButton_Click(object sender, RoutedEventArgs e)
-        {
-            _timer.Stop();
         }
 
         private void StopButton_Click(object sender, RoutedEventArgs e)
@@ -201,6 +197,22 @@ namespace VirtualPantry.Stretch
         {
             conversionChart.Show();
             this.Hide();
+        }
+
+        private void CalenderMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calender.Show();
+            this.Hide();
+        }
+
+        private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = false;
         }
     }
 }

@@ -6,9 +6,6 @@ using System.Windows.Media.Imaging;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
-<<<<<<< HEAD
-=======
-
 
 namespace VirtualPantry.Recipes
 {
@@ -50,19 +47,6 @@ namespace VirtualPantry.Recipes
             // Removes whatever recipe user selected. IDK if it should be a pop up yet. 
             //Basically removes file by taking in name of recipe.
         }
-        private void HomeButton_Click(object sender, RoutedEventArgs e)
-
-<<<<<<< HEAD
-       
-
-=======
-
-        private void homeButton_Clicked(object sender, RoutedEventArgs e)
-        {
-            main.Show();
-            this.Hide();
-        }
-
 
         private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
@@ -84,11 +68,6 @@ namespace VirtualPantry.Recipes
         {
 
         }
-<<<<<<< HEAD
-        //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
-
-
-=======
 
 
 
@@ -119,6 +98,5 @@ namespace VirtualPantry.Recipes
 
 
 
->>>>>>> origin/development
     }
 }

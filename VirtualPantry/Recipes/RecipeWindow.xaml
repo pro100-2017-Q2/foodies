@@ -11,13 +11,7 @@
 
 
 
-            <Button
-                x:Name="HomeButton"
-                Content="Home"
-                Height="27"
-                Click="HomeButton_Click"
-                Margin="10,10,558,10"/>
-                Click="homeButton_Clicked" Margin="0,0,558,0"/>
+           
 
 
             <MenuItem Header="Navigation Bar" 
@@ -44,12 +38,11 @@
                 
                 
 
-            </Button>-->
                 <MenuItem
                     Header="Timer Page" Click="TimerMenuItem_Click">
                 </MenuItem>
 
-            </MenuItem>
+        
         </StackPanel>
         <Border
             BorderBrush="Black"
@@ -68,9 +61,11 @@
                 x:Name="RecipeImageDisplay">                
             </StackPanel>
         </Border>
+        <Border>
             <StackPanel x:Name="ImageDisplay">
                 
             </StackPanel>
+    
         </Border>
        
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
@@ -85,7 +80,6 @@
                Stretch="Fill"/>
 
 
->>>>>>> origin/development
         <StackPanel Margin="367,305,53,10.4">
             <Button
             x:Name="NewRecipeButton"
@@ -105,3 +99,4 @@
         </StackPanel>
     </Grid>
 </Window>
+   
