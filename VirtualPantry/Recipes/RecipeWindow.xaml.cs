@@ -9,7 +9,6 @@ using VirtualPantry.ThePantry;
 <<<<<<< HEAD
 =======
 
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
 
 namespace VirtualPantry.Recipes
 {
@@ -17,9 +16,9 @@ namespace VirtualPantry.Recipes
     /// Interaction logic for Recipe.xaml
     /// </summary>
     public partial class RecipeWindow : Window
-    {
-       
+    {       
         public MainWindow main;
+        public IndividualRecipe ir;
         private Stretch.Timer timer;
         private PantryWindow pantry;
         private ConversionChart conversionChart;
@@ -29,48 +28,34 @@ namespace VirtualPantry.Recipes
         {
             InitializeComponent();
             main = mainWindow;
+            // timer = new Stretch.Timer(mainWindow);
+            ir = new IndividualRecipe();
             timer = new Stretch.Timer(mainWindow);
             pantry = new PantryWindow(mainWindow);
             conversionChart = new ConversionChart(mainWindow);
             calendar = new Stretch.Calendar(mainWindow);
         }
-
-        public string FileText
+        private void NewRecipeButton_Click(object sender, RoutedEventArgs e)
         {
-            get
-            {
-                return FileText;
-            }
-            set
-            {
-                FileText = value;
-                return;
-            }
+            ir.Show();
+            // New IndividualRecipe Window pops up and user inputs data, data inputted is written to new file when they click save.
         }
-
-        public object RecipeListing
+        private void EditRecipeButton_Click(object sender, RoutedEventArgs e)
         {
-            get
-            {
-                return RecipeListing;
-            }
-            set
-            {
-                RecipeListing = value;
-                return;
-            }
+            // Make new IndividualRecipe Window pop up that displays recipe that was selected.
+            // Changes by removing selected recipe's file and re-creating it.
         }
-
-        public void ReadFile(string path)
+        private void RemoveRecipeButton_Click(object sender, RoutedEventArgs e)
         {
-            RecipeListing = path;
+            // Removes whatever recipe user selected. IDK if it should be a pop up yet. 
+            //Basically removes file by taking in name of recipe.
         }
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
 
 <<<<<<< HEAD
        
 
 =======
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
@@ -134,6 +119,6 @@ namespace VirtualPantry.Recipes
 
 
 
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
+>>>>>>> origin/development
     }
 }
