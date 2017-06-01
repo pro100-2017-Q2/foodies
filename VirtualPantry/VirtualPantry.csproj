@@ -206,16 +206,32 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
+<<<<<<< HEAD
+
+    <Resource Include="Images\RecipeImages\OrangeJuice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documents\Recipes\" />
+    <Folder Include="Enums\Pantry Icons\" />
+    <Folder Include="Images\ImageTest\" />
+
+=======
+    <Resource Include="Images\CalenderPic\CalendarPic.png" />
     <Resource Include="Images\Ratings\five.PNG" />
     <Resource Include="Images\Ratings\four.PNG" />
     <Resource Include="Images\Ratings\one.PNG" />
     <Resource Include="Images\Ratings\three.png" />
     <Resource Include="Images\Ratings\two.png" />
     <Resource Include="Images\Ratings\zero.png" />
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
     <Folder Include="Images\Pantry Icons\" />
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
