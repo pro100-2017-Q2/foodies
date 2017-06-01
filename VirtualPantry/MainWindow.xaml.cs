@@ -36,36 +36,31 @@ namespace VirtualPantry
             recipe = new RecipeWindow(this);
             conversionChart = new ConversionChart(this);
             calendar = new Stretch.Calendar(this);
-
         }
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
             timer.Show();
-            this.Hide();
+            //this.Hide();
         }
-
         private void PantryButton_Click(object sender, RoutedEventArgs e)
         {
             pantry.Show();
             this.Hide();
         }
-
         private void Recipes_Click(object sender, RoutedEventArgs e)
         {
             recipe.Show();
             this.Hide();
         }
-
         private void ConversionChart_Click(object sender, RoutedEventArgs e)
         {
             conversionChart.Show();
-            this.Hide();
+            //this.Hide();
         }
-
         private void CalendarButton_Click(object sender, RoutedEventArgs e)
         {
             calendar.Show();
-            this.Hide();
+            //this.Hide();
         }
     }
 }

@@ -25,7 +25,6 @@ namespace VirtualPantry.ThePantry
 	{
 		private MainWindow main;
 		private Pantry p = new Pantry();
-
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			
@@ -38,7 +37,12 @@ namespace VirtualPantry.ThePantry
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 		}
-		private void homeButton_Clicked(object sender, RoutedEventArgs e)
+
+        public PantryWindow()
+        {
+        }
+
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
 		{
 			main.Show();
 			this.Hide();

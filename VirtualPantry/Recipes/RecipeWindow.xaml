@@ -8,11 +8,17 @@
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
         <StackPanel>
+
+
+
             <Button
-                x:Name="homeButton"
+                x:Name="HomeButton"
                 Content="Home"
                 Height="27"
+                Click="HomeButton_Click"
+                Margin="10,10,558,10"/>
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
+
 
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
@@ -21,54 +27,81 @@
                           FontSize="15">
                 <MenuItem
                     Header="Timer Page" Click="TimerMenuItem_Click">
+                    </MenuItem>
+                
+            </MenuItem>
+
+                <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
                 </MenuItem>
+                <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Pantry Page" Click="PantryMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
+                </MenuItem>
+                
+                
+
+            </Button>-->
+                <MenuItem
+                    Header="Timer Page" Click="TimerMenuItem_Click">
+                </MenuItem>
+
             </MenuItem>
         </StackPanel>
-
         <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="64,38,374,26.4">
-        </Border>
-        <Grid Margin="74,54,374,26.4">
-            <!-- <ScrollBar Margin="161,10,10,11" Width="Auto"></ScrollBar> -->
-
-            <ListBox x:Name="RecipeBox">
-                <Label Content="{Binding RecipeListing}"/>
-            </ListBox>
-
-        </Grid>
+            <!--List of Recipes displays here.-->
+                <ListBox 
+                x:Name="RecipeBox"
+                Margin="10,10,10,10">
+                </ListBox>
+        </Border>        
         <Border
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
-            <StackPanel x:Name="ImageDisplay">
-                <Image x:Name="ShowRecipeImages" Stretch="Fill"
-                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\RecipeImages\OrangeJuice.png">
-                </Image>
+            <StackPanel 
+                x:Name="RecipeImageDisplay">                
             </StackPanel>
         </Border>
-  
+            <StackPanel x:Name="ImageDisplay">
+                
+            </StackPanel>
+        </Border>
+       
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
-<<<<<<< HEAD
-            
-=======
         
         <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"
                Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
 
+  
+        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"/>
+
+
 >>>>>>> origin/development
         <StackPanel Margin="367,305,53,10.4">
             <Button
-                x:Name="newRecipeButton"
-            Content="Add New Recipe" Margin="63,10,49,10"/>
+            x:Name="NewRecipeButton"
+            Content="Add New Recipe"
+            Margin="63,10,49,10"
+            Click="NewRecipeButton_Click"/>
             <Button
-                x:Name="editRecipeButton"
-                Content="Edit Recipe" Margin="63,10,49,10"/>
+            x:Name="EditRecipeButton"
+            Content="Edit Recipe" 
+            Margin="63,10,49,10"
+                Click="EditRecipeButton_Click"/>
             <Button
-                x:Name="removeRecipeButton"
-                Content="Remove Recipe" Margin="63,10,49,0"/>
+            x:Name="RemoveRecipeButton"
+            Content="Remove Recipe" 
+            Margin="63,10,49,0"
+            Click="RemoveRecipeButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>

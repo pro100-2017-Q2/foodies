@@ -18,33 +18,34 @@ namespace VirtualPantry.Converters
 			{
 				return "";
 			}
-			StarRating rating = r.Rating;
-			string imguri = "../Images/Ratings/";
-			switch (rating)
-			{
-				case StarRating.zero:
-					imguri += "zero.png";
-					break;
-				case StarRating.one:
-					imguri += "one.png";
-					break;
-				case StarRating.two:
-					imguri += "two.png";
-					break;
-				case StarRating.three:
-					imguri += "three.png";
-					break;
-				case StarRating.four:
-					imguri += "four.PNG";
-					break;
-				case StarRating.five:
-					imguri += "five.png";
-					break;
-				default:
-					imguri += "zero.png";
-					break;
-			}
-			return imguri;
+            //StarRating rating = r.Rating;
+            //string imguri = "../Images/Ratings/";
+            //switch (rating)
+            //{
+            //	case StarRating.zero:
+            //		imguri += "zero.png";
+            //		break;
+            //	case StarRating.one:
+            //		imguri += "one.png";
+            //		break;
+            //	case StarRating.two:
+            //		imguri += "two.png";
+            //		break;
+            //	case StarRating.three:
+            //		imguri += "three.png";
+            //		break;
+            //	case StarRating.four:
+            //		imguri += "four.PNG";
+            //		break;
+            //	case StarRating.five:
+            //		imguri += "five.png";
+            //		break;
+            //	default:
+            //		imguri += "zero.png";
+            //		break;
+            //}
+            //return imguri;
+            return null; 
 		}
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
