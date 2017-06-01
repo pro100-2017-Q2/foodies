@@ -20,7 +20,6 @@ namespace VirtualPantry.Enums
         tsp,
         tbsp,
         fl_oz,
-        gill,
         cup,
         pint,
         quart,
