@@ -73,6 +73,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\ConversionChartConverter.cs" />
     <Compile Include="Converters\RatingImageConverter.cs" />
     <Compile Include="Enums\PantryEnums.cs" />
     <Compile Include="Enums\StarRating.cs" />
@@ -213,6 +214,12 @@
     <Folder Include="Enums\Pantry Icons\" />
     <Folder Include="Images\ImageTest\" />
     <Resource Include="Images\CalenderPic\CalendarPic.png" />
+    <Resource Include="Images\Pantry Icons\fruit.jpg" />
+    <Resource Include="Images\Pantry Icons\Grain.jpg" />
+    <Resource Include="Images\Pantry Icons\oil.jpg" />
+    <Resource Include="Images\Pantry Icons\Protein.jpg" />
+    <Resource Include="Images\Pantry Icons\vegetables.jpg" />
+    <Resource Include="Images\Pantry Icons\dairy.jpg" />
     <Resource Include="Images\Ratings\five.PNG" />
     <Resource Include="Images\Ratings\four.PNG" />
     <Resource Include="Images\Ratings\one.PNG" />

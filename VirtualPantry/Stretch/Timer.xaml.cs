@@ -32,6 +32,7 @@ namespace VirtualPantry.Stretch
         private PantryWindow pantry;
         private ConversionChart conversionChart;
 
+
         public Timer(MainWindow mainWindow)
         {
             InitializeComponent();
@@ -80,7 +81,6 @@ namespace VirtualPantry.Stretch
             try
             { 
                 _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
-
                 _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
                 {
                     TimeLeftLabel.Content = _time.ToString("c");
@@ -184,7 +184,6 @@ namespace VirtualPantry.Stretch
             {
                 SecondsLabel.Text = "0";
             }
-
         }
         private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
         {
