@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using VirtualPantry.Recipes;
+using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Stretch
 {
@@ -24,15 +25,28 @@ namespace VirtualPantry.Stretch
         public MainWindow main;
         private DispatcherTimer _timer;
         TimeSpan _time;
+<<<<<<< HEAD
         TimeSpan _default = new TimeSpan(0, 0, 0);
         private RecipeWindow recipeWindow;
+=======
+
+        TimeSpan paused;
+        private PantryWindow pantry;
+        private ConversionChart conversionChart;
+
+        TimeSpan _default = new TimeSpan(0,0,0);
+
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
 
         public Timer(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
+            pantry = new PantryWindow(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
 
         }
+<<<<<<< HEAD
 
         public Timer(RecipeWindow recipeWindow)
         {
@@ -71,9 +85,16 @@ namespace VirtualPantry.Stretch
                 SecondsLabel.Text = "1";
             }
             try
+=======
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
+            _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
             {
                 _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
 
+<<<<<<< HEAD
                 _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
                 {
                     TimeLeftLabel.Content = _time.ToString("c");
@@ -90,6 +111,13 @@ namespace VirtualPantry.Stretch
                 HourLabel.Text = "0";
                 SecondsLabel.Text = "0";
             }
+=======
+            _timer.Start();
+        }
+        private void PauseButton_Click(object sender, RoutedEventArgs e)
+        {
+            _timer.Stop();
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
         }
 
         private void StopButton_Click(object sender, RoutedEventArgs e)
@@ -100,6 +128,7 @@ namespace VirtualPantry.Stretch
             SecondsLabel.Text = "0";
         }
 
+<<<<<<< HEAD
         private void HourUpButton_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -172,6 +201,24 @@ namespace VirtualPantry.Stretch
             {
                 SecondsLabel.Text = "0";
             }
+=======
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
         }
     }
 }

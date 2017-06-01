@@ -3,10 +3,13 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 ﻿using System.Threading;
-using System.Windows;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
 
 namespace VirtualPantry.Recipes
 {
@@ -18,12 +21,18 @@ namespace VirtualPantry.Recipes
        
         public MainWindow main;
         private Stretch.Timer timer;
+        private PantryWindow pantry;
+        private ConversionChart conversionChart;
+        private Stretch.Calendar calendar;
 
         public RecipeWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
-            timer = new Stretch.Timer(this);
+            timer = new Stretch.Timer(mainWindow);
+            pantry = new PantryWindow(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
+            calendar = new Stretch.Calendar(mainWindow);
         }
 
         public string FileText
@@ -57,14 +66,18 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
+<<<<<<< HEAD
        
 
+=======
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
             this.Hide();
         }
+
 
         private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
@@ -86,8 +99,41 @@ namespace VirtualPantry.Recipes
         {
 
         }
+<<<<<<< HEAD
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
+=======
+
+
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
+
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calendar.Show();
+            this.Hide();
+        }
+
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+
+
+
+>>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
     }
 }
