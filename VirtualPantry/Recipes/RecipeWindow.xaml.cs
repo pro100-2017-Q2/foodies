@@ -6,10 +6,6 @@ using System.Windows.Media.Imaging;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -21,12 +17,18 @@ namespace VirtualPantry.Recipes
        
         public MainWindow main;
         private Stretch.Timer timer;
+        private PantryWindow pantry;
+        private ConversionChart conversionChart;
+        private Stretch.Calendar calendar;
 
         public RecipeWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
             timer = new Stretch.Timer(mainWindow);
+            pantry = new PantryWindow(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
+            calendar = new Stretch.Calendar(mainWindow);
         }
 
         public string FileText
@@ -60,20 +62,6 @@ namespace VirtualPantry.Recipes
             RecipeListing = path;
         }
 
-<<<<<<< HEAD
-=======
-        
->>>>>>> origin/development
-
-      
-        
-
-        private void homeButton_Clicked(object sender, RoutedEventArgs e)
-        {
-            main.Show();
-            this.Hide();
-        }
-
         private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
             (sender as MenuItem).IsSubmenuOpen = true;
@@ -95,15 +83,39 @@ namespace VirtualPantry.Recipes
         {
 
         }
-<<<<<<< HEAD
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
+
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calendar.Show();
+            this.Hide();
+        }
+
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
 
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
 
 
-=======
+
         //ImageSource i = new BitmapImage(new Uri("C:\\Users\\Sasuke-Joseph\\Desktop\foodies\\VirtualPantry\\Images\\cat.jpg"));
 
->>>>>>> origin/development
+
     }
 }

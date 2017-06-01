@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using VirtualPantry.Recipes;
+using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Stretch
 {
@@ -26,25 +27,17 @@ namespace VirtualPantry.Stretch
         private DispatcherTimer _timer;
         TimeSpan _time;
         TimeSpan paused;
+        private PantryWindow pantry;
+        private ConversionChart conversionChart;
 
         public Timer(MainWindow mainWindow)
         {
             InitializeComponent();
-           
             main = mainWindow;
+            pantry = new PantryWindow(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
 
         }
-
-
-       
-        private void homeButton_Clicked(object sender, RoutedEventArgs e)
-        {
-            main.Show();
-            this.Hide();
-        }
-
-       
-
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
 
@@ -73,5 +66,22 @@ namespace VirtualPantry.Stretch
             SecondsLabel.Text = "0";
         }
 
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
     }
 }

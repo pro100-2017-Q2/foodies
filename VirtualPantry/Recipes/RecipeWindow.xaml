@@ -9,21 +9,23 @@
     <Grid>
         <StackPanel>
 
-            <Button
-                x:Name="homeButton"
-                Content="Home"
-                Height="27"
-                Click="homeButton_Clicked" Margin="0,0,558,0"/>
 
-            
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
                           FontSize="15">
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
-                    </MenuItem>
+                <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Pantry Page" Click="PantryMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
+                </MenuItem>
+                
                 
             </MenuItem>
 
@@ -67,25 +69,19 @@
             BorderThickness="2" 
             Margin="367,103,53,134.4">
             <StackPanel x:Name="ImageDisplay">
-                <Image x:Name="ShowRecipeImages" Stretch="Fill"
-                       Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\RecipeImages\OrangeJuice.png">
-                </Image>
+                
             </StackPanel>
         </Border>
 
        
         <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
-        
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> origin/development
-        <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"
-               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
+
+
+       
 
         <StackPanel Margin="367,305,53,10.4">
             <Button

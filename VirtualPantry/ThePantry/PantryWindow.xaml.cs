@@ -38,7 +38,12 @@ namespace VirtualPantry.ThePantry
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 		}
-		private void homeButton_Clicked(object sender, RoutedEventArgs e)
+
+        public PantryWindow()
+        {
+        }
+
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
 		{
 			main.Show();
 			this.Hide();
