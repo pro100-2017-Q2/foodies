@@ -20,7 +20,7 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
-<<<<<<< HEAD
+
 //    public partial class Timer : Window
 //    {
 //        public MainWindow main;
@@ -214,7 +214,6 @@ namespace VirtualPantry.Stretch
 //            this.Hide();
 //        }
 //    }
-=======
     public partial class Timer : Window
     {
         public MainWindow main;
@@ -409,6 +408,7 @@ namespace VirtualPantry.Stretch
         {
             (sender as MenuItem).IsSubmenuOpen = false;
         }
+
     }
->>>>>>> origin/development
+
 }
