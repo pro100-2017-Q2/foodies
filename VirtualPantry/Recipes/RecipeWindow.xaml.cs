@@ -6,6 +6,11 @@ using System.Windows.Media.Imaging;
 using VirtualPantry.Stretch;
 using System.Windows.Controls;
 using VirtualPantry.ThePantry;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/development
 
 namespace VirtualPantry.Recipes
 {
@@ -20,12 +25,23 @@ namespace VirtualPantry.Recipes
         private PantryWindow pantry;
         private ConversionChart conversionChart;
         private Stretch.Calendar calendar;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
         public RecipeWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
             // timer = new Stretch.Timer(mainWindow);
             ir = new IndividualRecipe();
+<<<<<<< HEAD
+=======
+            timer = new Stretch.Timer(mainWindow);
+            pantry = new PantryWindow(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
+            calendar = new Stretch.Calendar(mainWindow);
+>>>>>>> origin/development
         }
         private void NewRecipeButton_Click(object sender, RoutedEventArgs e)
         {
@@ -42,10 +58,66 @@ namespace VirtualPantry.Recipes
             // Removes whatever recipe user selected. IDK if it should be a pop up yet. 
             //Basically removes file by taking in name of recipe.
         }
+<<<<<<< HEAD
         private void HomeButton_Click(object sender, RoutedEventArgs e)
+=======
+
+
+        
+
+
+        private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = false;
+        }
+
+        private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Show();
+            this.Hide();
+        }
+
+       
+
+
+
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
+
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calendar.Show();
+            this.Hide();
+        }
+
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+>>>>>>> origin/development
         {
             main.Show();
             this.Hide();
         }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> origin/development
     }
 } 

@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
+<<<<<<< HEAD
         <Button
                 x:Name="HomeButton"
                 Content="Home"
@@ -40,20 +41,85 @@
             <StackPanel 
                 Margin="367,305,53,10.4">
             <Button
+=======
+        <StackPanel Background="Blue">
+
+            <Button
+                x:Name="HomeButton"
+                Content="Home"
+                Height="27"
+                Background="Aqua"
+
+                Click="HomeButton_Click"
+                Margin="10,10,558,10"/>
+
+            <MenuItem Header="Navigation Bar" 
+                          MouseEnter="MenuItem_MouseEnter" 
+                          MouseLeave="MenuItem_MouseLeave"
+                          HorizontalAlignment="Right"
+                          Background="Aqua"
+                          FontSize="15">
+
+                <MenuItem
+                    Header="Timer Page" Click="TimerMenuItem_Click">
+                </MenuItem>
+
+            </MenuItem>
+
+            <MenuItem Header="Home Page" FontWeight="Bold" Background="Red" Click="HomeMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Pantry Page" FontWeight="Bold" Background="Red"  Click="PantryMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Conversion Chart" FontWeight="Bold" Background="Red" Click="ConversionChartMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Calendar Page" FontWeight="Bold" Background="Red" Click="CalendarMenuItem_Click">
+            </MenuItem>
+
+
+
+            <MenuItem
+                    Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click">
+            </MenuItem>
+
+
+
+            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"/>
+
+            <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"
+               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
+
+
+
+            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+               Stretch="Fill"/>
+
+
+            <StackPanel Margin="367,305,53,10.4">
+                <Button
+>>>>>>> origin/development
             x:Name="NewRecipeButton"
             Content="Add New Recipe"
             Margin="63,10,49,10"
             Click="NewRecipeButton_Click"/>
-            <Button
+                <Button
             x:Name="EditRecipeButton"
             Content="Edit Recipe" 
             Margin="63,10,49,10"
                 Click="EditRecipeButton_Click"/>
-            <Button
+                <Button
             x:Name="RemoveRecipeButton"
             Content="Remove Recipe" 
             Margin="63,10,49,0"
             Click="RemoveRecipeButton_Click"/>
+<<<<<<< HEAD
              </StackPanel>
+=======
+            </StackPanel>
+        </StackPanel>
+>>>>>>> origin/development
     </Grid>
 </Window>
