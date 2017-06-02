@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Timer" Height="463.961" Width="642.407">
     
-    <!--<Grid>
+    <Grid>
         <StackPanel>
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
@@ -20,7 +20,7 @@
                 </MenuItem>
                 <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
                 </MenuItem>
-                <MenuItem Header="Calendar" Click="n">
+                <MenuItem Header="Calendar" Click="CalenderMenuItem_Click">
                 </MenuItem>
             </MenuItem>
         </StackPanel>
@@ -42,14 +42,6 @@
             <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13" Click="SecondsDownButton_Click" />
             <Label Content="Hours" HorizontalAlignment="Left" Margin="96,17,0,0" VerticalAlignment="Top"/>
             <Label Content="Minutes" HorizontalAlignment="Left" Margin="182,17,0,0" VerticalAlignment="Top"/>
-
-<<<<<<< HEAD
-            <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"  />
-            <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  />
-            <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13"  />
-=======
-            
->>>>>>> origin/development
             <Label Content="Hours" HorizontalAlignment="Left" Margin="286,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.873,2.531"/>
             <Label Content="Minutes" HorizontalAlignment="Left" Margin="355,83,0,0" VerticalAlignment="Top"/>
         </Grid>
@@ -65,6 +57,6 @@
                 Height="27"
                 Width="50"
                 Click="homeButton_Clicked" Margin="10,10,574,397"/>
-    </Grid>-->
+    </Grid>
     
 </Window>
