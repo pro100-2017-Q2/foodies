@@ -9,9 +9,8 @@ using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Recipes
 {
-	public class Recipe
-	{
-<<<<<<< HEAD
+    public class Recipe
+    { 
         public Recipe(string recipeName, string instructions, int calories, List<Ingredients> ingredients, StarRating ratingSelected)
         {
             RecipeName = recipeName;
@@ -42,65 +41,5 @@ namespace VirtualPantry.Recipes
         {
             // IDK yet !
         }
-=======
-		private List<Ingredients> theIngredients;
-		private string name;
-		private StarRating rating;
-		private int calories;
-		private string instructions;
-
-		public Recipe(List<Ingredients> theIngredients, string name, StarRating rating, int calories, string instructions)
-		{
-			TheIngredients = theIngredients;
-			Name = name;
-			Rating = rating;
-			Calories = calories;
-			Instructions = instructions;
-		}
-
-		public List<Ingredients> TheIngredients
-		{
-			get { return theIngredients; }
-			set { theIngredients = value; FieldChanged(); }
-		}
-		public string Name
-		{
-			get { return name; }
-			set { name = value; FieldChanged(); }
-		}
-		public StarRating Rating
-		{
-			get { return rating; }
-			set { rating = value; FieldChanged(); }
-		}
-		public int Calories
-		{
-			get { return calories; }
-			set { calories = value; FieldChanged(); }
-		}
-		public string Instructions
-		{
-			get { return instructions; }
-			set { instructions = value; FieldChanged(); }
-		}
-		public override string ToString()
-		{
-			string strIngredients = "";
-			foreach (Ingredients i in theIngredients)
-			{
-				strIngredients += i.Name + ", ";
-			}
-			return $"{name}, Ingredients: {strIngredients}\nCalories: {Calories}, Rating: {rating}\nInstructions: {instructions}";
-		}
-
-		public event PropertyChangedEventHandler PropertyChanged;
-		protected void FieldChanged([CallerMemberName] string field = null)
-		{
-			if (PropertyChanged != null)
-			{
-				PropertyChanged(this, new PropertyChangedEventArgs(field));
-			}
-		}
->>>>>>> origin/development
-	}
+    }
 }

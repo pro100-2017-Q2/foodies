@@ -7,110 +7,38 @@
         mc:Ignorable="d"
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid>
-        <StackPanel>
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> origin/development
-            <Button
+        <Button
                 x:Name="HomeButton"
                 Content="Home"
                 Height="27"
-<<<<<<< HEAD
                 Click="HomeButton_Click"
-                Margin="10,10,558,10"/>
-=======
-                Click="homeButton_Clicked" Margin="0,0,558,0"/>
-<<<<<<< HEAD
-            
-=======
-
-
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
-            <MenuItem Header="Navigation Bar" 
-                          MouseEnter="MenuItem_MouseEnter" 
-                          MouseLeave="MenuItem_MouseLeave"
-                          HorizontalAlignment="Right"
-                          FontSize="15">
-<<<<<<< HEAD
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
-                    </MenuItem>
-                
-            </MenuItem>
-=======
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
-
-                <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
-                </MenuItem>
-                <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
-                </MenuItem>
-                <MenuItem Header="Pantry Page" Click="PantryMenuItem_Click">
-                </MenuItem>
-                <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
-                </MenuItem>
-                <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
-                </MenuItem>
-                
-                
-
-<<<<<<< HEAD
-            </Button>-->
-=======
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
-                </MenuItem>
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
-
-            </MenuItem>
->>>>>>> origin/development
-        </StackPanel>
-        <Border
+                Margin="23,11,545,396.4"/>
+            <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="64,38,374,26.4">
-            <!--List of Recipes displays here.-->
+                <!--List of Recipes displays here.-->
                 <ListBox 
                 x:Name="RecipeBox"
                 Margin="10,10,10,10">
                 </ListBox>
-        </Border>        
-        <Border
+            </Border>
+            <Border
             BorderBrush="Black"
             BorderThickness="2" 
             Margin="367,103,53,134.4">
-<<<<<<< HEAD
-            <StackPanel 
-                x:Name="RecipeImageDisplay">                
-            </StackPanel>
-        </Border>
-=======
+                <StackPanel 
+                x:Name="RecipeImageDisplay">
+                </StackPanel>
+            </Border>
             <StackPanel x:Name="ImageDisplay">
-                
+
             </StackPanel>
-        </Border>
-<<<<<<< HEAD
-       
-        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
-        
-        <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"
-               Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
-
-=======
-  
-        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
+            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"/>
-
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/development
->>>>>>> 6d3da202845b80438890718d3c4e3d2a735b17ba
->>>>>>> origin/development
-        <StackPanel Margin="367,305,53,10.4">
+            <StackPanel 
+                Margin="367,305,53,10.4">
             <Button
             x:Name="NewRecipeButton"
             Content="Add New Recipe"
@@ -126,6 +54,6 @@
             Content="Remove Recipe" 
             Margin="63,10,49,0"
             Click="RemoveRecipeButton_Click"/>
-        </StackPanel>
+             </StackPanel>
     </Grid>
 </Window>

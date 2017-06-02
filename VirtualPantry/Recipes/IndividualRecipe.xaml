@@ -38,16 +38,20 @@
                 x:Name="IngredientsDataGrid"
                 AutoGenerateColumns="True">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Name"
-                                    Binding="{Binding Name}"/>
-                    <DataGridComboBoxColumn Header="Category"
-                                        x:Name="CategoryComboBox"
-                                        SelectedValueBinding="{Binding Category}"/>
-                    <DataGridTextColumn Header="Amount"
-                                    Binding="{Binding WholeNumber}"/>
-                    <DataGridComboBoxColumn Header="Units"
-                                        x:Name="UnitsComboBox"
-                                        SelectedValueBinding="{Binding Units}"/>
+                    <DataGridTextColumn 
+                        Header="Name"
+                        Binding="{Binding Name}"/>
+                    <DataGridComboBoxColumn
+                        Header="Category"
+                        x:Name="CategoryComboBox"
+                        SelectedValueBinding="{Binding Category}"/>
+                    <DataGridTextColumn 
+                        Header="Amount"
+                        Binding="{Binding WholeNumber}"/>
+                    <DataGridComboBoxColumn 
+                        Header="Units"
+                        x:Name="UnitsComboBox"
+                        SelectedValueBinding="{Binding Units}"/>
                 </DataGrid.Columns>
             </DataGrid>
             <TextBox
