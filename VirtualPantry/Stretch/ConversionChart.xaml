@@ -8,35 +8,42 @@
         mc:Ignorable="d"
         Title="Conversion Chart" Height="463.961" Width="642.407">
     <Window.Resources>
-        <cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>
+        <!--<cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>-->
     </Window.Resources>
-    <UniformGrid Rows="5" Columns="3">
+    <UniformGrid Background="Blue" Rows="5" Columns="3">
+        
         <Button x:Name="homeButton"
+                Background="Aqua"
                 Content="Home" Click="homeButton_Click" 
                 Width="50" Height="20" Margin="10"/>
 
-        <Label Content="Amount" 
+        <Label Content="Amount"
+               Background="PowderBlue"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
+        
         <Label Content="Units" 
+               Background="PowderBlue"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
 
         <Grid>
             <TextBox x:Name="OriginalAmountLabel"   Text="{Binding OriginalAmount}" FontSize="16"/>
             <Button x:Name="OriginalAmountUpButton" Content="^"/>
-            <Button x:Name="OriginalAmountDownButton" Content="^"/>
+            <Button x:Name="OriginalAmountDownButton" Background="Red" Content="^"/>
         </Grid>
 
         <Label Content="=" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
         <ComboBox x:Name="OriginalUnitsComboBox" 
+                  Background="Red"
                   FontSize="16" HorizontalAlignment="Left" Height="25" />
 
         <Label x:Name="ConvertedAmountLabel" FontSize="20" 
+               Background="Aqua"
                Content="{Binding Converter={StaticResource ResourceKey=ConversionChartConverter}}"/>
 
-        <ComboBox x:Name="ConvertedUnitsComboBox" 
+        <ComboBox x:Name="ConvertedUnitsComboBox" Background="Aqua"
                   FontSize="16" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="71"/>
 
 
