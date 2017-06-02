@@ -27,7 +27,7 @@
                     Height="80" 
                     Click="CalendarButton_Click">
 
-                    <Image Stretch="Fill" Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\CalenderButton\CalendarPic.png"/>
+                    <Image Stretch="Fill" Source="Images\CalenderPic\CalendarPic.png"/>
 
                 </Button>
 

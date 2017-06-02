@@ -20,6 +20,7 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
+<<<<<<< HEAD
 
 //    public partial class Timer : Window
 //    {
@@ -214,6 +215,9 @@ namespace VirtualPantry.Stretch
 //            this.Hide();
 //        }
 //    }
+=======
+
+>>>>>>> origin/development
     public partial class Timer : Window
     {
         public MainWindow main;
@@ -247,7 +251,7 @@ namespace VirtualPantry.Stretch
 
             //progress bar animation
             System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
-            ProgressBar.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
+            BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
