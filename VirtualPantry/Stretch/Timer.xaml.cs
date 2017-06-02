@@ -20,16 +20,20 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
+
     public partial class Timer : Window
     {
         public MainWindow main;
-        private RecipeWindow recipeWindow;
         private DispatcherTimer _timer;
         TimeSpan _time;
+<<<<<<< HEAD
+=======
+        TimeSpan _default = new TimeSpan(0, 0, 0);
+        private RecipeWindow recipeWindow;
+>>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
         private PantryWindow pantry;
         private ConversionChart conversionChart;
-
-        TimeSpan _default = new TimeSpan(0,0,0);
+        private Calendar calender;
 
         private void _timer_Tick(object sender, EventArgs e)
         {
@@ -47,8 +51,32 @@ namespace VirtualPantry.Stretch
             main = mainWindow;
             pantry = new PantryWindow(mainWindow);
             conversionChart = new ConversionChart(mainWindow);
+            calender = new Calendar(mainWindow);
 
         }
+
+        public Timer(RecipeWindow recipeWindow)
+        {
+            this.recipeWindow = recipeWindow;
+        }
+
+        private void _timer_Tick(object sender, EventArgs e)
+        {
+            Duration duration = new Duration(TimeSpan.FromSeconds(20));
+
+            //progress bar animation
+            System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
+            BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
+        }
+
+        private void homeButton_Clicked(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+
+
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             int hour = int.Parse(HourLabel.Text);
@@ -60,6 +88,7 @@ namespace VirtualPantry.Stretch
                 HourLabel.Text = "0";
             }
             if (sec < 0)
+<<<<<<< HEAD
             {
                 SecondsLabel.Text = "1";
             }
@@ -75,6 +104,22 @@ namespace VirtualPantry.Stretch
                     _timer.Tick += _timer_Tick;
                 }, Application.Current.Dispatcher);
 
+=======
+            {
+                SecondsLabel.Text = "1";
+            }
+            try
+            { 
+                _time = new TimeSpan(int.Parse(HourLabel.Text), int.Parse(SecondsLabel.Text), 0);
+                _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
+                {
+                    TimeLeftLabel.Content = _time.ToString("c");
+                    if (_time == TimeSpan.Zero) _timer.Stop();
+                    _time = _time.Add(TimeSpan.FromSeconds(-1));
+                    _timer.Tick += _timer_Tick;
+                }, Application.Current.Dispatcher);
+
+>>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
 
                 _timer.Start();
             }
@@ -83,6 +128,10 @@ namespace VirtualPantry.Stretch
                 HourLabel.Text = "0";
                 SecondsLabel.Text = "0";
             }
+<<<<<<< HEAD
+=======
+            _timer.Start();
+>>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
         }
 
         private void StopButton_Click(object sender, RoutedEventArgs e)
@@ -166,7 +215,10 @@ namespace VirtualPantry.Stretch
                 SecondsLabel.Text = "0";
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
         private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
         {
             main.Show();
@@ -185,10 +237,29 @@ namespace VirtualPantry.Stretch
             this.Hide();
         }
 
+<<<<<<< HEAD
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
             this.Hide();
         }
+=======
+        private void CalenderMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calender.Show();
+            this.Hide();
+        }
+
+        private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = false;
+        }
+>>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
     }
+
 }

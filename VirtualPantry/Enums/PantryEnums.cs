@@ -17,10 +17,10 @@ namespace VirtualPantry.Enums
     }
     public enum Units
     {
+        Unit,
         tsp,
         tbsp,
         fl_oz,
-        gill,
         cup,
         pint,
         quart,
