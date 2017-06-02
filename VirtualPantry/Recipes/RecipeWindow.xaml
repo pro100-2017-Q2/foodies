@@ -19,12 +19,8 @@
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
                           FontSize="15">
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
+                <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
                     </MenuItem>
-                
-            </MenuItem>
-
                 <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
                 </MenuItem>
                 <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
@@ -36,12 +32,7 @@
                 <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
                 </MenuItem>
                 
-                
-
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
-                </MenuItem>
-
+            </MenuItem>
         
         </StackPanel>
         <Border
