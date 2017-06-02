@@ -6,120 +6,72 @@
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
         Title="Recipe Window" Height="463.961" Width="642.407">
-    <Grid>
-<<<<<<< HEAD
-        <Button
-                x:Name="HomeButton"
-                Content="Home"
-                Height="27"
-                Click="HomeButton_Click"
-                Margin="23,11,545,396.4"/>
-            <Border
-            BorderBrush="Black"
-            BorderThickness="2" Margin="64,38,374,26.4">
-                <!--List of Recipes displays here.-->
-                <ListBox 
-                x:Name="RecipeBox"
-                Margin="10,10,10,10">
-                </ListBox>
-            </Border>
-            <Border
-            BorderBrush="Black"
-            BorderThickness="2" 
-            Margin="367,103,53,134.4">
-                <StackPanel 
-                x:Name="RecipeImageDisplay">
-                </StackPanel>
-            </Border>
-            <StackPanel x:Name="ImageDisplay">
+    <Grid Background="Blue">
 
-            </StackPanel>
-            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-            <StackPanel 
-                Margin="367,305,53,10.4">
-            <Button
-=======
-        <StackPanel Background="Blue">
-
-            <Button
-                x:Name="HomeButton"
-                Content="Home"
-                Height="27"
-                Background="Aqua"
-
-                Click="HomeButton_Click"
-                Margin="10,10,558,10"/>
+      
 
             <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
                           Background="Aqua"
-                          FontSize="15">
+                          FontSize="15" Margin="0,0,0,403.4">
 
-                <MenuItem
-                    Header="Timer Page" Click="TimerMenuItem_Click">
-                </MenuItem>
+
+                <MenuItem Header="Home Page" FontWeight="Bold" Background="Red" Click="HomeMenuItem_Click"/>
+                <MenuItem Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click"/>
+                <MenuItem Header="Pantry Page" FontWeight="Bold" Background="Red"  Click="PantryMenuItem_Click"/>
+                <MenuItem Header="Conversion Chart" FontWeight="Bold" Background="Red" Click="ConversionChartMenuItem_Click"/>
+                <MenuItem Header="Calendar Page" FontWeight="Bold" Background="Red" Click="CalendarMenuItem_Click"/>
 
             </MenuItem>
 
-            <MenuItem Header="Home Page" FontWeight="Bold" Background="Red" Click="HomeMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Pantry Page" FontWeight="Bold" Background="Red"  Click="PantryMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Conversion Chart" FontWeight="Bold" Background="Red" Click="ConversionChartMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Calendar Page" FontWeight="Bold" Background="Red" Click="CalendarMenuItem_Click">
-            </MenuItem>
+            <Border
+            BorderBrush="Black"
+            BorderThickness="2" Margin="10,10,428,134.4" RenderTransformOrigin="-0.061,-0.358">
+                <!--List of Recipes displays here.-->
+                <ListBox 
+                x:Name="RecipeBox"
+                Margin="10,10,10,10"/>
+            </Border>
 
+            <StackPanel Margin="367,276,53,29.4" RenderTransformOrigin="0.994,1.306">
+                <Button
+                x:Name="NewRecipeButton"
+                Content="Add New Recipe"
+                Margin="63,10,49,10"
+                Click="NewRecipeButton_Click"/>
+                <Button
+                x:Name="EditRecipeButton"
+                Content="Edit Recipe" 
+                Margin="63,10,49,10"
+                    Click="EditRecipeButton_Click"/>
+                <Button
+                x:Name="RemoveRecipeButton"
+                Content="Remove Recipe" 
+                Margin="63,10,49,0"
+                Click="RemoveRecipeButton_Click"/>
+            </StackPanel>
 
+           
 
-            <MenuItem
-                    Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click">
-            </MenuItem>
-
-
-
-            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-
+           
             <!--<Image DataContext="RecipeListing" Margin="367,103,53,134.4"
                Stretch="Fill"
                Source="C:\Users\Sasuke-Joseph\Desktop\foodies\VirtualPantry\Images\cat.jpg"/>-->
 
 
 
-            <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-
-
-            <StackPanel Margin="367,305,53,10.4">
-                <Button
->>>>>>> origin/development
-            x:Name="NewRecipeButton"
-            Content="Add New Recipe"
-            Margin="63,10,49,10"
-            Click="NewRecipeButton_Click"/>
-                <Button
-            x:Name="EditRecipeButton"
-            Content="Edit Recipe" 
-            Margin="63,10,49,10"
-                Click="EditRecipeButton_Click"/>
-                <Button
-            x:Name="RemoveRecipeButton"
-            Content="Remove Recipe" 
-            Margin="63,10,49,0"
-            Click="RemoveRecipeButton_Click"/>
-<<<<<<< HEAD
-             </StackPanel>
-=======
-            </StackPanel>
-        </StackPanel>
->>>>>>> origin/development
+            <Image DataContext="RecipeListing" 
+               Stretch="Fill" Margin="264,106,126,181.4" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
     </Grid>
 </Window>

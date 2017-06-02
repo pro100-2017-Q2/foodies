@@ -14,18 +14,15 @@ namespace VirtualPantry.ThePantry
 {
 	public class Pantry : DataTable
 	{
-		public static void WriteToExcelFile()
 		public static void WriteToExcelFile(object sender, EventArgs e)
 		{
-            
-		}
             //REALLY DIRTY CODE THAT MAY OR MAY NOT WORK. FEEL FREE TO CHANGE
 
             // Create the CSV file to which grid data will be exported.
             string strPath = Environment.GetFolderPath(
                          System.Environment.SpecialFolder.DesktopDirectory);
             StreamWriter sw = new StreamWriter(strPath, false);
-            // First we will write the headers.
+            //Write the headers.
             DataTable dt = new DataTable();
 
             int iColCount = dt.Columns.Count;
@@ -38,7 +35,7 @@ namespace VirtualPantry.ThePantry
                 }
             }
             sw.Write(sw.NewLine);
-            // Now write all the rows.
+            //Write all the rows.
             foreach (DataRow dr in dt.Rows)
             {
                 for (int i = 0; i < iColCount; i++)
