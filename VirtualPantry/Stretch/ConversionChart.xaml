@@ -8,44 +8,64 @@
         mc:Ignorable="d"
         Title="Conversion Chart" Height="463.961" Width="642.407">
     <Window.Resources>
-        <!--<cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>-->
+        <cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>
     </Window.Resources>
-    <UniformGrid Background="Blue" Rows="5" Columns="3">
-        
-        <Button x:Name="homeButton"
-                Background="Aqua"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="homeButton" Grid.Row="0" Grid.Column="0"
                 Content="Home" Click="homeButton_Click" 
                 Width="50" Height="20" Margin="10"/>
 
-        <Label Content="Amount"
-               Background="PowderBlue"
+        <Label Content="Amount" Grid.Row="0" Grid.Column="1"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
-        
-        <Label Content="Units" 
-               Background="PowderBlue"
+        <Label Content="Units" Grid.Row="0" Grid.Column="2"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
 
-        <Grid>
-            <TextBox x:Name="OriginalAmountLabel"   Text="{Binding OriginalAmount}" FontSize="16"/>
-            <Button x:Name="OriginalAmountUpButton" Content="^"/>
-            <Button x:Name="OriginalAmountDownButton" Background="Red" Content="^"/>
-        </Grid>
+        <Label Content="Original Amount" Grid.Row="1" Grid.Column="0"
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <Label Content="=" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <UniformGrid Grid.Row="1" Grid.Column="1">
+            <TextBox x:Name="OriginalAmountLabel" Text="0" FontSize="16"/>
+            <Button x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click"/>
+            <Label/>
+            <Button x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click"/>
+        </UniformGrid>
 
-        <ComboBox x:Name="OriginalUnitsComboBox" 
-                  Background="Red"
-                  FontSize="16" HorizontalAlignment="Left" Height="25" />
+        <ComboBox x:Name="OriginalUnitsComboBox" Grid.Row="1" Grid.Column="2"
+                  FontSize="12" HorizontalAlignment="Center" 
+                  Height="25" VerticalAlignment="Center" Width="71"/>
 
-        <Label x:Name="ConvertedAmountLabel" FontSize="20" 
-               Background="Aqua"
-               Content="{Binding Converter={StaticResource ResourceKey=ConversionChartConverter}}"/>
+        <Label Content="Converted Amount" Grid.Row="2" Grid.Column="0"
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-        <ComboBox x:Name="ConvertedUnitsComboBox" Background="Aqua"
-                  FontSize="16" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="71"/>
+        <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
+               FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label.Content>
+                <MultiBinding Converter="{StaticResource ResourceKey=ConversionChartConverter}">
+                    <Binding ElementName="OriginalAmountLabel" Path="Text"/>
+                    <Binding ElementName="OriginalUnitsComboBox" Path="SelectedItem"/>
+                    <Binding ElementName="ConvertedUnitsComboBox" Path="SelectedItem"/>
+                </MultiBinding>
+            </Label.Content>
+        </Label>
+
+        <ComboBox x:Name="ConvertedUnitsComboBox" Grid.Row="2" Grid.Column="2"
+                  FontSize="12" HorizontalAlignment="Center" 
+                  Height="25" VerticalAlignment="Center" Width="71"/>
 
 
-    </UniformGrid>
+    </Grid>
 </Window>

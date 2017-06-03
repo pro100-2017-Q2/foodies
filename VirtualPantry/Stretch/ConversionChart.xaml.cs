@@ -18,44 +18,57 @@ using VirtualPantry.Recipes;
 
 namespace VirtualPantry.Stretch
 {
-    /// <summary>
-    /// Interaction logic for ConversionChart.xaml
-    /// </summary>
-    public partial class ConversionChart : Window
-    {
-        public MainWindow main;
-		private int originalAmount;
-
-		public int OriginalAmount
-		{
-			get { return originalAmount; }
-			set { originalAmount = value; FieldChanged(); }
-		}
-
+	/// <summary>
+	/// Interaction logic for ConversionChart.xaml
+	/// </summary>
+	public partial class ConversionChart : Window
+	{
+		public MainWindow main;
 
 		public ConversionChart(MainWindow mainWindow)
-        {
-            InitializeComponent();
-            main = mainWindow;
+		{
+			InitializeComponent();
+			main = mainWindow;
 			OriginalUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 			ConvertedUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 		}
 
-      
-
-        private void homeButton_Click(object sender, RoutedEventArgs e)
-        {
-            main.Show();
-            this.Hide();
-        }
-
-		public event PropertyChangedEventHandler PropertyChanged;
-		protected void FieldChanged([CallerMemberName] string field = null)
+		private void homeButton_Click(object sender, RoutedEventArgs e)
 		{
-			if (PropertyChanged != null)
+			main.Show();
+			this.Hide();
+		}
+
+		private void OriginalAmountUpButton_Click(object sender, RoutedEventArgs e)
+		{
+			try
 			{
-				PropertyChanged(this, new PropertyChangedEventArgs(field));
+				int originalAmount = int.Parse(OriginalAmountLabel.Text);
+				originalAmount++;
+				OriginalAmountLabel.Text = originalAmount.ToString();
+			}
+			catch
+			{
+				OriginalAmountLabel.Text = "0";
 			}
 		}
+
+		private void OriginalAmountDownButton_Click(object sender, RoutedEventArgs e)
+		{
+			try
+			{
+				int originalAmount = int.Parse(OriginalAmountLabel.Text);
+				if (originalAmount > 0)
+				{
+					originalAmount--;
+				}
+				OriginalAmountLabel.Text = originalAmount.ToString();
+			}
+			catch
+			{
+				OriginalAmountLabel.Text = "0";
+			}
+		}
+
 	}
 }
