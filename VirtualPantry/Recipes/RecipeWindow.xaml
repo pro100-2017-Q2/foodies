@@ -52,24 +52,6 @@
                 Margin="63,10,49,0"
                 Click="RemoveRecipeButton_Click"/>
             </StackPanel>
-<<<<<<< HEAD
-        </Border>
-  
-        <Image DataContext="RecipeListing" Margin="367,103,53,134.4"
-               Stretch="Fill"/>
-
-        <StackPanel Margin="367,305,53,10.4">
-            <Button
-                x:Name="newRecipeButton"
-            Content="Add New Recipe" Margin="63,10,49,10"/>
-            <Button
-                x:Name="editRecipeButton"
-                Content="Edit Recipe" Margin="63,10,49,10"/>
-            <Button
-                x:Name="removeRecipeButton"
-                Content="Remove Recipe" Margin="63,10,49,0"/>
-        </StackPanel>
-=======
 
             <Image DataContext="RecipeListing" 
                Stretch="Fill" Margin="264,106,126,181.4" RenderTransformOrigin="0.5,0.5">
@@ -82,6 +64,5 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
->>>>>>> 6b1f72e5ecfda5669d29dae38406af91e23d438b
     </Grid>
 </Window>
