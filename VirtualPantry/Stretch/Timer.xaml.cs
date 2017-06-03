@@ -20,6 +20,7 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
+<<<<<<< HEAD
 
 
 //    public partial class Timer : Window
@@ -216,6 +217,9 @@ namespace VirtualPantry.Stretch
 //        }
 //    }
 
+=======
+
+>>>>>>> origin/development
     public partial class Timer : Window
     {
         public MainWindow main;
@@ -226,6 +230,15 @@ namespace VirtualPantry.Stretch
         private PantryWindow pantry;
         private ConversionChart conversionChart;
         private Calendar calender;
+
+        private void _timer_Tick(object sender, EventArgs e)
+        {
+            Duration duration = new Duration(TimeSpan.FromSeconds(20));
+
+            //progress bar animation
+            System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
+            ProgressBar.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
+        }
 
 
         public Timer(MainWindow mainWindow)
@@ -241,15 +254,6 @@ namespace VirtualPantry.Stretch
         public Timer(RecipeWindow recipeWindow)
         {
             this.recipeWindow = recipeWindow;
-        }
-
-        private void _timer_Tick(object sender, EventArgs e)
-        {
-            Duration duration = new Duration(TimeSpan.FromSeconds(20));
-
-            //progress bar animation
-            System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
-            BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
         }
 
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
@@ -293,6 +297,7 @@ namespace VirtualPantry.Stretch
                 HourLabel.Text = "0";
                 SecondsLabel.Text = "0";
             }
+
             _timer.Start();
         }
 
@@ -410,7 +415,6 @@ namespace VirtualPantry.Stretch
         {
             (sender as MenuItem).IsSubmenuOpen = false;
         }
-
     }
 
 }
