@@ -6,13 +6,9 @@
         xmlns:local="clr-namespace:VirtualPantry.Stretch"
         mc:Ignorable="d"
         Title="Timer" Height="463.961" Width="642.407">
-<<<<<<< HEAD
-    <Grid>
-=======
 
     <Grid RenderTransformOrigin="0.844,0.334" Background="Blue">
 
->>>>>>> origin/development
         <StackPanel>
             <MenuItem Header="Navigation Bar" 
                           HorizontalAlignment="Right"
@@ -38,51 +34,6 @@
             <Button x:Name="HourUpButton" x:FieldModifier="private" Margin="311,118,310,293.4" Content="˄" Width="15" Click="HourUpButton_Click" />
             <Button x:Name="HourDownButton" x:FieldModifier="private" Margin="326,118,297,293.4"  Content="˅" Width="13" Click="HourDownButton_Click"/>
         </Grid>
-<<<<<<< HEAD
-
-        <Grid Background="Blue" x:Name="Seconds" Margin="0,0,0,0.4">
-
-            <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"/>
-            <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  Click="SecondsUpButton_Click"/>
-            <Button x:Name="SecondsDownButton" x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13" Click="SecondsDownButton_Click" />
-            <Label Background="Red" Content="Hours" HorizontalAlignment="Left" Margin="96,17,0,0" VerticalAlignment="Top"/>
-            <Label Background="Red" Content="Minutes" HorizontalAlignment="Left" Margin="182,17,0,0" VerticalAlignment="Top"/>
-
-
-            <TextBox  x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="Zero"/>
-            <Button  Background="Aqua" x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  />
-            <Button  Background="Aqua" x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13"  />
-
-            <Label Background="Red" Content="Hours" HorizontalAlignment="Left" Margin="286,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.873,2.531"/>
-            <Label Background="Red" Content="Minutes" HorizontalAlignment="Left" Margin="355,83,0,0" VerticalAlignment="Top"/>
-
-            <Grid  Margin="0,0,0,0.4">
-                <TextBox  x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"/>
-                <Button  x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  Click="SecondsUpButton_Click"/>
-                <Button  x:FieldModifier="private" Margin="408,119,215,293.4"  Content="˅" Width="13" Click="SecondsDownButton_Click" />
-                <Label Content="Hours" HorizontalAlignment="Left" Margin="286,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.873,2.531"/>
-                <Label Content="Minutes" HorizontalAlignment="Left" Margin="355,83,0,0" VerticalAlignment="Top"/>
-
-            </Grid>
-
-            <ProgressBar Background="PowderBlue" x:Name="ProgressBar" HorizontalAlignment="Left" Height="13" Margin="265,308,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
-            <Label Background="Red" Content="Time Left:" HorizontalAlignment="Left" Margin="265,254,0,0" VerticalAlignment="Top"/>
-            <Label x:Name="TimeLeftLabel" Content="" HorizontalAlignment="Left" Margin="354,254,0,0" VerticalAlignment="Top"/>
-
-            <Button Background="Aqua" x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="251,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
-            <Button Background="Aqua" x:Name="StopButton" Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75" Click="StopButton_Click"/>
-            <Button Background="Aqua"
-                x:Name="homeButton"
-                Content="Home"
-                Height="27"
-                Width="50"
-                Click="homeButton_Clicked" Margin="10,10,574,397"/>
-    </Grid>
-    
-    <Button  Content="Start" HorizontalAlignment="Left" Margin="251,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>
-        <Button  Content="Stop" HorizontalAlignment="Left" Margin="355,183,0,0" VerticalAlignment="Top" Width="75" Click="StopButton_Click"/>
-    </Grid>
-=======
 
         <Grid x:Name="Seconds" Margin="0,0,0,0.4">
             <TextBox x:Name="SecondsLabel" Background="PowderBlue" x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"/>
@@ -100,6 +51,5 @@
         
     </Grid>
 
->>>>>>> origin/development
     
 </Window>
