@@ -18,11 +18,11 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Button x:Name="homeButton" Grid.Row="0" Grid.Column="0"
                 Content="Home" Click="homeButton_Click" 
                 Width="50" Height="20" Margin="10"/>
@@ -35,14 +35,13 @@
                Margin="20"/>
 
         <Label Content="Original Amount" Grid.Row="1" Grid.Column="0"
-               HorizontalAlignment="Center" VerticalAlignment="Center"
-               Margin="20"/>
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <UniformGrid Grid.Row="1" Grid.Column="1">
-            <TextBox x:Name="OriginalAmountLabel"   Text="{Binding OriginalAmount}" FontSize="16"/>
-            <Button x:Name="OriginalAmountUpButton" Content="^"/>
+            <TextBox x:Name="OriginalAmountLabel" Text="0" FontSize="16"/>
+            <Button x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click"/>
             <Label/>
-            <Button x:Name="OriginalAmountDownButton" Content="v"/>
+            <Button x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click"/>
         </UniformGrid>
 
         <ComboBox x:Name="OriginalUnitsComboBox" Grid.Row="1" Grid.Column="2"
@@ -50,12 +49,18 @@
                   Height="25" VerticalAlignment="Center" Width="71"/>
 
         <Label Content="Converted Amount" Grid.Row="2" Grid.Column="0"
-               HorizontalAlignment="Center" VerticalAlignment="Center"
-               Margin="20"/>
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
-               FontSize="20" 
-               Content="{Binding Converter={StaticResource ResourceKey=ConversionChartConverter}}"/>
+               FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label.Content>
+                <MultiBinding Converter="{StaticResource ResourceKey=ConversionChartConverter}">
+                    <Binding ElementName="OriginalAmountLabel" Path="Text"/>
+                    <Binding ElementName="OriginalUnitsComboBox" Path="SelectedItem"/>
+                    <Binding ElementName="ConvertedUnitsComboBox" Path="SelectedItem"/>
+                </MultiBinding>
+            </Label.Content>
+        </Label>
 
         <ComboBox x:Name="ConvertedUnitsComboBox" Grid.Row="2" Grid.Column="2"
                   FontSize="12" HorizontalAlignment="Center" 

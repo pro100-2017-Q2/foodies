@@ -31,11 +31,11 @@ namespace VirtualPantry
         public MainWindow()
         {
             InitializeComponent();
-            timer = new Timer(this);
-            pantry = new PantryWindow(this);
+            //timer = new Timer(this);
+            //pantry = new PantryWindow(this);
             recipe = new RecipeWindow(this);
-            conversionChart = new ConversionChart(this);
-            calendar = new Stretch.Calendar(this);
+            //conversionChart = new ConversionChart(this);
+            //calendar = new Stretch.Calendar(this);
         }
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {

@@ -9,8 +9,10 @@ using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Recipes
 {
+
 	public class Recipe
 	{
+
         public Recipe(string recipeName, string instructions, int calories, List<Ingredients> ingredients, StarRating ratingSelected)
         {
             RecipeName = recipeName;
@@ -41,5 +43,6 @@ namespace VirtualPantry.Recipes
         {
             // IDK yet !
         }
+
 	}
 }

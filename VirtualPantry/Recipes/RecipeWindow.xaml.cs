@@ -27,6 +27,7 @@ namespace VirtualPantry.Recipes
             main = mainWindow;
             // timer = new Stretch.Timer(mainWindow);
             ir = new IndividualRecipe();
+
             timer = new Stretch.Timer(mainWindow);
             pantry = new PantryWindow(mainWindow);
             conversionChart = new ConversionChart(mainWindow);
@@ -64,13 +65,6 @@ namespace VirtualPantry.Recipes
             this.Hide();
         }
 
-        private void NavigationBar_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-
-
         private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
         {
             pantry.Show();
@@ -90,13 +84,10 @@ namespace VirtualPantry.Recipes
         }
 
         private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+
         {
             main.Show();
             this.Hide();
         }
-
-
-
-
     }
-}
+} 
