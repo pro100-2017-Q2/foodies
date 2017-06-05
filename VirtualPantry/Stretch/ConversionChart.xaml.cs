@@ -27,7 +27,7 @@ namespace VirtualPantry.Stretch
 
 		public ConversionChart(MainWindow mainWindow)
 		{
-			InitializeComponent();
+			//InitializeComponent();
 			main = mainWindow;
 			OriginalUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 			ConvertedUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));

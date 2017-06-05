@@ -5,19 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.ThePantry"
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
-<<<<<<< HEAD
-    <StackPanel Background="Blue">
-        <Button x:Name="homeButton"
-                Background="PowderBlue"
-                Content="Home"
-                Height="27"
-                Click="homeButton_Clicked" Margin="0,0,558,0"/>
-        <MenuItem Header="Navigation Bar" Background="PowderBlue"
-=======
+
     <StackPanel Background="Green">
        
         <MenuItem Header="Navigation Bar" 
->>>>>>> origin/development
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
