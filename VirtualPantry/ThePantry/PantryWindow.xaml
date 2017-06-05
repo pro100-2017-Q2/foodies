@@ -11,7 +11,16 @@
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
-        
+        <MenuItem Header="Navigation Bar" 
+                          MouseEnter="MenuItem_MouseEnter" 
+                          MouseLeave="MenuItem_MouseLeave"
+                          HorizontalAlignment="Right"
+                          FontSize="15">
+            <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
+            </MenuItem>
+        </MenuItem>
         <Button x:Name="SaveButton"
                 Background="Aqua"
                 Content="Save"

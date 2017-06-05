@@ -22,6 +22,8 @@
                 </MenuItem>
                 <MenuItem Header="Calendar" Click="CalenderMenuItem_Click">
                 </MenuItem>
+                <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click">
+                </MenuItem>
             </MenuItem>
         </StackPanel>
        

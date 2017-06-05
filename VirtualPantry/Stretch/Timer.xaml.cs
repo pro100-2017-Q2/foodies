@@ -39,6 +39,7 @@ namespace VirtualPantry.Stretch
             pantry = new PantryWindow(mainWindow);
             conversionChart = new ConversionChart(mainWindow);
             calender = new Calendar(mainWindow);
+            recipeWindow = new RecipeWindow(mainWindow);
 
         }
 
@@ -56,12 +57,7 @@ namespace VirtualPantry.Stretch
             ProgressBar.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
         }
 
-        private void homeButton_Clicked(object sender, RoutedEventArgs e)
-        {
-            main.Show();
-            this.Hide();
-        }
-
+       
 
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
@@ -213,6 +209,12 @@ namespace VirtualPantry.Stretch
         private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
         {
             (sender as MenuItem).IsSubmenuOpen = false;
+        }
+
+        private void RecipeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            recipeWindow.Show();
+            this.Hide();
         }
     }
 }

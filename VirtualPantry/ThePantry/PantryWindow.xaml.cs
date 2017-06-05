@@ -25,6 +25,7 @@ namespace VirtualPantry.ThePantry
 	{
 		private MainWindow main;
 		private Pantry p = new Pantry();
+        private Calendar calendar;
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			
@@ -36,18 +37,36 @@ namespace VirtualPantry.ThePantry
 			PantryGrid.ItemsSource = pantry;
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
+            calendar = new Calendar(mainWindow);
 		}
 
         public PantryWindow()
         {
         }
 
-        private void homeButton_Clicked(object sender, RoutedEventArgs e)
-		{
-			main.Show();
-			this.Hide();
-		}
+       
         private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void MenuItem_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            (sender as MenuItem).IsSubmenuOpen = false;
+        }
+
+
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
         {
 
         }
