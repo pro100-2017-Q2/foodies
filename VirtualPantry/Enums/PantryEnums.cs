@@ -17,7 +17,7 @@ namespace VirtualPantry.Enums
     }
     public enum Units
     {
-        Unit,
+        item,
         tsp,
         tbsp,
         fl_oz,
