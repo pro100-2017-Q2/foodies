@@ -10,11 +10,10 @@
 
       
 
-            <MenuItem Header="Navigation Bar" 
+            <MenuItem Background="PowderBlue" Header="Navigation Bar" 
                       MouseEnter="MenuItem_MouseEnter" 
                       MouseLeave="MenuItem_MouseLeave"
                       HorizontalAlignment="Right"
-                      Background="Aqua"
                       FontSize="15" Margin="0,0,0,403.4">
 
 
@@ -37,16 +36,19 @@
 
             <StackPanel Margin="367,276,53,29.4" RenderTransformOrigin="0.994,1.306">
                 <Button
+                Background="PowderBlue"
                 x:Name="NewRecipeButton"
                 Content="Add New Recipe"
                 Margin="63,10,49,10"
                 Click="NewRecipeButton_Click"/>
                 <Button
+                Background="PowderBlue"
                 x:Name="EditRecipeButton"
                 Content="Edit Recipe" 
                 Margin="63,10,49,10"
                     Click="EditRecipeButton_Click"/>
                 <Button
+                Background="PowderBlue"
                 x:Name="RemoveRecipeButton"
                 Content="Remove Recipe" 
                 Margin="63,10,49,0"

@@ -8,7 +8,7 @@
         Title="Calendar" Height="300" Width="300">
     <StackPanel Background="Blue">
        
-        <MenuItem Header="Navigation Bar" 
+        <MenuItem Background="PowderBlue" Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"

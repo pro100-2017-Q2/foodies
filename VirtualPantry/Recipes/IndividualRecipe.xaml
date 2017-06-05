@@ -28,7 +28,7 @@
             GotFocus="TextBox_GotFocus" 
             TextChanged="CalorieTextBox_TextChanged"/>
         <ComboBox
-            Background="Aqua"
+            Background="PowderBlue"
             x:Name="RatingComboBox" 
             Margin="262,0,241,0">
         </ComboBox>
@@ -39,7 +39,7 @@
             Columns="2"
             Margin="10,10,10,10">
             <DataGrid
-                Background="Red"
+                Background="PowderBlue"
                 x:Name="IngredientsDataGrid"
                 AutoGenerateColumns="True">
                 <DataGrid.Columns>
@@ -60,14 +60,14 @@
                 </DataGrid.Columns>
             </DataGrid>
             <TextBox
-                Background="Red"
+                Background="PowderBlue"
                 x:Name="InstructionsTextBox"
                 Text="Instructions: "
                 GotFocus="TextBox_GotFocus" 
                 TextChanged="InstructionsTextBox_TextChanged"/>
         </UniformGrid>
         <Button 
-            Background="Aqua"
+            Background="PowderBlue"
             x:Name="SaveButton"
             Content="Save Recipe"
             Margin="262,0,241,0" 

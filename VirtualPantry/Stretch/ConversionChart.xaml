@@ -8,9 +8,9 @@
         mc:Ignorable="d"
         Title="Conversion Chart" Height="463.961" Width="642.407">
     <Window.Resources>
-        <cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>
+        
     </Window.Resources>
-    <Grid>
+    <Grid Background="Blue">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -23,32 +23,32 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="homeButton" Grid.Row="0" Grid.Column="0"
+        <Button Background="PowderBlue" x:Name="homeButton" Grid.Row="0" Grid.Column="0"
                 Content="Home" Click="homeButton_Click" 
                 Width="50" Height="20" Margin="10"/>
 
-        <Label Content="Amount" Grid.Row="0" Grid.Column="1"
+        <Label Background="PowderBlue" Content="Amount" Grid.Row="0" Grid.Column="1"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
-        <Label Content="Units" Grid.Row="0" Grid.Column="2"
+        <Label Background="PowderBlue" Content="Units" Grid.Row="0" Grid.Column="2"
                HorizontalAlignment="Center" VerticalAlignment="Top"
                Margin="20"/>
 
-        <Label Content="Original Amount" Grid.Row="1" Grid.Column="0"
+        <Label Background="PowderBlue" Content="Original Amount" Grid.Row="1" Grid.Column="0"
                HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <UniformGrid Grid.Row="1" Grid.Column="1">
             <TextBox x:Name="OriginalAmountLabel" Text="0" FontSize="16"/>
-            <Button x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click"/>
+            <Button  x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click"/>
             <Label/>
-            <Button x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click"/>
+            <Button  x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click"/>
         </UniformGrid>
 
         <ComboBox x:Name="OriginalUnitsComboBox" Grid.Row="1" Grid.Column="2"
                   FontSize="12" HorizontalAlignment="Center" 
                   Height="25" VerticalAlignment="Center" Width="71"/>
 
-        <Label Content="Converted Amount" Grid.Row="2" Grid.Column="0"
+        <Label Background="PowderBlue" Content="Converted Amount" Grid.Row="2" Grid.Column="0"
                HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
