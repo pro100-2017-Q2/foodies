@@ -25,7 +25,7 @@ namespace VirtualPantry.ThePantry
 	{
 		private MainWindow main;
 		private Pantry p = new Pantry();
-        private Calendar calendar;
+        private Stretch.Calendar calendar;
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			
@@ -37,7 +37,7 @@ namespace VirtualPantry.ThePantry
 			PantryGrid.ItemsSource = pantry;
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
-            calendar = new Calendar(mainWindow);
+            calendar = new Stretch.Calendar(mainWindow);
 		}
 
         public PantryWindow()
