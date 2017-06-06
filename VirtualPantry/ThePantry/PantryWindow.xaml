@@ -7,12 +7,6 @@
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
 
     <StackPanel Background="Green">
-        <Button x:Name="homeButton"
-                Background="PowderBlue"
-                Content="Home"
-                Height="27"
-                Click="homeButton_Clicked" Margin="0,0,558,0"/>
-        <MenuItem Header="Navigation Bar" Background="PowderBlue"
        
         <MenuItem Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
