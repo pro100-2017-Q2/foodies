@@ -7,12 +7,17 @@
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
 
     <StackPanel Background="Green">
+<<<<<<< HEAD
         <Button x:Name="homeButton"
                 Background="PowderBlue"
                 Content="Home"
                 Height="27"
                 Click="homeButton_Clicked" Margin="0,0,558,0"/>
         <MenuItem Header="Navigation Bar" Background="PowderBlue"
+=======
+       
+        <MenuItem Header="Navigation Bar" 
+>>>>>>> origin/development
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
@@ -20,6 +25,12 @@
             <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
             </MenuItem>
             <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
             </MenuItem>
         </MenuItem>
         <Button x:Name="SaveButton"
