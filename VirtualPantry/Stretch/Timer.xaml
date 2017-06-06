@@ -44,7 +44,7 @@
             <Label Background="PowderBlue" Content="Minutes" HorizontalAlignment="Left" Margin="355,83,0,0" VerticalAlignment="Top"/>
         </Grid>
 
-        <ProgressBar x:Name="ProgressBar" Background="PowderBlue"  HorizontalAlignment="Left" Height="13" Margin="265,308,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677"/>
+        <ProgressBar x:Name="ProgressBar" Background="PowderBlue"  HorizontalAlignment="Left" Height="13" Margin="265,308,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.011,0.677" IsIndeterminate="True" Minimum="0" Maximum="100"/>
         <Label Background="PowderBlue" Content="Time Left:" HorizontalAlignment="Left" Margin="265,254,0,0" VerticalAlignment="Top"/>
         <Label x:Name="TimeLeftLabel" Content="" HorizontalAlignment="Left" Margin="354,254,0,0" VerticalAlignment="Top"/>
         <Button Background="PowderBlue" Content="Start" HorizontalAlignment="Left" Margin="251,183,0,0" VerticalAlignment="Top" Width="75" Click="StartButton_Click"/>

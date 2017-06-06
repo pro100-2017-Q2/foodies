@@ -78,7 +78,15 @@ namespace VirtualPantry.Stretch
                 _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
                 {
                     TimeLeftLabel.Content = _time.ToString("c");
-                    if (_time == TimeSpan.Zero) _timer.Stop();
+                    if (_time == TimeSpan.Zero)
+                    {
+                        _timer.Stop();
+                        ProgressBar.Value = 100;
+                    }
+                    else
+                    {
+                        ProgressBar.Value = 50;
+                    }
                     _time = _time.Add(TimeSpan.FromSeconds(-1));
                     _timer.Tick += _timer_Tick;
                 }, Application.Current.Dispatcher);
@@ -216,5 +224,4 @@ namespace VirtualPantry.Stretch
             this.Hide();
         }
     }
-
 }
