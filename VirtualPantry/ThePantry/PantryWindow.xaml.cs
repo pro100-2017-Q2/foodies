@@ -14,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using VirtualPantry.Enums;
+using VirtualPantry.Recipes;
+using VirtualPantry.Stretch;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace VirtualPantry.ThePantry
@@ -26,6 +28,10 @@ namespace VirtualPantry.ThePantry
 		private MainWindow main;
 		private Pantry p = new Pantry();
         private Stretch.Calendar calendar;
+        private ConversionChart conversionChart;
+        private RecipeWindow recipe;
+        private Timer timer;
+
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
 			
@@ -38,6 +44,9 @@ namespace VirtualPantry.ThePantry
 			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
 			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
             calendar = new Stretch.Calendar(mainWindow);
+            conversionChart = new ConversionChart(mainWindow);
+            recipe = new RecipeWindow(mainWindow);
+            timer = new Timer(mainWindow);
 		}
 
         public PantryWindow()
@@ -68,7 +77,26 @@ namespace VirtualPantry.ThePantry
 
         private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
         {
+            calendar.Show();
+            this.Hide();
+        }
 
+        private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            conversionChart.Show();
+            this.Hide();
+        }
+
+        private void RecipeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            recipe.Show();
+            this.Hide();
+        }
+
+        private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Show();
+            this.Hide();
         }
     }
 }

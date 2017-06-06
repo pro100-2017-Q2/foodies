@@ -207,12 +207,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dlls\MakuratM_OverloadingOperators.dll" />
+    <Resource Include="Images\RecipeImages\veggies.jpg" />
+    <Resource Include="Images\RecipeImages\FoodSymbol.png" />
     <Resource Include="Images\RecipeImages\OrangeJuice.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Documents\Recipes\" />
-    <Folder Include="Enums\Pantry Icons\" />
-    <Folder Include="Images\ImageTest\" />
     <Resource Include="Images\CalenderPic\CalendarPic.png" />
     <Resource Include="Images\Pantry Icons\fruit.jpg" />
     <Resource Include="Images\Pantry Icons\Grain.jpg" />
@@ -229,7 +228,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\Recipes\" />
-    <Folder Include="Images\Pantry Icons\" />
+    <Folder Include="Enums\Pantry Icons\" />
+    <Folder Include="Images\ImageTest\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

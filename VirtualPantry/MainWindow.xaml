@@ -8,10 +8,13 @@
         Title="MainWindow" Height="463.961" Width="642.407">
     <DockPanel>
 
-        <Border BorderBrush="PowderBlue"
-                BorderThickness="6">
-            
-            <Grid Background="Blue">
+        <Border BorderBrush="Green"
+                BorderThickness="8">
+
+            <Grid Background="Blue" >
+                <Image Stretch="Fill" Source="Images\RecipeImages\veggies.jpg"/>
+
+
                 <!--<Grid.ColumnDefinitions>
                 <ColumnDefinition Width="17*"/>
                 <ColumnDefinition Width="22*"/>
@@ -30,18 +33,17 @@
                     <Image Stretch="Fill" Source="Images\CalenderPic\CalendarPic.png"/>
 
                 </Button>
-
+                
                 <Label FontSize="50" 
-                       Background="PowderBlue"
-                   FontStyle="Italic" 
-                   FontFamily="Times New Roman" 
+                   Background="PowderBlue"
+                   FontFamily="Old English Text MT" 
                    FontWeight="Bold" 
                    Content="Foodies" 
                    HorizontalContentAlignment="Center" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Top" 
-                   Width="202" 
-                   Margin="217,121,215,0"/>
+                   Width="225" 
+                   Margin="203,118,190,0"/>
 
                 <!--<Label 
             Content="Random Recipe Display" 
@@ -51,7 +53,8 @@
             VerticalAlignment="Top" 
             Height="149" 
             Width="262"/> -->
-                <Button x:Name="PantryButton" Background="PowderBlue" 
+                <Button 
+                    x:Name="PantryButton" Background="PowderBlue" 
                     Content="Pantry" 
                     HorizontalAlignment="Left" 
                     Margin="279,218,0,0" 
