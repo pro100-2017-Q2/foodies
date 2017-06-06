@@ -32,7 +32,7 @@ namespace VirtualPantry.Stretch
 
 		public ConversionChart(MainWindow mainWindow)
 		{
-			InitializeComponent();
+			//InitializeComponent();
 			main = mainWindow;
             pantry = new PantryWindow(mainWindow);
             calendar = new Calendar(mainWindow);

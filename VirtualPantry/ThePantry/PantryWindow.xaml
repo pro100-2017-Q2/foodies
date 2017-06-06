@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualPantry.ThePantry"
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
+
     <StackPanel Background="Green">
        
         <MenuItem Header="Navigation Bar" 
