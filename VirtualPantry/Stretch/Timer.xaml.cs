@@ -20,7 +20,7 @@ namespace VirtualPantry.Stretch
     /// <summary>
     /// Interaction logic for Timer.xaml
     /// </summary>
-<<<<<<< HEAD
+
 
 
 //    public partial class Timer : Window
@@ -217,9 +217,7 @@ namespace VirtualPantry.Stretch
 //        }
 //    }
 
-=======
 
->>>>>>> origin/development
     public partial class Timer : Window
     {
         public MainWindow main;
@@ -257,25 +255,18 @@ namespace VirtualPantry.Stretch
             this.recipeWindow = recipeWindow;
         }
 
-<<<<<<< HEAD
-        private void _timer_Tick(object sender, EventArgs e)
-        {
-            Duration duration = new Duration(TimeSpan.FromSeconds(20));
-
-            //progress bar animation
-            System.Windows.Media.Animation.DoubleAnimation doubleanimation = new System.Windows.Media.Animation.DoubleAnimation(200.0, duration);
-            ProgressBar.BeginAnimation(ProgressBar.ValueProperty, doubleanimation);
-        }
 
        
-=======
+
+       
+
         private void homeButton_Clicked(object sender, RoutedEventArgs e)
         {
             main.Show();
             this.Hide();
         }
 
->>>>>>> origin/development
+
 
 
         private void StartButton_Click(object sender, RoutedEventArgs e)

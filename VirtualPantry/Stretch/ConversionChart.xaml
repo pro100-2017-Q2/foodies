@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Conversion Chart" Height="463.961" Width="642.407">
     <Window.Resources>
-        <cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>
+        
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -23,9 +23,23 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="homeButton" Grid.Row="0" Grid.Column="0"
-                Content="Home" Click="homeButton_Click" 
-                Width="50" Height="20" Margin="10"/>
+        <MenuItem Header="Navigation Bar" 
+                          MouseEnter="MenuItem_MouseEnter" 
+                          MouseLeave="MenuItem_MouseLeave"
+                          HorizontalAlignment="Right"
+                          FontSize="15">
+            <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Pantry Page" Click="PantryMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
+            </MenuItem>
+            <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click">
+            </MenuItem>
+          
+        </MenuItem>
 
         <Label Content="Amount" Grid.Row="0" Grid.Column="1"
                HorizontalAlignment="Center" VerticalAlignment="Top"
@@ -53,13 +67,13 @@
 
         <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
                FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label.Content>
+            <!--<Label.Content>
                 <MultiBinding Converter="{StaticResource ResourceKey=ConversionChartConverter}">
                     <Binding ElementName="OriginalAmountLabel" Path="Text"/>
                     <Binding ElementName="OriginalUnitsComboBox" Path="SelectedItem"/>
                     <Binding ElementName="ConvertedUnitsComboBox" Path="SelectedItem"/>
                 </MultiBinding>
-            </Label.Content>
+            </Label.Content>-->
         </Label>
 
         <ComboBox x:Name="ConvertedUnitsComboBox" Grid.Row="2" Grid.Column="2"

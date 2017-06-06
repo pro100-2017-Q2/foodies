@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using VirtualPantry.Enums;
 using VirtualPantry.Recipes;
+using VirtualPantry.ThePantry;
 
 namespace VirtualPantry.Stretch
 {
@@ -24,21 +25,24 @@ namespace VirtualPantry.Stretch
 	public partial class ConversionChart : Window
 	{
 		public MainWindow main;
+        private PantryWindow pantry;
+        private Calendar calendar;
+        private Timer timer;
+        private RecipeWindow recipe;
 
 		public ConversionChart(MainWindow mainWindow)
 		{
 			InitializeComponent();
 			main = mainWindow;
+            pantry = new PantryWindow(mainWindow);
+            calendar = new Calendar(mainWindow);
+            timer = new Timer(mainWindow);
+            recipe = new RecipeWindow(mainWindow);
 			OriginalUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 			ConvertedUnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
 		}
 
-		private void homeButton_Click(object sender, RoutedEventArgs e)
-		{
-			main.Show();
-			this.Hide();
-		}
-
+		
 		private void OriginalAmountUpButton_Click(object sender, RoutedEventArgs e)
 		{
 			try
@@ -70,5 +74,34 @@ namespace VirtualPantry.Stretch
 			}
 		}
 
-	}
+        private void HomeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            main.Show();
+            this.Hide();
+        }
+
+        private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            pantry.Show();
+            this.Hide();
+        }
+
+        private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            calendar.Show();
+            this.Hide();
+        }
+
+        private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Show();
+            this.Hide();                
+        }
+
+        private void RecipeMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            recipe.Show();
+            this.Hide();
+        }
+    }
 }
