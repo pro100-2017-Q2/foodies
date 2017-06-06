@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:VirtualPantry.Stretch"
         mc:Ignorable="d"
         Title="Calendar" Height="300" Width="300">
-    <StackPanel Background="Blue">
-       
+    
+    <StackPanel Background="Green">
+
         <MenuItem Background="PowderBlue" Header="Navigation Bar" 
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"

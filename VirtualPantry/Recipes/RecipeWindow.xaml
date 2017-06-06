@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         mc:Ignorable="d"
         Title="Recipe Window" Height="463.961" Width="642.407">
-    <Grid Background="Blue">
+    <Grid Background="Red">
+        
 
-      
 
-            <MenuItem Background="PowderBlue" Header="Navigation Bar" 
+        <MenuItem Background="PowderBlue" Header="Navigation Bar" 
                       MouseEnter="MenuItem_MouseEnter" 
                       MouseLeave="MenuItem_MouseLeave"
                       HorizontalAlignment="Right"

@@ -10,7 +10,7 @@
     <Window.Resources>
         
     </Window.Resources>
-    <Grid Background="Blue">
+    <Grid Background="Orange">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -53,13 +53,7 @@
 
         <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
                FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label.Content>
-                <MultiBinding Converter="{StaticResource ResourceKey=ConversionChartConverter}">
-                    <Binding ElementName="OriginalAmountLabel" Path="Text"/>
-                    <Binding ElementName="OriginalUnitsComboBox" Path="SelectedItem"/>
-                    <Binding ElementName="ConvertedUnitsComboBox" Path="SelectedItem"/>
-                </MultiBinding>
-            </Label.Content>
+          
         </Label>
 
         <ComboBox x:Name="ConvertedUnitsComboBox" Grid.Row="2" Grid.Column="2"
