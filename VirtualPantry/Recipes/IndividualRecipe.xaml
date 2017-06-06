@@ -11,7 +11,7 @@
         <cnv:RatingImageConverter x:Key="RatingImageConverter"/>
     </Window.Resources>
     <StackPanel 
-        Background="Blue"
+        Background="Red"
         x:Name="ThePanel">
         <TextBox 
             Background="PowderBlue"

@@ -6,6 +6,40 @@
         xmlns:local="clr-namespace:VirtualPantry.Stretch"
         mc:Ignorable="d"
         Title="Timer" Height="463.961" Width="642.407">
+    
+    <Grid RenderTransformOrigin="0.844,0.334" Background="Blue">
+
+
+
+
+    <Grid RenderTransformOrigin="0.844,0.334" Background="Blue">
+
+
+        <StackPanel>
+            <MenuItem Header="Navigation Bar" 
+                          HorizontalAlignment="Right"
+                          FontSize="15"
+                      Background="PowderBlue">
+                <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Pantry Page" Click="PantryMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Calendar" Click="CalenderMenuItem_Click">
+                </MenuItem>
+                <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click">
+                </MenuItem>
+            </MenuItem>
+        </StackPanel>
+
+        <Label Content="Set Time:" HorizontalAlignment="Left" Margin="189,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.098,0.434"/>
+
+                <Grid x:Name="Hours">
+                    <TextBox Background="PowderBlue" x:Name="HourLabel" x:FieldModifier="private" Margin="272,118,330,293.4" Width="34" Text="0" />
+                    <Button x:Name="HourUpButton" x:FieldModifier="private" Margin="311,118,310,293.4" Content="˄" Width="15" Click="HourUpButton_Click" />
+                    <Button x:Name="HourDownButton" x:FieldModifier="private" Margin="326,118,297,293.4"  Content="˅" Width="13" Click="HourDownButton_Click"/>
+                </Grid>
 
     <Grid>
 
@@ -24,7 +58,7 @@
         </Grid>
 
 
-        <Grid Background="Blue" x:Name="Seconds" Margin="0,0,0,0.4">
+                <Grid Background="Orange" x:Name="Seconds" Margin="0,0,0,0.4">
 
             <TextBox x:Name="SecondsLabel" x:FieldModifier="private" Margin="354,119,248,293.4" Width="34" Text="0"/>
             <Button x:Name="SecondsUpButton" x:FieldModifier="private" Margin="393,119,228,293.4" Content="˄" Width="15"  Click="SecondsUpButton_Click"/>
