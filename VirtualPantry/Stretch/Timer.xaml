@@ -11,8 +11,10 @@
 
         <StackPanel>
             <MenuItem Header="Navigation Bar" 
-                          HorizontalAlignment="Right"
-                          FontSize="15"
+                      HorizontalAlignment="Right"
+                      MouseEnter="MenuItem_MouseEnter" 
+                      MouseLeave="MenuItem_MouseLeave"
+                      FontSize="15"
                       Background="PowderBlue">
                 <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
                 </MenuItem>

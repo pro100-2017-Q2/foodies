@@ -26,11 +26,6 @@ namespace VirtualPantry.ThePantry
 	public partial class PantryWindow : Window
 	{
 		private MainWindow main;
-		private Pantry p = new Pantry();
-        private Stretch.Calendar calendar;
-        private ConversionChart conversionChart;
-        private RecipeWindow recipe;
-        private Timer timer;
 
 		private static ObservableCollection<Ingredients> pantry = new ObservableCollection<Ingredients>
 		{
@@ -38,16 +33,13 @@ namespace VirtualPantry.ThePantry
 		};
 		public PantryWindow(MainWindow mainWindow)
 		{
-			InitializeComponent();
-			main = mainWindow;
-			PantryGrid.ItemsSource = pantry;
-			CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
-			UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
-            calendar = new Stretch.Calendar(mainWindow);
-            conversionChart = new ConversionChart(mainWindow);
-            recipe = new RecipeWindow(mainWindow);
-            timer = new Timer(mainWindow);
-		}
+            InitializeComponent();
+            main = mainWindow;
+            PantryGrid.ItemsSource = pantry;
+            CategoryComboBox.ItemsSource = Enum.GetValues(typeof(Categories));
+            UnitsComboBox.ItemsSource = Enum.GetValues(typeof(Units));
+            
+        }
 
         public PantryWindow()
         {
@@ -77,25 +69,25 @@ namespace VirtualPantry.ThePantry
 
         private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            calendar.Show();
+            main.calendar.Show();
             this.Hide();
         }
 
         private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            conversionChart.Show();
+            main.conversionChart.Show();
             this.Hide();
         }
 
         private void RecipeMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            recipe.Show();
+            main.recipe.Show();
             this.Hide();
         }
 
         private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            timer.Show();
+            main.timer.Show();
             this.Hide();
         }
     }

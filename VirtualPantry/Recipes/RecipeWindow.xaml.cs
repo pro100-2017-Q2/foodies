@@ -15,27 +15,16 @@ namespace VirtualPantry.Recipes
     public partial class RecipeWindow : Window
     {       
         public MainWindow main;
-        public IndividualRecipe ir;
-        private Stretch.Timer timer;
-        private PantryWindow pantry;
-        private ConversionChart conversionChart;
-        private Stretch.Calendar calendar;
+        
 
         public RecipeWindow(MainWindow mainWindow)
         {
             InitializeComponent();
             main = mainWindow;
-            // timer = new Stretch.Timer(mainWindow);
-            ir = new IndividualRecipe();
-
-            timer = new Stretch.Timer(mainWindow);
-            pantry = new PantryWindow(mainWindow);
-            conversionChart = new ConversionChart(mainWindow);
-            calendar = new Stretch.Calendar(mainWindow);
         }
         private void NewRecipeButton_Click(object sender, RoutedEventArgs e)
         {
-            ir.Show();
+            main.ir.Show();
             // New IndividualRecipe Window pops up and user inputs data, data inputted is written to new file when they click save.
         }
         private void EditRecipeButton_Click(object sender, RoutedEventArgs e)
@@ -61,25 +50,25 @@ namespace VirtualPantry.Recipes
 
         private void TimerMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            timer.Show();
+            main.timer.Show();
             this.Hide();
         }
 
         private void PantryMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            pantry.Show();
+            main.pantry.Show();
             this.Hide();
         }
 
         private void ConversionChartMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            conversionChart.Show();
+            main.conversionChart.Show();
             this.Hide();
         }
 
         private void CalendarMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            calendar.Show();
+            main.calendar.Show();
             this.Hide();
         }
 

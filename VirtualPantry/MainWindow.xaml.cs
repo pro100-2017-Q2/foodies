@@ -23,24 +23,26 @@ namespace VirtualPantry
     /// </summary>
     public partial class MainWindow : Window
      {                
-        public Timer timer;
+        public Stretch.Timer timer;
         public PantryWindow pantry;
         public RecipeWindow recipe;
         public ConversionChart conversionChart;
         public Stretch.Calendar calendar;
+        public IndividualRecipe ir;
         public MainWindow()
         {
             InitializeComponent();
-            //timer = new Timer(this);
-            //pantry = new PantryWindow(this);
+            timer = new Timer(this);
+            pantry = new PantryWindow(this);
             recipe = new RecipeWindow(this);
-            //conversionChart = new ConversionChart(this);
-            //calendar = new Stretch.Calendar(this);
+            conversionChart = new ConversionChart(this);
+            calendar = new Stretch.Calendar(this);
+            ir = new IndividualRecipe();
         }
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
             timer.Show();
-            //this.Hide();
+            this.Hide();
         }
         private void PantryButton_Click(object sender, RoutedEventArgs e)
         {
@@ -55,12 +57,12 @@ namespace VirtualPantry
         private void ConversionChart_Click(object sender, RoutedEventArgs e)
         {
             conversionChart.Show();
-            //this.Hide();
+            this.Hide();
         }
         private void CalendarButton_Click(object sender, RoutedEventArgs e)
         {
             calendar.Show();
-            //this.Hide();
+            this.Hide();
         }
     }
 }
