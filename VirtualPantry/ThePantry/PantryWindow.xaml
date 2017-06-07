@@ -7,29 +7,34 @@
         mc:Ignorable="d" Title="PantryWindow.xaml" Height="463.961" Width="642.407">
 
     <StackPanel Background="Green">
-       
+
+
+        <Button x:Name="homeButton"
+                FontWeight="Bold"
+                Content="Home"
+                Height="57"
+                Click="homeButton_Clicked" Margin="13,0,547,0" Width="Auto"/>
+
+
         <MenuItem Header="Navigation Bar" 
+                  FontWeight="Bold"
+                          Background="PowderBlue"
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
                           FontSize="15">
-            <MenuItem Header="Home Page" Click="HomeMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click">
-            </MenuItem>
-            <MenuItem Header="Timer Page" Click="TimerMenuItem_Click">
-            </MenuItem>
+            <MenuItem Header="Home Page" Click="HomeMenuItem_Click"/>
+            <MenuItem Header="Calendar Page" Click="CalendarMenuItem_Click"/>
+            <MenuItem Header="Conversion Chart" Click="ConversionChartMenuItem_Click"/>
+            <MenuItem Header="Recipe Page" Click="RecipeMenuItem_Click"/>
+            <MenuItem Header="Timer Page" Click="TimerMenuItem_Click"/>
         </MenuItem>
         <Button x:Name="SaveButton"
-                Background="PowderBlue"
+                FontWeight="Bold"
                 Content="Save"
                 Click="SaveButton_Click" 
-                Margin="0,0,558,0" Height="25"/>
-        
+                Margin="13,0,547,0" Height="59" Width="Auto"/>
+
         <DataGrid x:Name="PantryGrid"
                   AutoGenerateColumns="False">
 

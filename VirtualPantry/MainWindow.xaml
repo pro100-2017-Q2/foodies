@@ -22,7 +22,6 @@
             </Grid.ColumnDefinitions> -->
 
                 <Button x:Name="CalendarButton"  
-                    Background="PowderBlue"
                     HorizontalAlignment="Left" 
                     Margin="524,29,0,0" 
                     VerticalAlignment="Top" 
@@ -35,7 +34,7 @@
                 </Button>
                 
                 <Label FontSize="50" 
-                   Background="PowderBlue"
+                   Background="Green"
                    FontFamily="Old English Text MT" 
                    FontWeight="Bold" 
                    Content="Foodies" 
@@ -43,7 +42,7 @@
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Top" 
                    Width="225" 
-                   Margin="203,118,190,0"/>
+                   Margin="197,78,196,0"/>
 
                 <!--<Label 
             Content="Random Recipe Display" 
@@ -54,36 +53,40 @@
             Height="149" 
             Width="262"/> -->
                 <Button 
-                    x:Name="PantryButton" Background="PowderBlue" 
+                    x:Name="PantryButton" 
                     Content="Pantry" 
                     HorizontalAlignment="Left" 
-                    Margin="279,218,0,0" 
+                    Margin="268,164,0,0" 
                     VerticalAlignment="Top" 
-                    Width="75" 
+                    Width="86" 
+                    FontWeight="Bold"
                     RenderTransformOrigin="0.497,1.244" 
                     Click="PantryButton_Click"/>
 
-                <Button x:Name="Recipes" Background="PowderBlue" 
+                <Button x:Name="Recipes" 
                     Content="Recipes"
                     HorizontalAlignment="Left" 
-                    Margin="279,258,0,0" 
+                    Margin="270,225,0,0" 
                     VerticalAlignment="Top" 
-                    Width="75" 
+                    Width="84" 
+                    FontWeight="Bold"
                     Click="Recipes_Click"/>
 
-                <Button  x:Name="ConversionChart" Background="PowderBlue" 
+                <Button  x:Name="ConversionChart" 
                      Content="Conversion Chart" 
                      HorizontalAlignment="Left" 
-                     Margin="260,300,0,0" 
+                     Margin="244,286,0,0" 
                      VerticalAlignment="Top"
-                     Width="119" Click="ConversionChart_Click"/>
+                         FontWeight="Bold"
+                     Width="140" Click="ConversionChart_Click"/>
 
-                <Button x:Name="Timer" Background="PowderBlue" 
+                <Button x:Name="Timer" 
                     Content="Timer" 
                     HorizontalAlignment="Left" 
-                    Margin="279,341,0,0" 
+                    Margin="270,347,0,0" 
                     VerticalAlignment="Top" 
-                    Width="75" 
+                    Width="84" 
+                    FontWeight="Bold"
                     Click="TimerButton_Click"/>
             </Grid>
         </Border>

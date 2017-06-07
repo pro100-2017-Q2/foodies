@@ -7,64 +7,65 @@
         mc:Ignorable="d"
         Title="Recipe Window" Height="463.961" Width="642.407">
     <Grid Background="Red">
-        
+
 
 
         <MenuItem Background="PowderBlue" Header="Navigation Bar" 
+                  FontWeight="Bold"
                       MouseEnter="MenuItem_MouseEnter" 
                       MouseLeave="MenuItem_MouseLeave"
                       HorizontalAlignment="Right"
                       FontSize="15" Margin="0,0,0,403.4">
 
 
-                <MenuItem Header="Home Page" FontWeight="Bold" Background="Red" Click="HomeMenuItem_Click"/>
-                <MenuItem Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click"/>
-                <MenuItem Header="Pantry Page" FontWeight="Bold" Background="Red"  Click="PantryMenuItem_Click"/>
-                <MenuItem Header="Conversion Chart" FontWeight="Bold" Background="Red" Click="ConversionChartMenuItem_Click"/>
-                <MenuItem Header="Calendar Page" FontWeight="Bold" Background="Red" Click="CalendarMenuItem_Click"/>
+            <MenuItem Header="Home Page" FontWeight="Bold" Background="Red" Click="HomeMenuItem_Click"/>
+            <MenuItem Header="Timer Page" FontWeight="Bold" Background="Red" Click="TimerMenuItem_Click"/>
+            <MenuItem Header="Pantry Page" FontWeight="Bold" Background="Red"  Click="PantryMenuItem_Click"/>
+            <MenuItem Header="Conversion Chart" FontWeight="Bold" Background="Red" Click="ConversionChartMenuItem_Click"/>
+            <MenuItem Header="Calendar Page" FontWeight="Bold" Background="Red" Click="CalendarMenuItem_Click"/>
 
-            </MenuItem>
+        </MenuItem>
 
-            <Border
+        <Border
             BorderBrush="Black"
             BorderThickness="2" Margin="10,10,428,134.4" RenderTransformOrigin="-0.061,-0.358">
-                <!--List of Recipes displays here.-->
-                <ListBox 
+            <!--List of Recipes displays here.-->
+            <ListBox 
                 x:Name="RecipeBox"
                 Margin="10,10,10,10"/>
-            </Border>
+        </Border>
 
-            <StackPanel Margin="367,276,53,29.4" RenderTransformOrigin="0.994,1.306">
-                <Button
-                Background="PowderBlue"
+        <StackPanel Margin="413,210,10,0" RenderTransformOrigin="0.994,1.306">
+            <Button
+                FontWeight="Bold"
                 x:Name="NewRecipeButton"
                 Content="Add New Recipe"
-                Margin="63,10,49,10"
-                Click="NewRecipeButton_Click"/>
-                <Button
-                Background="PowderBlue"
+                Margin="71,10,0,10"
+                Click="NewRecipeButton_Click" Width="Auto" Height="59"/>
+            <Button
+                FontWeight="Bold"
                 x:Name="EditRecipeButton"
                 Content="Edit Recipe" 
-                Margin="63,10,49,10"
-                    Click="EditRecipeButton_Click"/>
-                <Button
-                Background="PowderBlue"
+                Margin="89,10,10,10"
+                    Click="EditRecipeButton_Click" Width="Auto"/>
+            <Button
+                FontWeight="Bold"
                 x:Name="RemoveRecipeButton"
                 Content="Remove Recipe" 
-                Margin="63,10,49,0"
-                Click="RemoveRecipeButton_Click"/>
-            </StackPanel>
+                Margin="80,10,0,0"
+                Click="RemoveRecipeButton_Click" Width="Auto" Height="59"/>
+        </StackPanel>
 
-            <Image DataContext="RecipeListing" 
-               Stretch="Fill" Margin="264,106,126,181.4" RenderTransformOrigin="0.5,0.5">
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Image.RenderTransform>
-            </Image>
+        <Image DataContext="RecipeListing" 
+               Stretch="Fill" Margin="238,74,152,213" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>

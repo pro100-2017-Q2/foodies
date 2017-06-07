@@ -8,9 +8,9 @@
         mc:Ignorable="d"
         Title="Conversion Chart" Height="463.961" Width="642.407">
     <Window.Resources>
-        <cnv:ConversionChartConverter x:Key="ConversionChartConverter"/>
+        
     </Window.Resources>
-    <Grid>
+    <Grid Background="Red">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -43,27 +43,37 @@
 
         <Label Content="Amount" Grid.Row="0" Grid.Column="1"
                HorizontalAlignment="Center" VerticalAlignment="Top"
-               Margin="20"/>
+               Margin="20"
+               Background="PowderBlue"
+               FontWeight="Bold"/>
         <Label Content="Units" Grid.Row="0" Grid.Column="2"
                HorizontalAlignment="Center" VerticalAlignment="Top"
-               Margin="20"/>
+               Margin="20"
+               Background="PowderBlue"
+               FontWeight="Bold"/>
 
         <Label Content="Original Amount" Grid.Row="1" Grid.Column="0"
-               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Background="PowderBlue"
+               FontWeight="Bold"/>
 
         <UniformGrid Grid.Row="1" Grid.Column="1">
             <TextBox x:Name="OriginalAmountLabel" Text="0" FontSize="16"/>
-            <Button x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click"/>
+            <Button x:Name="OriginalAmountUpButton" Content="^" Click="OriginalAmountUpButton_Click" Margin="39,10,10,-6" Width="Auto"/>
             <Label/>
-            <Button x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click"/>
+            <Button x:Name="OriginalAmountDownButton" Content="v" Click="OriginalAmountDownButton_Click" Margin="39,11,10,-10" Width="Auto"/>
         </UniformGrid>
 
         <ComboBox x:Name="OriginalUnitsComboBox" Grid.Row="1" Grid.Column="2"
                   FontSize="12" HorizontalAlignment="Center" 
-                  Height="25" VerticalAlignment="Center" Width="71"/>
+                  Height="25" VerticalAlignment="Center" Width="71"
+                  Background="PowderBlue"
+                  FontWeight="Bold"/>
 
         <Label Content="Converted Amount" Grid.Row="2" Grid.Column="0"
-               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Background="PowderBlue"
+               FontWeight="Bold"/>
 
         <Label x:Name="ConvertedAmountLabel" Grid.Row="2" Grid.Column="1"
                FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -78,7 +88,9 @@
 
         <ComboBox x:Name="ConvertedUnitsComboBox" Grid.Row="2" Grid.Column="2"
                   FontSize="12" HorizontalAlignment="Center" 
-                  Height="25" VerticalAlignment="Center" Width="71"/>
+                  Height="25" VerticalAlignment="Center" Width="71"
+                  Background="PowderBlue"
+                  FontWeight="Bold"/>
 
 
     </Grid>

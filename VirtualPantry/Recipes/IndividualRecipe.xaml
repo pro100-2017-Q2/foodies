@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:VirtualPantry.Recipes"
         xmlns:cnv="clr-namespace:VirtualPantry.Converters"
         mc:Ignorable="d"
-        Title="IndividualRecipe" Height="457.502" Width="642.407">
+        Title="IndividualRecipe" Height="470.502" Width="642.407">
     <Window.Resources>
         <cnv:RatingImageConverter x:Key="RatingImageConverter"/>
     </Window.Resources>
@@ -16,14 +16,16 @@
         <TextBox 
             Background="PowderBlue"
             x:Name="RecipeNameTextBox"
-            Text="Recipe Name: " 
+            Text="Recipe Name: "
+            FontWeight="Bold"
             Margin="262,0,241,10"
             GotFocus="TextBox_GotFocus" 
             TextChanged="RecipeNameTextBox_TextChanged"/>
         <TextBox
             Background="PowderBlue"
             x:Name="CalorieTextBox"
-            Text="Calories: " 
+            Text="Calories: "
+            FontWeight="Bold"
             Margin="262,0,241,10"
             GotFocus="TextBox_GotFocus" 
             TextChanged="CalorieTextBox_TextChanged"/>
@@ -63,16 +65,17 @@
                 Background="PowderBlue"
                 x:Name="InstructionsTextBox"
                 Text="Instructions: "
+                FontWeight="Bold"
                 GotFocus="TextBox_GotFocus" 
                 TextChanged="InstructionsTextBox_TextChanged"/>
         </UniformGrid>
         <Button 
-            Background="PowderBlue"
             x:Name="SaveButton"
             Content="Save Recipe"
-            Margin="262,0,241,0" 
-            Height="30" 
+            Margin="246,0,241,0" 
+            Height="56" 
+            FontWeight="Bold"
             RenderTransformOrigin="0.5,0.5"
-            Click="SaveButton_Click"/>
+            Click="SaveButton_Click" Width="Auto"/>
     </StackPanel>
 </Window>

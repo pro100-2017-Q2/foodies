@@ -10,6 +10,7 @@
     <StackPanel Background="Green">
 
         <MenuItem Background="PowderBlue" Header="Navigation Bar" 
+                  FontWeight="Bold"
                           MouseEnter="MenuItem_MouseEnter" 
                           MouseLeave="MenuItem_MouseLeave"
                           HorizontalAlignment="Right"
